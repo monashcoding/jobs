@@ -1,0 +1,21 @@
+{
+	"name": "mac-jobs-shared",
+	"version": "1.0.0",
+	"private": true,
+	"publishConfig": {
+		"access": "restricted"
+	},
+	"author": "Monash Association of Coding (MAC)",
+	"license": "MIT",
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc -b",
+		"watch": "tsc -b -w",
+		"lint": "eslint --max-warnings 0 .",
+		"lint:fix": "pnpm lint --fix"
+	},
+	"devDependencies": {
+		"vite": "^5.1.4"
+	}
+}

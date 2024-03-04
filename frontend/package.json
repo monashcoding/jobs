@@ -1,0 +1,24 @@
+{
+	"name": "mac-jobs-frontend",
+	"version": "1.0.0",
+	"private": true,
+	"publishConfig": {
+		"access": "restricted"
+	},
+	"author": "Monash Association of Coding (MAC)",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"build": "vite build",
+		"watch": "vite build -w",
+		"dev": "vite dev",
+		"lint": "eslint --max-warnings 0 .",
+		"lint:fix": "pnpm lint --fix"
+	},
+	"dependencies": {
+		"mac-jobs-shared": "workspace:*"
+	},
+	"devDependencies": {
+		"vite": "^5.1.4"
+	}
+}

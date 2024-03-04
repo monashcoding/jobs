@@ -1,0 +1,16 @@
+{
+	"extends": "../tsconfig.settings.json",
+	"include": ["src"],
+	"compilerOptions": {
+		"noEmit": true,
+
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"target": "ES2020",
+
+		"module": "ESNext",
+		"moduleResolution": "Bundler"
+	},
+	"references": [
+		{"path": "../shared/tsconfig.json"},
+	]
+}

@@ -1,28 +1,22 @@
-# Project Title
+# MAC Job Board
 
-Nice description of what this project actually does
+<!-- TODO: add a description here maybe -->
 
 ## Getting Started
 
-Steps on how to run your project
+- Install [Node.js](https://nodejs.org/en) v20
+  - If you think you will need multiple Node.js versions on your machine, using a version manager such as [nvm](https://github.com/nvm-sh/nvm), [fnm](https://fnm.vercel.app/), or [asdf](https://asdf-vm.com/) will save you a lot of headache
+- Install [pnpm](https://pnpm.io/)
+- Run `pnpm start` to start the website!
 
-- [ ] Installation Steps
-- [ ] Build Steps
-- [ ] Running the project
-
-## Checklist
-
-### Github Options
-
-- [ ] Set branch protection on `master` branch
-- [ ] Only allow Squash and Merge for PR's
+See the readmes for in `frontend`/`backend`/`shared` for more detailed instructions.
 
 ## Contributing
 
-If you think this could be better, please [open an issue](https://github.com/monashcode/repo-template/issues/new)!
+If you think this could be better, please [open an issue](https://github.com/monashcoding/jobs/issues/new)!
 
-Please note that all interactions in [@MonashCode](https://github.com/monashcode) fall under our [Code of Conduct](CODE_OF_CONDUCT.md).
+Please note that all interactions in [@monashcoding](https://github.com/monashcoding) fall under our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-[MIT](LICENSE) -  Monash Association of Coding
+[MIT](LICENSE) - Monash Association of Coding

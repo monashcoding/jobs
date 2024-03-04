@@ -1,0 +1,11 @@
+{
+	"configurations": [
+		{
+			"name": "Website",
+			"type": "node",
+			"program": "${workspaceFolder}/backend/dist/index.js",
+			"request": "launch",
+			"skipFiles": ["<node_internals>/**"]
+		}
+	]
+}
