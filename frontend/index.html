@@ -115,16 +115,13 @@
 	}
 
 	const onFilterButtonClick = (id) => {
-		console.log('fire')
 		var btn = document.getElementById(id)
+
 		if (btn.classList.contains("disabled")) {
 			btn.classList.remove("disabled")
 		} else {
 			btn.classList.add("disabled")
 		}
-
-
-		console.log('Filters: ', getSelectedFilters())
 	}
 
 
