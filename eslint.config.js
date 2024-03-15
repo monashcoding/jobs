@@ -37,6 +37,10 @@ export default tseslint.config(
 	{
 		rules: {
 			'@typescript-eslint/no-confusing-void-expression': 'off',
+			'@typescript-eslint/no-misused-promises': [
+				'warn',
+				{checksVoidReturn: false},
+			],
 			'@typescript-eslint/no-non-null-assertion': 'off',
 			'@typescript-eslint/no-unused-vars': 'off', // checked by tsc
 			'prettier/prettier': 'warn',
