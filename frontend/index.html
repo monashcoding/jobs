@@ -1,14 +1,140 @@
 <!doctype html>
 <html lang="en-AU">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>MAC Job Board</title>
-		<link rel="stylesheet" href="/style.css" />
-	</head>
 
-	<body>
-		<h1>MAC projects let's gooooo</h1>
-		<script type="module" src="/src/main.ts"></script>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="searchbar.css">
+	<script src="searchbar.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+	<style>
+		.search-box-1,
+		.search-box-2 {
+			display: flex;
+			text-decoration: #BFBFBF;
+			border: double 1.5px transparent;
+			border-radius: 50px;
+			background-image: linear-gradient(white, white),
+				linear-gradient(to right, #490EF2, #898DE3);
+			background-origin: border-box;
+			background-clip: padding-box, border-box;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.search-buttons {
+			display: flex;
+			margin-left: 50px;
+
+		}
+
+		input {
+			border: none;
+			outline: none;
+			font-size: 16px;
+			margin-left: 20px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			width: 155px;
+			height: 50px;
+		}
+
+		.magnifying-glass,
+		.map-pointer {
+			background: none;
+			border: none;
+			border-radius: 15px;
+			margin-right: 10px;
+			color: #BFBFBF;
+			font-size: 38px;
+			height: 45px;
+			transition: 0.3s;
+		}
+
+		img {
+			width: 60%
+		}
+
+		.magnifying-glass:hover,
+		.map-pointer:hover {
+			background-color: #f0f0f0;
+
+		}
+
+		.search-left,
+		.search-right {
+			display: inline-flex;
+			flex-direction: column;
+			align-items: left;
+			height: 50px;
+			margin-right: 50px;
+
+		}
+
+		p {
+			display: inline-block;
+			padding-left: 20px;
+			font-family: "Poppins", sans-serif;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="search-buttons">
+		<div class="search-left">
+			<div class="input-left">
+				<p>I want to be a...</p>
+			</div>
+			<div class="search-box-1">
+				<input type="text" placeholder="Role" role-search>
+				<button class="magnifying-glass">
+					<img src="icons/search-icon.png" alt="search-icon">
+				</button>
+			</div>
+			<div class="result-box"></div>
+		</div>
+		<div class="search-right">
+			<div class="input-right">
+				<p>I live in...</p>
+			</div>
+			<div class="search-box-2">
+				<input type="text" placeholder="Location" location-search>
+				<button class="map-pointer">
+					<img src="icons/map-icon.png" alt="map-pointer">
+				</button>
+
+			</div>
+			
+		</div>
+	</div>
+</body>
+
 </html>
+
+<script>
+	let filteredUsers;
+	let example = fetch("https://jsonplaceholder.typicode.com/users")
+		.then(response => response.json())
+		.then(users => {
+			const roleInput = document.querySelector("[role-search]")
+			const locationInput = document.querySelector("[location-search]")
+			document.addEventListener("input", e => {
+				const value = e.target.value.toLowerCase()
+				filteredUsers = users.filter(user => {
+					return user.name.toLowerCase().includes(value);
+
+
+				})
+				console.log(filteredUsers);
+
+			})
+
+		})
+
+</script>
