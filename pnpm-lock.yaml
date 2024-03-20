@@ -59,11 +59,7 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4
 
-  shared:
-    devDependencies:
-      vite:
-        specifier: ^5.1.4
-        version: 5.1.4
+  shared: {}
 
 packages:
 
