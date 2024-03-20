@@ -14,5 +14,8 @@
 		"watch": "tsc -b -w",
 		"lint": "eslint --max-warnings 0 .",
 		"lint:fix": "pnpm lint --fix"
+	},
+	"dependencies": {
+		"zod": "^3.22.4"
 	}
 }

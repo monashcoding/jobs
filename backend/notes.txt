@@ -1,0 +1,10 @@
+- split duration into duration & time of year
+- open/close times: support specific dates if possible
+- clean up data and convert to json object (deloitte + pwc multiple open months)
+- multiple roles at one company: multiple opportunities or one?
+
+- for now only show things that are open now
+	- Prosple: show previous opportunities
+- ability to show what might be available in the winter / summer
+
+- make all internship types be internship
