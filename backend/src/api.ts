@@ -1,72 +1,30 @@
-import fs from 'node:fs/promises';
-import path from 'node:path';
-import * as csv from 'csv-parse/sync';
 import {Router} from 'express';
-import type {
-	CourseProgression,
-	Month,
-	Opportunity,
-	OpportunityStatus,
-	OpportunityType,
-	WorkingRights,
-} from 'mac-jobs-shared';
+import asyncHandler from 'express-async-handler';
+import {GetOpportunitiesQuery} from 'mac-jobs-shared';
+import {getOpportunities} from './notion.js';
 
 const router: Router = Router();
 
-const opportunitiesFile = path.join(
-	import.meta.dirname,
-	'../opportunities.csv',
-);
+router.get(
+	'/opportunities',
+	asyncHandler(async (req, res) => {
+		let query: GetOpportunitiesQuery;
+		try {
+			query = GetOpportunitiesQuery.parse(req.query);
+		} catch (error: unknown) {
+			res.status(400).send(`Invalid query: ${String(error)}`);
+			return;
+		}
 
-router.get('/opportunities', async (_, res) => {
-	try {
-		const data = await fs.readFile(opportunitiesFile, 'utf-8');
-		const opportunitiesRaw = csv.parse(data, {columns: true}) as readonly {
-			Company: string;
-			'Name of program/role': string;
-			Type: string;
-			'Course Progression': string;
-			Roles: string;
-			Status: string;
-			Location: string;
-			Duration: string;
-			Open: string;
-			Close: string;
-			Industry: string;
-			'Work rights required': string;
-			URL: string;
-			Description: string;
-			Notes: string;
-			'Last updated': string;
-		}[];
-		const opportunities = opportunitiesRaw.map(
-			(o): Opportunity => ({
-				company: o.Company,
-				name: o['Name of program/role'],
-				type: o.Type as OpportunityType,
-				courseProgressions: o['Course Progression']
-					? (o['Course Progression'].split(', ') as CourseProgression[])
-					: [],
-				roles: o.Roles ? o.Roles.split(', ') : [],
-				status: o.Status as OpportunityStatus,
-				locations: o.Location ? o.Location.split(', ') : [],
-				duration: o.Duration ? o.Duration : undefined,
-				openMonth: o.Open ? (o.Open as Month) : undefined,
-				closeMonth: o.Close ? (o.Close as Month) : undefined,
-				industries: o.Industry ? o.Industry.split(', ') : [],
-				workingRights: o['Work rights required']
-					? (o['Work rights required'].split(', ') as WorkingRights[])
-					: [],
-				url: o.URL ? o.URL : undefined,
-				description: o.Description ? o.Description : undefined,
-				notes: o.Notes ? o.Notes : undefined,
-			}),
-		);
-		res.json(opportunities);
-	} catch (error: unknown) {
-		console.error(error);
-		res.status(500).send('Internal Server Error');
-	}
-});
+		const opportunities = await getOpportunities();
+		if (!query.roles) {
+			res.json(opportunities);
+			return;
+		}
+
+		const roles = new Set(query.roles);
+		res.json(opportunities.filter(o => o.roles.some(r => roles.has(r))));
+	}),
+);
 
 export default router;

@@ -1,12 +1,12 @@
+import * as z from 'zod';
+
 export const message = 'mac job board 🔥';
 
 export const enum OpportunityType {
-	Program = 'Program',
-	WinterInternship = 'Winter Internship',
-	SummerInternship = 'Summer Internship',
-	SixTwelveMonthInternship = '6/12 Month Internship',
-	OneYearPlusInternship = '1 Year+ Internship',
+	Internship = 'Internship',
 	GradProgram = 'Grad Program',
+	/** `Program` in the notion database */
+	OtherProgram = 'Other Program',
 }
 
 export const enum CourseProgression {
@@ -64,3 +64,8 @@ export interface Opportunity {
 	description?: string | undefined;
 	notes?: string | undefined;
 }
+
+export const GetOpportunitiesQuery = z.object({
+	roles: z.array(z.string()).optional(),
+});
+export type GetOpportunitiesQuery = z.TypeOf<typeof GetOpportunitiesQuery>;

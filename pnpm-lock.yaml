@@ -41,6 +41,15 @@ importers:
       express:
         specifier: ^4.18.3
         version: 4.18.3
+      express-async-handler:
+        specifier: ^1.2.0
+        version: 1.2.0
+      fp-ts:
+        specifier: ^2.16.3
+        version: 2.16.3
+      io-ts:
+        specifier: ^2.2.21
+        version: 2.2.21(fp-ts@2.16.3)
       mac-jobs-shared:
         specifier: workspace:*
         version: link:../shared
@@ -62,7 +71,11 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4
 
-  shared: {}
+  shared:
+    dependencies:
+      zod:
+        specifier: ^3.22.4
+        version: 3.22.4
 
 packages:
 
@@ -1164,6 +1177,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
+  /express-async-handler@1.2.0:
+    resolution: {integrity: sha512-rCSVtPXRmQSW8rmik/AIb2P0op6l7r1fMW538yyvTMltCO4xQEWMmobfrIxN2V1/mVrgxB8Az3reYF6yUZw37w==}
+    dev: false
+
   /express@4.18.3:
     resolution: {integrity: sha512-6VyCijWQ+9O7WuVMTRBTl+cjNNIzD5cY5mQ1WM8r/LEkI2u8EYpOotESNwzNlyCn3g+dmjKYI6BmNneSr/FSRw==}
     engines: {node: '>= 0.10.0'}
@@ -1289,6 +1306,10 @@ packages:
   /forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /fp-ts@2.16.3:
+    resolution: {integrity: sha512-REm0sOecd4inACbAiFeOxpyOgB+f0OqhmZBBVOc5Ku1HqdroDU5uxYu9mybKj+be4DQ5L2YI6LuosjAfmuJCBQ==}
     dev: false
 
   /fresh@0.5.2:
@@ -1455,6 +1476,14 @@ packages:
 
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
+
+  /io-ts@2.2.21(fp-ts@2.16.3):
+    resolution: {integrity: sha512-zz2Z69v9ZIC3mMLYWIeoUcwWD6f+O7yP92FMVVaXEOSZH1jnVBmET/urd/uoarD1WGBY4rCj8TAyMPzsGNzMFQ==}
+    peerDependencies:
+      fp-ts: ^2.5.0
+    dependencies:
+      fp-ts: 2.16.3
+    dev: false
 
   /ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
@@ -2190,3 +2219,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+    dev: false
