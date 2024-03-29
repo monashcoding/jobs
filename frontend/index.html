@@ -1,14 +1,175 @@
 <!doctype html>
 <html lang="en-AU">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>MAC Job Board</title>
-		<link rel="stylesheet" href="/style.css" />
-	</head>
 
-	<body>
-		<h1>MAC projects let's gooooo</h1>
-		<script type="module" src="/src/main.ts"></script>
-	</body>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>MAC Job Board</title>
+	<link rel="stylesheet" href="/style.css" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Poppins", sans-serif;
+			font-size: 15px;
+		}
+
+		nav {
+			background-color: #FFE330;
+			border-radius: 100px;
+			/* idk RANDOM NUMBER RN */
+			padding: 0 15px;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			width: max-content;
+			margin: 0 auto;
+			margin-top: 50px;
+			height: 60px;
+			border: 1.5px solid black;
+			box-shadow: 1px 3px 3px rgb(180, 177, 177);
+			/* Adjust */
+		}
+
+		nav ul {
+			list-style-type: none;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		nav ul li {
+			position: relative;
+			cursor: pointer;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: black;
+		}
+
+		.dropdown-content a {
+			margin-left: -45px;
+
+		}
+
+		.selected {
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		/* nav ul li.dropdown {
+			padding-right: 30px;
+		} */
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			z-index: 1;
+			align-items: center;
+			justify-content: center;
+			border-radius: 10px;
+		}
+
+		a {
+			padding: 10px;
+		}
+
+		.dropdown:hover+.dropdown-content {
+			display: flex;
+			flex-direction: column;
+			margin-top: 13px;
+		}
+
+		li {
+			padding: 15px;
+			padding-top: 10px;
+		}
+
+		a:hover {
+			background-color: #f1f1f1;
+			border-radius: 10px;
+			font-weight: 600;
+		}
+
+		.events {
+			margin-right: 40px;
+		}
+
+		img {
+			margin-left: 4px;
+			width: 2vh;
+			height: 8px;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<!-- <h1>MAC projects let's gooooo</h1> -->
+	<nav>
+		<ul>
+			<li> <!--default have this selected-->
+
+				<a href="https://www.google.com" class="selected">Job Search</a> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+			</li>
+			<li>
+				<a href="#">Employer Search</a>
+			</li>
+			<li>
+				<a href="" class="dropdown">Advice<img src="dropdown.png.png" alt="map-pointer"></a>
+				<ul class="dropdown-content">
+					<li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+find+jib">Sub-item 1</a></li>
+					<!-- TODO: REPLACE WITH ACTUAL LINKS-->
+					<li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+make+pancakes">Sub-item 2</a>
+					</li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+				</ul>
+			</li>
+
+			<li>
+				<a href="#" class="dropdown" >Work With <img src="dropdown.png.png"
+						alt="map-pointer"></a>
+
+
+				<ul class="dropdown-content">
+					<li><a href="#">Sub-item 1</a></li>
+					<li><a href="#">Sub-item 2</a></li>
+				</ul>
+			</li>
+
+			<li class="events">
+				<a href="#">Events</a>
+			</li>
+		</ul>
+	</nav>
+
+	<script type="module" src="/src/main.ts">
+		// i chatgpted this lol
+		document.addEventListener('DOMContentLoaded', function () {
+			var currentPath = window.location.pathname.replace(/\/$/, '');
+			var navLinks = document.querySelectorAll('nav ul li a');
+
+			navLinks.forEach(function (link) {
+				var linkPath = link.getAttribute('href').replace(/\/$/, '');
+				if (currentPath === linkPath) {
+					link.parentElement.classList.add('active');
+				}
+
+			});
+
+		});
+
+
+
+	</script>
+</body>
+
 </html>
