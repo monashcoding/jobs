@@ -2,57 +2,42 @@ import * as z from 'zod';
 
 export const message = 'mac job board 🔥';
 
-export const enum OpportunityType {
-	Internship = 'Internship',
-	GradProgram = 'Grad Program',
-	/** `Program` in the notion database */
-	OtherProgram = 'Other Program',
-}
+export const OpportunityType = z.union([
+	z.literal('Internship'),
+	z.literal('Grad Program'),
+	z.literal('Other Program'), // `Program` in the Notion database
+]);
+export type OpportunityType = z.TypeOf<typeof OpportunityType>;
 
-export const enum CourseProgression {
-	PrePenultimate = 'Pre-Penultimate',
-	Penultimate = 'Penultimate',
-	Grad = 'Ultimate/Grad',
-}
+export const CourseProgression = z.union([
+	z.literal('Pre-Penultimate'),
+	z.literal('Penultimate'),
+	z.literal('Grad'),
+]);
+export type CourseProgression = z.TypeOf<typeof CourseProgression>;
 
-export const enum OpportunityStatus {
-	Open = 'Open',
-	Closed = 'Closed',
-}
+export const WorkingRights = z.union([
+	z.literal('Australian Citizen'),
+	z.literal('New Zealand Citizen'),
+	z.literal('Australian Permanent Resident'),
+	z.literal('Full Working Rights'),
+	z.literal('International'),
+	z.literal('Subclass 462'),
+	z.literal('Australian Temporary Work Visa'),
+	z.literal('New Zealand Permanent Resident'),
+	z.literal('Australian Student Visa'),
+]);
+export type WorkingRights = z.TypeOf<typeof WorkingRights>;
 
-export const enum WorkingRights {
-	AustralianCitizen = 'Australian Citizen',
-	NewZealandCitizen = 'New Zealand Citizen',
-	AustralianPermanentResident = 'Australian Permanent Resident',
-	FullWorkingRights = 'Full Working Rights',
-	International = 'International',
-	Subclass462 = 'Subclass 462',
-	AustralianTemporaryWorkVisa = 'Australian Temporary Work Visa',
-	NewZealandPermanentResident = 'New Zealand Permanent Resident',
-	AustralianStudentVisa = 'Australian Student Visa',
-}
-
-export const enum Month {
-	January = 'January',
-	February = 'February',
-	March = 'March',
-	April = 'April',
-	May = 'May',
-	June = 'June',
-	July = 'July',
-	August = 'August',
-	September = 'September',
-	October = 'October',
-	November = 'November',
-	December = 'December',
-}
+export const Month = z.number().int().positive().max(12);
+export type Month = z.TypeOf<typeof Month>;
 
 export interface Opportunity {
 	company: string;
 	name: string;
 	type: OpportunityType;
 	courseProgressions: CourseProgression[];
-	status: OpportunityStatus;
+	open: boolean;
 	roles: string[];
 	locations: string[];
 	duration?: string | undefined;
@@ -66,6 +51,12 @@ export interface Opportunity {
 }
 
 export const GetOpportunitiesQuery = z.object({
-	roles: z.array(z.string()).optional(),
+	open: z.boolean().optional(),
+	role: z.string().optional(),
+	types: z.array(OpportunityType).optional(),
+	courseProgressions: z.array(CourseProgression).optional(),
+	workingRights: z.array(WorkingRights).optional(),
+	locations: z.array(z.string()).optional(),
+	industries: z.array(z.string()).optional(),
 });
 export type GetOpportunitiesQuery = z.TypeOf<typeof GetOpportunitiesQuery>;
