@@ -1,5 +1,4 @@
 import fs from 'node:fs/promises';
-import path from 'node:path';
 import * as csv from 'csv-parse/sync';
 import {
 	OpportunityType,
@@ -10,10 +9,7 @@ import {
 	type WorkingRights,
 } from 'mac-jobs-shared';
 
-const opportunitiesFile = path.join(
-	import.meta.dirname,
-	'../opportunities.csv',
-);
+const opportunitiesFile = new URL('../opportunities.csv', import.meta.url);
 
 const convertOpportunityType = (type: string): OpportunityType =>
 	type === 'Program'
