@@ -1,6 +1,6 @@
 import {Router} from 'express';
 import {GetOpportunitiesQuery} from 'mac-jobs-shared';
-import {getOpportunities} from './notion.js';
+import {getOpportunities} from './database.js';
 import {parseQuery} from './utils.js';
 
 const router: Router = Router();

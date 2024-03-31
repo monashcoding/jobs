@@ -20,7 +20,6 @@
 		"lint:fix": "pnpm lint --fix"
 	},
 	"dependencies": {
-		"csv-parse": "^5.5.5",
 		"express": "^4.18.3",
 		"express-async-handler": "^1.2.0",
 		"fp-ts": "^2.16.3",
