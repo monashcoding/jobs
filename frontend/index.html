@@ -1,14 +1,129 @@
 <!doctype html>
 <html lang="en-AU">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>MAC Job Board</title>
-		<link rel="stylesheet" href="/style.css" />
-	</head>
 
-	<body>
-		<h1>MAC projects let's gooooo</h1>
-		<script type="module" src="/src/main.ts"></script>
-	</body>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>MAC Job Board</title>
+	<link rel="stylesheet" href="/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<style>
+		.filterButtons * {
+			display: inline-flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			background-color: #490EF2;
+			border: white;
+			color: #BFBFBF;
+			font-family: "poppins";
+			font-size: 18px;
+			border-radius: 22px;
+			padding: 6px 16px;
+			margin-right: 8px;
+			margin-bottom: 10px;
+			width: 130px;
+		}
+
+		.disabled {
+			opacity: 0.6;
+		}
+
+		#jobType {
+			font-family: "poppins";
+			font-weight: normal;
+			padding-left: 20px;
+			margin-left: 8px;
+		}
+
+
+		#allJobTypes {
+			width: 145px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1>MAC projects let's gooooo Liang was here</h1>
+	<script type="module" src="/src/main.ts"></script>
+
+	<h3 id="jobType">Job Type:</h3>
+
+	<div class="filterButtons" id="filters">
+
+		<button id="allJobTypes" onclick="onFilterButtonClick(this.id)">
+			All job types
+		</button>
+
+		<button id="internship" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Internship
+		</button>
+
+		<button id="entryLevel" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Entry Level
+		</button>
+
+		<button id="clerkship" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Clerkship
+		</button>
+
+		<button id="fullTime" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Full-time
+		</button>
+
+		<br>
+
+		<button id="parTime" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Part-time
+		</button>
+
+		<button id="contract" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Contract
+		</button>
+
+		<button id="casual" class="disabled" onclick="onFilterButtonClick(this.id)">
+			Casual
+		</button>
+	</div>
+
+</body>
+
 </html>
+
+<script>
+
+
+	const getSelectedFilters = () => {
+		let allFilters = document.getElementById("filters")
+			.getElementsByTagName("*")
+
+		let selectedFilters = []
+
+		for (let i = 0; i < allFilters.length; i++) {
+			if (!allFilters[i].classList.contains("disabled")) {
+				selectedFilters.push(allFilters[i].id)
+			}
+		}
+
+		return selectedFilters
+	}
+
+	const onFilterButtonClick = (id) => {
+		var btn = document.getElementById(id)
+
+		if (btn.classList.contains("disabled")) {
+			btn.classList.remove("disabled")
+		} else {
+			btn.classList.add("disabled")
+		}
+	}
+
+
+
+</script>
