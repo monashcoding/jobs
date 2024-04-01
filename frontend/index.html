@@ -1,57 +1,88 @@
 <!doctype html>
 <html lang="en-AU">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>MAC Job Board</title>
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href="/navbar.css" />
+  	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	      <link
+		      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		      rel="stylesheet">
+        <style>
+        
+        .filterButtons * {
+          display: inline-flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          background-color: #490EF2;
+          border: white;
+          color: #BFBFBF;
+          font-family: "poppins";
+          font-size: 18px;
+          border-radius: 22px;
+          padding: 6px 16px;
+          margin-right: 8px;
+          margin-bottom: 10px;
+          width: 130px;
+		    }
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>MAC Job Board</title>
-	<link rel="stylesheet" href="/style.css" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-		rel="stylesheet">
+        .disabled {
+          opacity: 0.6;
+        }
 
-	<style>
-		.filterButtons * {
-			display: inline-flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: space-around;
-			background-color: #490EF2;
-			border: white;
-			color: #BFBFBF;
-			font-family: "poppins";
-			font-size: 18px;
-			border-radius: 22px;
-			padding: 6px 16px;
-			margin-right: 8px;
-			margin-bottom: 10px;
-			width: 130px;
-		}
-
-		.disabled {
-			opacity: 0.6;
-		}
-
-		#jobType {
-			font-family: "poppins";
-			font-weight: normal;
-			padding-left: 20px;
-			margin-left: 8px;
-		}
+        #jobType {
+          font-family: "poppins";
+          font-weight: normal;
+          padding-left: 20px;
+          margin-left: 8px;
+        }
 
 
-		#allJobTypes {
-			width: 145px;
-		}
-	</style>
+        #allJobTypes {
+          width: 145px;
+        }
+          
+        </style>
 
-</head>
 
-<body>
-	<h1>MAC projects let's gooooo Liang was here</h1>
-	<script type="module" src="/src/main.ts"></script>
+    </head>
+
+    <body>
+        <!-- <h1>MAC projects let's gooooo</h1> -->
+        <nav>
+            <ul>
+                <li class="selected"> <!--default have this selected-->
+                    <a href ="https://www.google.com">Job Search</a> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+                </li>
+                <li>
+                    <a href ="#">Employer Search</a>
+                </li>
+                <li class="dropdown">
+                    <a href ="">Advice</a>
+                    <ul class="dropdown-content">
+                        <li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+find+jib">Sub-item 1</a></li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+                        <li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+make+pancakes">Sub-item 2</a></li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a ref ="#">Work With </a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Sub-item 1</a></li>
+                        <li><a href="#">Sub-item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href ="#">Events</a>
+                </li>
+            </ul>   
+        </nav>
+
+      <h1>MAC projects let's gooooo Liang was here</h1>
+
 
 	<h3 id="jobType">Job Type:</h3>
 
@@ -91,39 +122,44 @@
 			Casual
 		</button>
 	</div>
+      
+        <script type="module" src="/src/main.ts">
+            // i chatgpted this lol
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentPath = window.location.pathname.replace(/\/$/, '');
+            var navLinks = document.querySelectorAll('nav ul li a');
 
-</body>
+            navLinks.forEach(function(link) {
+                var linkPath = link.getAttribute('href').replace(/\/$/, '');
+                if (currentPath === linkPath) {
+                    link.parentElement.classList.add('active');
+                }
+            });
+        });
+          
+        const getSelectedFilters = () => {
+          let allFilters = document.getElementById("filters")
+            .getElementsByTagName("*")
 
-</html>
+          let selectedFilters = []
 
-<script>
+          for (let i = 0; i < allFilters.length; i++) {
+            if (!allFilters[i].classList.contains("disabled")) {
+              selectedFilters.push(allFilters[i].id)
+            }
+          }
 
+          return selectedFilters
+        }
 
-	const getSelectedFilters = () => {
-		let allFilters = document.getElementById("filters")
-			.getElementsByTagName("*")
+        const onFilterButtonClick = (id) => {
+          var btn = document.getElementById(id)
 
-		let selectedFilters = []
-
-		for (let i = 0; i < allFilters.length; i++) {
-			if (!allFilters[i].classList.contains("disabled")) {
-				selectedFilters.push(allFilters[i].id)
-			}
-		}
-
-		return selectedFilters
-	}
-
-	const onFilterButtonClick = (id) => {
-		var btn = document.getElementById(id)
-
-		if (btn.classList.contains("disabled")) {
-			btn.classList.remove("disabled")
-		} else {
-			btn.classList.add("disabled")
-		}
-	}
-
-
-
-</script>
+          if (btn.classList.contains("disabled")) {
+            btn.classList.remove("disabled")
+          } else {
+            btn.classList.add("disabled")
+          }
+        }
+        </script>
+    </body>
