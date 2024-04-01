@@ -1,127 +1,61 @@
 <!doctype html>
 <html lang="en-AU">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>MAC Job Board</title>
-		<link rel="stylesheet" href="/style.css" />
-
-		<style>
-		body {
-			margin: 0;
-			padding: 0;
-			/* font-family: ;
-			font-size: ; */                     
-		}
-		 
-		nav{
-			background-color: yellow;
-			border-radius: 999px; /* idk RANDOM NUMBER RN */
-			padding: 0 15px;
-			display: flex;
-			justify-content: space-evenly;
-			align-items: center;
-			width: max-content;
-			margin: 0 auto;
-			margin-top: 50px; /* Adjust */
-		}
-
-		nav ul {
-			list-style-type: none;
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
-		}
-
-		nav ul li {
-			position: relative;
-			padding: 10px;
-			cursor: pointer;
-		}
-
-		nav ul li a {
-			text-decoration: none;
-			color: black;
-		}
-
-		nav ul li.selected {
-			background-color: white;
-			border-radius: 10px 10px 0 0;
-		}
-
-		/* nav ul li.dropdown {
-			padding-right: 30px;
-		} */
-
-		nav ul li.dropdown .dropdown-content {
-			display: none;
-			position: absolute;
-			background-color: #f9f9f9;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			z-index: 1;
-		}
-
-		nav ul li.dropdown:hover .dropdown-content {
-			display: flex;
-			flex-direction: column;
-		}
-
-		nav ul li.dropdown-content li {
-			padding: 10px;
-		}
-
-		nav ul li.dropdown-content li a:hover {
-			background-color: #f1f1f1;
-		}
-		</style>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>MAC Job Board</title>
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href="/navbar.css" />
+        <style>
+        
+        </style>
 
 
-	</head>
+    </head>
 
-	<body>
-		<!-- <h1>MAC projects let's gooooo</h1> -->
-		<nav>
-			<ul>
-				<li class="selected"> <!--default have this selected-->
-					<a href ="https://www.google.com">Job Search</a> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
-				</li>
-				<li>
-					<a href ="#">Employer Search</a>
-				</li>
-				<li class="dropdown">
-					<a href ="">Advice</a>
-					<ul class="dropdown-content">
-						<li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+find+jib">Sub-item 1</a></li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
-						<li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+make+pancakes">Sub-item 2</a></li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a ref ="#">Work With </a>
-					<ul class="dropdown-content">
-						<li><a href="#">Sub-item 1</a></li>
-						<li><a href="#">Sub-item 2</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href ="#">Events</a>
-				</li>
-			</ul>	
-		</nav>
+    <body>
+        <!-- <h1>MAC projects let's gooooo</h1> -->
+        <nav>
+            <ul>
+                <li class="selected"> <!--default have this selected-->
+                    <a href ="https://www.google.com">Job Search</a> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+                </li>
+                <li>
+                    <a href ="#">Employer Search</a>
+                </li>
+                <li class="dropdown">
+                    <a href ="">Advice</a>
+                    <ul class="dropdown-content">
+                        <li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+find+jib">Sub-item 1</a></li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+                        <li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+make+pancakes">Sub-item 2</a></li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a ref ="#">Work With </a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Sub-item 1</a></li>
+                        <li><a href="#">Sub-item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href ="#">Events</a>
+                </li>
+            </ul>   
+        </nav>
 
-		<script type="module" src="/src/main.ts">
-			// i chatgpted this lol
-		document.addEventListener('DOMContentLoaded', function() {
-			var currentPath = window.location.pathname.replace(/\/$/, '');
-			var navLinks = document.querySelectorAll('nav ul li a');
+        <script type="module" src="/src/main.ts">
+            // i chatgpted this lol
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentPath = window.location.pathname.replace(/\/$/, '');
+            var navLinks = document.querySelectorAll('nav ul li a');
 
-			navLinks.forEach(function(link) {
-				var linkPath = link.getAttribute('href').replace(/\/$/, '');
-				if (currentPath === linkPath) {
-					link.parentElement.classList.add('active');
-				}
-			});
-		});
-		</script>
-	</body>
+            navLinks.forEach(function(link) {
+                var linkPath = link.getAttribute('href').replace(/\/$/, '');
+                if (currentPath === linkPath) {
+                    link.parentElement.classList.add('active');
+                }
+            });
+        });
+        </script>
+    </body>
 </html>
