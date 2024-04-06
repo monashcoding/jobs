@@ -1,5 +1,6 @@
 [
 	{
+		"company": "Amazon/AWS",
 		"name": "2024 Software Dev Engineer Intern SYD, AWS",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -19,6 +20,7 @@
 		"notes": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
 	},
 	{
+		"company": "Atlassian",
 		"name": "Summer 2024/2025",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -48,6 +50,7 @@
 		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
 	},
 	{
+		"company": "Australian Defence Force",
 		"name": "Graduate Entry",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -61,6 +64,7 @@
 		"notes": "- Many IT/Engineering roles available for FIT degrees"
 	},
 	{
+		"company": "Australian Defence Force",
 		"name": "Undergraduate Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
@@ -74,6 +78,7 @@
 		"notes": "- Many IT/Engineering roles available for FIT degrees"
 	},
 	{
+		"company": "Australian Secret Intelligence Service",
 		"name": "ACTIVATE Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -96,6 +101,7 @@
 		"url": "https://www.asis.gov.au/Careers/Current-Vacancies/Graduate-Program/"
 	},
 	{
+		"company": "Australian Taxation Office",
 		"name": "ATO University Paid Internship Program (UPIP)",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
@@ -123,6 +129,7 @@
 		"notes": "- Applications are open all year round\n- Three intakes per year (February, July, November). First intake is July 2024."
 	},
 	{
+		"company": "BCG",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -140,7 +147,8 @@
 		"url": "https://careers.bcg.com/australia-new-zealand-associate-recruitment"
 	},
 	{
-		"name": "",
+		"company": "BHP",
+		"name": "BHP Internship",
 		"type": "Internship",
 		"courseProgressions": ["Grad"],
 		"roles": ["Cyber Security", "Data Scientist", "Software Engineer"],
@@ -154,6 +162,7 @@
 		"url": "https://careers.bhp.com/job/2024-Australian-Intern-Campaign/1138943300/"
 	},
 	{
+		"company": "Chevron",
 		"name": "Information Technology",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Grad"],
@@ -167,6 +176,7 @@
 		"url": "https://careers.chevron.com/job/perth/information-technology-chevron-intern-program/38138/61960686320"
 	},
 	{
+		"company": "Deloitte",
 		"name": "Vacationer",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -195,6 +205,7 @@
 		"notes": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
 	},
 	{
+		"company": "Deloitte",
 		"name": "Vacationer",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -223,7 +234,8 @@
 		"notes": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
 	},
 	{
-		"name": "",
+		"company": "Dolby",
+		"name": "Dolby Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -241,7 +253,8 @@
 		"description": "Intern Software Engineer (multiple roles)"
 	},
 	{
-		"name": "",
+		"company": "eclipse",
+		"name": "eclipse Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Trader"],
@@ -252,7 +265,8 @@
 		"url": "https://www.eclipsetrading.com/all-jobs/"
 	},
 	{
-		"name": "",
+		"company": "eclipse",
+		"name": "eclipse Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Trader"],
@@ -263,6 +277,7 @@
 		"url": "https://www.eclipsetrading.com/all-jobs/"
 	},
 	{
+		"company": "FDM Group",
 		"name": "2024 Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -282,6 +297,7 @@
 		"notes": "2.5-year graduate program"
 	},
 	{
+		"company": "FDM Group",
 		"name": "Project Grace: Technical Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -306,6 +322,7 @@
 		"notes": "2.5-year graduate program"
 	},
 	{
+		"company": "FDM Group",
 		"name": "Technical Analysis Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -326,6 +343,7 @@
 		"notes": "2.5-year graduate program"
 	},
 	{
+		"company": "FDM Group",
 		"name": "Software Development Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -345,6 +363,7 @@
 		"notes": "2.5-year graduate program"
 	},
 	{
+		"company": "IMC",
 		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -362,7 +381,8 @@
 		]
 	},
 	{
-		"name": "",
+		"company": "Jane Street",
+		"name": "Jane Street Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -384,6 +404,7 @@
 		"url": "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=hong-kong"
 	},
 	{
+		"company": "KPMG",
 		"name": "Vacationer",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -407,6 +428,7 @@
 		"url": "https://home.kpmg/au/en/home/careers/graduates/vacation-program.html"
 	},
 	{
+		"company": "McKinsey & Company",
 		"name": "Women's Internship & Scholarship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
@@ -425,7 +447,8 @@
 		"notes": "$20,000 Scholarship"
 	},
 	{
-		"name": "",
+		"company": "Optiver",
+		"name": "Optiver Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -448,6 +471,7 @@
 		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=sydney"
 	},
 	{
+		"company": "PwC",
 		"name": "Vacation Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -470,6 +494,7 @@
 		"notes": "PwC has two intakes. The first one opens in March and the second one in September."
 	},
 	{
+		"company": "PwC",
 		"name": "Vacation Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -492,6 +517,7 @@
 		"notes": "PwC has two intakes. The first one opens in March and the second one in September."
 	},
 	{
+		"company": "Rio Tinto",
 		"name": "2024 Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Grad"],
@@ -505,7 +531,8 @@
 		"workingRights": ["Australian Citizen"]
 	},
 	{
-		"name": "",
+		"company": "Susquehanna International Group (SIG)",
+		"name": "SIG Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Equity Analyst", "Trader"],
@@ -521,7 +548,8 @@
 		"url": "https://careers.sig.com"
 	},
 	{
-		"name": "",
+		"company": "Susquehanna International Group (SIG)",
+		"name": "SIG Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -545,6 +573,7 @@
 		"url": "https://careers.sig.com/sydney-campus"
 	},
 	{
+		"company": "Tibra Capital",
 		"name": "Accelerator Program",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
@@ -557,6 +586,7 @@
 		"url": "https://apply.workable.com/tibra-capital-1/j/0E09BEE49D/apply/"
 	},
 	{
+		"company": "TikTok",
 		"name": "Intern (TikTok Engineering) - 2024 start",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -580,6 +610,7 @@
 		"url": "https://careers.tiktok.com/position?keywords=&category=&location=CT_244&project=&type=3&job_hot_flag=&current=1&limit=10&functionCategory=&tag="
 	},
 	{
+		"company": "Accenture",
 		"name": "Tech Bootcamp",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate"],
@@ -603,6 +634,7 @@
 		"url": "https://www.accenture.com/au-en/careers/local/internships"
 	},
 	{
+		"company": "Accenture",
 		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -621,7 +653,8 @@
 		"url": "https://www.accenture.com/au-en/careers/local/internships"
 	},
 	{
-		"name": "",
+		"company": "Additive Assurance",
+		"name": "Additive Assurance Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Machine Learning Engineer", "Software Engineer"],
@@ -640,7 +673,8 @@
 		"notes": "Click on page to find out all the details"
 	},
 	{
-		"name": "",
+		"company": "Adobe",
+		"name": "Adobe Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -662,7 +696,8 @@
 		"url": "https://www.adobe.com/careers.html"
 	},
 	{
-		"name": "",
+		"company": "Airwallex",
+		"name": "Airwallex Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -675,7 +710,8 @@
 		"url": "https://jobs.lever.co/airwallex/98f20acd-3ca7-451a-a065-365f087a57ed"
 	},
 	{
-		"name": "",
+		"company": "Akuna Capital",
+		"name": "Akuna Capital Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -699,6 +735,7 @@
 		"notes": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
 	},
 	{
+		"company": "Amazon",
 		"name": "Machine Learning Summer School 2024",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -714,6 +751,7 @@
 		"notes": "ML virtual summer school for APAC students"
 	},
 	{
+		"company": "AMP",
 		"name": "Technology Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -732,7 +770,8 @@
 		"url": "https://au.prosple.com/graduate-employers/amp/jobs-internships/technology-graduate-program-pre-register"
 	},
 	{
-		"name": "",
+		"company": "ANZ",
+		"name": "ANZ Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -755,6 +794,7 @@
 		"url": "https://www.anz.com.au/careers/programs/summer-intern/"
 	},
 	{
+		"company": "ANZ",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -774,7 +814,8 @@
 		"notes": "Other allowed Visas:\n- Subclass 485 Temporary Graduate;\n- Subclass 461 New Zealand Citizen Family Relationship;\n- Subclass 801/802 Partner; or\n- Subclass 155 Resident Return."
 	},
 	{
-		"name": "",
+		"company": "Apple",
+		"name": "Apple Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -791,7 +832,8 @@
 		"url": "https://jobs.apple.com/en-au/search?location=australia-AUSC&team=Internships-STDNT-INTRN"
 	},
 	{
-		"name": "",
+		"company": "Arcitecta",
+		"name": "Arcitecta Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -803,7 +845,8 @@
 		"url": "https://www.arcitecta.com/internships/"
 	},
 	{
-		"name": "",
+		"company": "Arup",
+		"name": "Arup Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Data Engineer", "Security Engineer", "Software Engineer"],
@@ -814,6 +857,7 @@
 		"url": "https://www.arup.com/careers/early-careers/internships/australasia-internships/internship-roles-with-arup-australasia"
 	},
 	{
+		"company": "Aurecon",
 		"name": "Graduate Programme",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -838,6 +882,7 @@
 		"notes": "- Must be studying Engineering"
 	},
 	{
+		"company": "Aurecon",
 		"name": "Intern Programme",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -863,6 +908,7 @@
 		"notes": "- Must be studying Engineering"
 	},
 	{
+		"company": "Australia Post",
 		"name": "2025 Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -881,6 +927,7 @@
 		"url": "https://au.prosple.com/graduate-employers/australia-post/jobs-internships/2025-graduate-program-pre-register"
 	},
 	{
+		"company": "Australian Bureau of Statistics",
 		"name": "ABS ICT Graduate Recruitment Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -903,6 +950,7 @@
 		"url": "https://www.abs.gov.au/about/abs-careers/start-your-career-abs-graduate/information-and-communication-technology-graduates"
 	},
 	{
+		"company": "Australian Bureau Statistics",
 		"name": "ABS Data Graduate Recruitment Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -930,6 +978,7 @@
 		"url": "https://www.abs.gov.au/about/abs-careers/start-your-career-abs-graduate/data-graduates"
 	},
 	{
+		"company": "Australian Federal Police",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -950,6 +999,7 @@
 		"notes": "- Majority of roles are in Canberra\n- Program runs Feb to Feb each year"
 	},
 	{
+		"company": "Australian Security Intelligence Organisation",
 		"name": "Technologist Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -975,6 +1025,7 @@
 		"url": "https://www.asio.gov.au/careers/graduates"
 	},
 	{
+		"company": "Australian Signals Directorate",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1001,6 +1052,7 @@
 		"notes": "Vast majority of positions are based in Canberra."
 	},
 	{
+		"company": "Australian Signals Directorate",
 		"name": "Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -1024,6 +1076,7 @@
 		"notes": "Vast majority of positions are based in Canberra."
 	},
 	{
+		"company": "Australian Signals Directorate",
 		"name": "Cadetship Program",
 		"type": "Internship",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1051,6 +1104,7 @@
 		"notes": "Vast majority of positions are based in Canberra."
 	},
 	{
+		"company": "Australian Tax Office",
 		"name": "ATO Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1082,6 +1136,7 @@
 		"url": "https://www.ato.gov.au/about-ato/careers/entry-level-programs/the-ato-graduate-program/apply-for-the-graduate-program"
 	},
 	{
+		"company": "BAE Systems",
 		"name": "Summer Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -1095,6 +1150,7 @@
 		"url": "https://www.baesystems.com/en-aus/careers/graduate-and-early-careers#1573679801007"
 	},
 	{
+		"company": "BAE Systems",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1109,6 +1165,7 @@
 		"url": "https://www.baesystems.com/en-aus/careers/graduate-and-early-careers#1573679801007"
 	},
 	{
+		"company": "BDO",
 		"name": "Undergraduate Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
@@ -1123,6 +1180,7 @@
 		"url": "https://www.bdo.com.au/en-au/about/student-careers#programs"
 	},
 	{
+		"company": "BDO",
 		"name": "Vacation Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -1138,6 +1196,7 @@
 		"notes": "Three intakes per year: June, November, January"
 	},
 	{
+		"company": "BDO",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1152,7 +1211,8 @@
 		"notes": "Intakes in Jan and June"
 	},
 	{
-		"name": "",
+		"company": "BHP",
+		"name": "Grad Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Data Scientist", "Software Engineer"],
@@ -1166,7 +1226,8 @@
 		"url": "https://www.bhp.com/careers/graduate-student-programs/australia"
 	},
 	{
-		"name": "",
+		"company": "Bloomberg",
+		"name": "Bloomberg Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Data Analyst", "Sales", "Software Engineer"],
@@ -1178,6 +1239,7 @@
 		"url": "https://www.bloomberg.com/company/career/engineering-apac/"
 	},
 	{
+		"company": "Boeing",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1198,7 +1260,8 @@
 		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page"
 	},
 	{
-		"name": "",
+		"company": "Boeing",
+		"name": "Boeing Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": ["Data Analyst", "Software Engineer", "Systems Engineer"],
@@ -1219,7 +1282,8 @@
 		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page"
 	},
 	{
-		"name": "",
+		"company": "Canva",
+		"name": "Cancva",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -1244,7 +1308,8 @@
 		"notes": "Engineering internships are posted first, followed by design/misc roles."
 	},
 	{
-		"name": "",
+		"company": "CISCO",
+		"name": "CISCO Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -1266,6 +1331,7 @@
 		"url": "https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B214420%5D&21178_format=6020&21180=%5B165%5D&21180_format=6022&listFilterMode=1"
 	},
 	{
+		"company": "Citadel",
 		"name": "Discovery Day",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1277,7 +1343,8 @@
 		"workingRights": []
 	},
 	{
-		"name": "",
+		"company": "Citadel Securities",
+		"name": "Citadel Securities Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Quantitative Researcher", "Software Engineer", "Trader"],
@@ -1291,6 +1358,7 @@
 		"url": "https://www.citadelsecurities.com/careers/open-roles/roles-for-students/?keyword=Intern"
 	},
 	{
+		"company": "Coles",
 		"name": "Technology & Digital Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1309,6 +1377,7 @@
 		"url": "https://prosple.com/graduate-employers/coles/jobs-internships/2024-technology-graduate-program-pre-register"
 	},
 	{
+		"company": "Coles",
 		"name": "Engineering and Logistics Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1328,6 +1397,7 @@
 		"notes": "*duration not specified"
 	},
 	{
+		"company": "Commonwealth Bank",
 		"name": "Global Markets Summer Analyst Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1342,6 +1412,7 @@
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-commbank-global-markets-summer-analyst-program"
 	},
 	{
+		"company": "Commonwealth Bank",
 		"name": "Engineering Summer Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1360,6 +1431,7 @@
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-engineering-summer-intern-program"
 	},
 	{
+		"company": "Commonwealth Bank",
 		"name": "Data Science and Analytics Summer Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -1379,6 +1451,7 @@
 		"notes": "*New Zealand citizen already residing in Australia"
 	},
 	{
+		"company": "Commonwealth Bank",
 		"name": "Bankwest Technology Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1397,6 +1470,7 @@
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/2024-bankwest-technology-graduate-program"
 	},
 	{
+		"company": "Commonwealth Bank",
 		"name": "Engineering and Cyber Security Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1417,6 +1491,7 @@
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/engineering-and-cyber-security-graduate-program"
 	},
 	{
+		"company": "Commonwealth Bank",
 		"name": "Data Science and Analytics Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1431,7 +1506,8 @@
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/data-science-and-analytics-graduate-program"
 	},
 	{
-		"name": "",
+		"company": "Commonwealth Bank",
+		"name": "Commonwealth Bank Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -1462,7 +1538,8 @@
 		"url": "https://www.commbank.com.au/about-us/careers/graduate-intern-programs.html"
 	},
 	{
-		"name": "",
+		"company": "Culture Amp",
+		"name": "Culture Amp Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -1474,6 +1551,7 @@
 		"workingRights": []
 	},
 	{
+		"company": "Deloitte",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1499,6 +1577,7 @@
 		"url": "https://www.deloitte.com/au/en/careers/students/graduate-program-careers.html"
 	},
 	{
+		"company": "Deloitte",
 		"name": "Foundations Program",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1510,6 +1589,7 @@
 		"workingRights": []
 	},
 	{
+		"company": "Department of Defence",
 		"name": "STEM Cadetship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -1537,6 +1617,7 @@
 		"url": "https://www.defence.gov.au/jobs-careers/student-pathways/stem-cadetship"
 	},
 	{
+		"company": "Department of Defence",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1563,7 +1644,8 @@
 		"url": "https://www.defence.gov.au/jobs-careers/graduate-program"
 	},
 	{
-		"name": "",
+		"company": "Deputy",
+		"name": "Deputy Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Product Designer", "Software Engineer"],
@@ -1574,7 +1656,8 @@
 		"workingRights": []
 	},
 	{
-		"name": "Software Engineer Intern FireMonkeys ",
+		"company": "Electronic Arts",
+		"name": "Software Engineer Intern FireMonkeys",
 		"type": "Internship",
 		"courseProgressions": ["Grad"],
 		"roles": ["Software Engineer"],
@@ -1588,6 +1671,7 @@
 		"description": "Software Engineering Intern - need to have graduated and specialise in C++ and C#"
 	},
 	{
+		"company": "EY",
 		"name": "Vacationer",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -1608,6 +1692,7 @@
 		"notes": "Also available through the IBL program."
 	},
 	{
+		"company": "EY",
 		"name": "Career Compass",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1619,6 +1704,7 @@
 		"workingRights": []
 	},
 	{
+		"company": "EY",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1635,7 +1721,8 @@
 		"url": "https://www.ey.com/en_au/careers/students-apply-here"
 	},
 	{
-		"name": "",
+		"company": "Google",
+		"name": "Google Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Cloud Engineer", "Software Engineer"],
@@ -1654,6 +1741,7 @@
 		"url": "https://careers.google.com/jobs/results/?distance=50&employment_type=INTERN&hl=en&jlo=en-US&location=Sydney,%20Australia&q="
 	},
 	{
+		"company": "Google",
 		"name": "STEP",
 		"type": "Internship",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1673,7 +1761,8 @@
 		"url": "https://careers.google.com/jobs/results/?distance=50&employment_type=INTERN&hl=en&jlo=en-US&location=Sydney,%20Australia&q="
 	},
 	{
-		"name": "",
+		"company": "IBM",
+		"name": "IBM Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [
@@ -1693,6 +1782,7 @@
 		"url": "https://www.ibm.com/au-en/employment/entrylevel/"
 	},
 	{
+		"company": "IBM",
 		"name": "IBM Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1710,7 +1800,8 @@
 		"url": "https://au.prosple.com/graduate-employers/ibm/jobs-internships/ibm-internship-program"
 	},
 	{
-		"name": "",
+		"company": "IMC",
+		"name": "IMC Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [
@@ -1733,6 +1824,7 @@
 		"notes": "IMC offers the IMC launchpad program, a one day event where pre-penultimate students can learn about IMC."
 	},
 	{
+		"company": "IMC",
 		"name": "Launchpad",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1744,6 +1836,7 @@
 		"workingRights": []
 	},
 	{
+		"company": "ING Bank Australia",
 		"name": "International Talent Programme",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Grad"],
@@ -1761,6 +1854,7 @@
 		"notes": "*desirable to have no more than 2 years of professional working experience\n*open and close dates not specified"
 	},
 	{
+		"company": "Jacobs",
 		"name": "Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1786,6 +1880,7 @@
 		"notes": "Open for pre-register on Prosple"
 	},
 	{
+		"company": "Jacobs",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1811,6 +1906,7 @@
 		"notes": "Open for pre-register on Prosple"
 	},
 	{
+		"company": "Jane Street",
 		"name": "See/Insight/WiSE",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1827,7 +1923,8 @@
 		]
 	},
 	{
-		"name": "",
+		"company": "Jump Trading",
+		"name": "Jump Trading Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -1844,7 +1941,8 @@
 		"url": "https://www.jumptrading.com/careers/?titleSearch=campus+intern"
 	},
 	{
-		"name": "",
+		"company": "KordaMentha",
+		"name": "KordaMentha Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Data Analyst", "Forensics Technology"],
@@ -1856,6 +1954,7 @@
 		"url": "https://kordamentha.com/careers/graduate-careers"
 	},
 	{
+		"company": "KPMG",
 		"name": "Foundations Program",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -1867,6 +1966,7 @@
 		"workingRights": []
 	},
 	{
+		"company": "KPMG",
 		"name": "Graduate",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1889,6 +1989,7 @@
 		"url": "https://kpmg.com/au/en/home/careers/graduates.html#gradprogram"
 	},
 	{
+		"company": "Leidos",
 		"name": "Graduate Business Analyst",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1903,6 +2004,7 @@
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/graduate-business-analyst"
 	},
 	{
+		"company": "Leidos",
 		"name": "Graduate Systems Engineer",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1917,7 +2019,8 @@
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/2024-graduate-systems-engineer-melbourne-cbd-scoresby-and-canberra"
 	},
 	{
-		"name": "",
+		"company": "Leidos",
+		"name": "Leidos Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Developer"],
@@ -1931,6 +2034,7 @@
 		"url": "https://jobs.smartrecruiters.com/Leidos1/743999838036000-intern-software-developer-melbourne"
 	},
 	{
+		"company": "Leidos",
 		"name": "Graduate Cyber Analyst",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1945,6 +2049,7 @@
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/graduate-cyber-analyst"
 	},
 	{
+		"company": "Leidos",
 		"name": "Graduate Software Engineer",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1959,6 +2064,7 @@
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/graduate-software-engineer-2"
 	},
 	{
+		"company": "Level Crossing Removal Program",
 		"name": "Level Crossing Removal Project Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -1973,6 +2079,7 @@
 		"url": "https://bigbuild.vic.gov.au/jobs/training-programs/level-crossing-removal-project-internship-program"
 	},
 	{
+		"company": "Lockheed Martin",
 		"name": "Graduate Software Engineering Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -1996,6 +2103,7 @@
 		"url": "https://www.lockheedmartin.com/en-au/careers/early-careers.html"
 	},
 	{
+		"company": "Lockheed Martin",
 		"name": "Industry Based Learning Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -2011,6 +2119,7 @@
 		"notes": "Separate to Monash's IBL program"
 	},
 	{
+		"company": "Macquarie",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2026,6 +2135,7 @@
 		"notes": "Commences Feb 2025"
 	},
 	{
+		"company": "Macquarie",
 		"name": "Summer Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -2039,6 +2149,7 @@
 		"workingRights": []
 	},
 	{
+		"company": "Macquarie",
 		"name": "Winter Development Program",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -2054,7 +2165,8 @@
 		"notes": "criteria : Science, technology, engineering and maths students or women from any discipline in their penultimate year of study"
 	},
 	{
-		"name": "",
+		"company": "Macquarie Group",
+		"name": "Macquarie Group Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": [
@@ -2078,7 +2190,8 @@
 		"notes": "Melbourne stream closes earlier, compared to the Sydney stream."
 	},
 	{
-		"name": "",
+		"company": "Microsoft",
+		"name": "Microsoft Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -2103,7 +2216,8 @@
 		"url": "https://careers.microsoft.com/students/us/en/aunzuniversityinternship"
 	},
 	{
-		"name": "",
+		"company": "MongoDB",
+		"name": "MongoDB Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Product Designer", "Software Engineer"],
@@ -2117,7 +2231,8 @@
 		"url": "https://gradaustralia.com.au/graduate-employers/mongodb/jobs-internships/20222023-software-engineering-internship-summer"
 	},
 	{
-		"name": "",
+		"company": "NAB",
+		"name": "NAB Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Grad"],
 		"roles": [
@@ -2145,6 +2260,7 @@
 		"notes": "The technology program can be done by pre-penultimate students."
 	},
 	{
+		"company": "NAB",
 		"name": "NAB Technology Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -2168,6 +2284,7 @@
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/information-technology-internship"
 	},
 	{
+		"company": "NAB",
 		"name": "NAB Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2185,6 +2302,7 @@
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/graduate-careers"
 	},
 	{
+		"company": "NAB",
 		"name": "NAB Summer Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -2204,6 +2322,7 @@
 		"notes": "You'll need to be due to complete your degree by December 2025"
 	},
 	{
+		"company": "Optiver",
 		"name": "Future Focus",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -2227,18 +2346,8 @@
 		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=sydney"
 	},
 	{
-		"name": "Future Focus",
-		"type": "Other Program",
-		"courseProgressions": ["Pre-Penultimate"],
-		"roles": ["Software Engineer", "Trader"],
-		"status": "Closed",
-		"locations": ["Sydney"],
-		"duration": "2-3 Days",
-		"industries": ["Trading"],
-		"workingRights": []
-	},
-	{
-		"name": "",
+		"company": "Origin Energy",
+		"name": "Origin Energy Grad Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [
@@ -2257,6 +2366,7 @@
 		"notes": "Offers IBL placement through Monash. "
 	},
 	{
+		"company": "Palantir",
 		"name": "Forward Deployed Software Engineer Graduate",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2275,7 +2385,8 @@
 		"url": "https://www.palantir.com/careers/students-and-early-talent/#new-grads-early-talent"
 	},
 	{
-		"name": "",
+		"company": "Planet Innovation",
+		"name": "Planet Innovation Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Product Designer", "Product Manager", "Software Engineer"],
@@ -2288,6 +2399,7 @@
 		"url": "https://jobs.lever.co/planetinnovation"
 	},
 	{
+		"company": "PwC",
 		"name": "Trainee Program",
 		"type": "Internship",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -2300,6 +2412,7 @@
 		"url": "https://jobs-au.pwc.com/au/en/trainee-program-2023"
 	},
 	{
+		"company": "PwC",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2317,7 +2430,8 @@
 		"url": "https://jobs-au.pwc.com/au/en/graduate-program"
 	},
 	{
-		"name": "",
+		"company": "Quantium",
+		"name": "Quantium Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Data Analyst", "Software Engineer"],
@@ -2336,6 +2450,7 @@
 		"url": "https://au.gradconnection.com/employers/quantium/#our-internship-academy"
 	},
 	{
+		"company": "RACV",
 		"name": "Technology Graduate",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2354,6 +2469,7 @@
 		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/technology-graduate-pre-register"
 	},
 	{
+		"company": "RACV",
 		"name": "Growth, Strategy & Analytics Graduate",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2372,6 +2488,7 @@
 		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/growth-strategy-analytics-graduate-pre-register"
 	},
 	{
+		"company": "Reserve Bank of Australia",
 		"name": "Reserve Bank Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2391,7 +2508,8 @@
 		"notes": "- Applications open: February\n- Applications close: April\n- Assessment and face to face interviews: May\n- Offers made: May\n- Program commences: February of the following year"
 	},
 	{
-		"name": "",
+		"company": "SAP",
+		"name": "SAP Internship",
 		"type": "Internship",
 		"courseProgressions": ["Grad"],
 		"roles": ["Customer Experience", "Sales"],
@@ -2405,7 +2523,8 @@
 		"url": "https://www.sap.com/australia/about/careers/students-graduates/vocational-training/australia-and-new-zealand.html"
 	},
 	{
-		"name": "",
+		"company": "SAS",
+		"name": "SAS Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Business Analyst", "Tech Consultant"],
@@ -2424,6 +2543,7 @@
 		"notes": "Internship,Clerkship and placement"
 	},
 	{
+		"company": "Schneider Electric",
 		"name": "Technical Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -2449,6 +2569,7 @@
 		"notes": "Full time basis over Uni Summer break, and then continue on a part time basis (minimum 15 hours per week) for fifteen (15) weeks"
 	},
 	{
+		"company": "Schneider Electric",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2474,7 +2595,8 @@
 		"url": "https://www.se.com/au/en/about-us/careers/students-young-professionals.jsp"
 	},
 	{
-		"name": "",
+		"company": "Snap Inc.",
+		"name": "Snap Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -2487,6 +2609,7 @@
 		"url": "https://wd1.myworkdaysite.com/recruiting/snapchat/snap/job/Sydney-Australia/Software-Engineer-Intern--Sydney_R0023106-1"
 	},
 	{
+		"company": "Startmate",
 		"name": "Student Fellowship Winter",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -2501,6 +2624,7 @@
 		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment "
 	},
 	{
+		"company": "Startmate",
 		"name": "Student Fellowship Summer",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -2515,6 +2639,7 @@
 		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment "
 	},
 	{
+		"company": "Susquehanna International Group (SIG)",
 		"name": "Discovery Day",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
@@ -2526,7 +2651,8 @@
 		"workingRights": []
 	},
 	{
-		"name": "",
+		"company": "TasNetworks",
+		"name": "TasNetworks Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [],
@@ -2539,7 +2665,8 @@
 		"url": "https://www.tasnetworks.com.au/careers/summer-student-program"
 	},
 	{
-		"name": "",
+		"company": "Telstra",
+		"name": "Telstra Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -2565,7 +2692,8 @@
 		"notes": "Must be a penultimate year student."
 	},
 	{
-		"name": "",
+		"company": "The Trade Desk",
+		"name": "The Trade Desk Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -2577,6 +2705,7 @@
 		"url": "https://careers.thetradedesk.com/us/en/job/REQ-5550/2023-Summer-Internship-Software-Engineering-Sydney"
 	},
 	{
+		"company": "Toll Group",
 		"name": "Technology Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Grad"],
@@ -2591,7 +2720,8 @@
 		"url": "https://au.prosple.com/graduate-employers/toll-group/jobs-internships/technology-graduate-program-pre-register"
 	},
 	{
-		"name": "",
+		"company": "Transurban",
+		"name": "Transurban Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [],
@@ -2603,7 +2733,8 @@
 		"notes": "Also offers IBL placement through Monash."
 	},
 	{
-		"name": "",
+		"company": "Tyro",
+		"name": "Tyro Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -2621,6 +2752,7 @@
 		"url": "https://jobs.lever.co/tyro/d08d2852-97c0-4baf-9006-96ea6d059a6b"
 	},
 	{
+		"company": "Victoria’s Big Build",
 		"name": "Graduate Programs",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
@@ -2641,6 +2773,7 @@
 		"url": "https://bigbuild.vic.gov.au/jobs/training-programs/graduate-programs"
 	},
 	{
+		"company": "Westpac",
 		"name": "2024 Summer Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
@@ -2660,7 +2793,8 @@
 		"url": "https://prosple.com/graduate-employers/westpac-group/jobs-internships/global-transaction-services-summer-intern-program"
 	},
 	{
-		"name": "",
+		"company": "Westpac",
+		"name": "Westpac Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -2689,7 +2823,8 @@
 		"url": "https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/"
 	},
 	{
-		"name": "",
+		"company": "Woodside",
+		"name": "Woodside Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -2713,7 +2848,8 @@
 		"url": "https://www.woodside.com.au/careers/graduates-and-students"
 	},
 	{
-		"name": "",
+		"company": "WooliesX",
+		"name": "WooliesX Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Business Engineer", "IT"],
@@ -2731,6 +2867,7 @@
 		"url": "http://grads.woolworths.com.au/"
 	},
 	{
+		"company": "Xero",
 		"name": "Intern Engineer",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
@@ -2749,7 +2886,8 @@
 		"url": "https://prosple.com/graduate-employers/xero/jobs-internships/xero-2020-grad-and-intern-programs"
 	},
 	{
-		"name": "",
+		"company": "Xero",
+		"name": "Xero Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -2763,7 +2901,8 @@
 		"url": "https://www.xero.com/au/about/graduate/internships/"
 	},
 	{
-		"name": "",
+		"company": "Zendesk",
+		"name": "Zendesk Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Product Manager", "Software Engineer"],
@@ -2775,11 +2914,12 @@
 		"url": "https://jobs.zendesk.com/us/en/internships"
 	},
 	{
-		"name": "",
+		"company": "Snap Inc.",
+		"name": "Snap Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
-		"status": "",
+		"status": "Closed",
 		"locations": ["Sydney"],
 		"duration": "6-12 months",
 		"openMonth": 2,
