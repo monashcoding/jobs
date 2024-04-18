@@ -41,11 +41,63 @@
           margin-left: 8px;
         }
 
-
         #allJobTypes {
           width: 145px;
         }
-          
+
+        footer {
+          background-color: #bababa;
+          color: #000000;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .footer-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 100%;
+          flex-direction: column;
+        }
+
+        .footer-column {
+          margin-bottom: 20px;
+        }
+
+        .footer-column h3 {
+          font-family: "poppins";
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .footer-column p {
+          font-family: "poppins";
+          font-size: 10px;
+          margin-bottom: 5px;
+        }
+
+        .image-grid {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 100%;
+        }
+
+        .image-grid img {
+          width: 25%;
+          height: 25%;
+          object-fit: cover;
+          margin-bottom: 5px;
+        }
+
+        .footer-column ul {
+          margin-left: 0;
+          padding-left: 18px;
+        }
+        
         </style>
 
 
@@ -83,7 +135,6 @@
 
       <h1>MAC projects let's gooooo Liang was here</h1>
 
-
 	<h3 id="jobType">Job Type:</h3>
 
 	<div class="filterButtons" id="filters">
@@ -91,37 +142,93 @@
 		<button id="allJobTypes" onclick="onFilterButtonClick(this.id)">
 			All job types
 		</button>
-
 		<button id="internship" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Internship
 		</button>
-
 		<button id="entryLevel" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Entry Level
 		</button>
-
 		<button id="clerkship" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Clerkship
 		</button>
-
 		<button id="fullTime" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Full-time
 		</button>
-
 		<br>
-
 		<button id="parTime" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Part-time
 		</button>
-
 		<button id="contract" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Contract
 		</button>
-
 		<button id="casual" class="disabled" onclick="onFilterButtonClick(this.id)">
 			Casual
 		</button>
 	</div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Job Search</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Employer Search</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Advice</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Work With</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Events</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Account</h3>
+        <ul>
+          <li>Description</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Connect with MAC:</h3>
+        <div class="image-grid">
+          <img src="image1.jpg" alt="Image 1">
+          <img src="image2.jpg" alt="Image 2">
+          <img src="image3.jpg" alt="Image 3">
+          <img src="image4.jpg" alt="Image 4">
+          <img src="image5.jpg" alt="Image 5">
+          <img src="image6.jpg" alt="Image 6">
+          <img src="image7.jpg" alt="Image 7">
+          <img src="image8.jpg" alt="Image 8">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
       
         <script type="module" src="/src/main.ts">
             // i chatgpted this lol
