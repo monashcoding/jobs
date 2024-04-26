@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    
+}
+
+input {
+    border: unset;
+    padding: 0.5em;
+    background: #fdfdfd;
+
+}
+
+.btn-submit {
+    border: unset;
+    background: #d2b0de;
+    padding: 0.5em;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.autocomplete-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.autocomplete-list {
+    list-style: none;
+    padding: unset;
+    margin: unset;
+    position: absolute;
+    width: 100%;
+
+}
+
+
+.autocomplete-list li {
+    border: 1px solid #fdfdfd;
+    border-top: unset;
+
+}
+
+.autocomplete-list li:hover {
+    background: #e5e5e6;
+}
+
+.autocomplete-list button {
+    border: unset;
+    background: unset;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+}
