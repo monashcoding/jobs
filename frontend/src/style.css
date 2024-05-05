@@ -59,7 +59,7 @@
     box-sizing: border-box;
     text-align: left;
     @media (max-width: 500px) {
-      width: 100%;
+      width: 50%;
       align-items: center;
     }
 }
