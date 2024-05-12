@@ -21,7 +21,7 @@
 	},
 	{
 		"company": "Atlassian",
-		"name": "Summer 2024/2025",
+		"name": "Summer 2024/2025 Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -51,7 +51,7 @@
 	},
 	{
 		"company": "Australian Defence Force",
-		"name": "Graduate Entry",
+		"name": "Graduate Entry Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Cyber Security", "Data Scientist", "IT", "Software Engineer"],
@@ -253,8 +253,8 @@
 		"description": "Intern Software Engineer (multiple roles)"
 	},
 	{
-		"company": "eclipse",
-		"name": "eclipse Internship",
+		"company": "Eclipse Trading",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Trader"],
@@ -265,8 +265,8 @@
 		"url": "https://www.eclipsetrading.com/all-jobs/"
 	},
 	{
-		"company": "eclipse",
-		"name": "eclipse Graduate Program",
+		"company": "Eclipse Trading",
+		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Trader"],
@@ -1283,7 +1283,7 @@
 	},
 	{
 		"company": "Canva",
-		"name": "Cancva",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -2915,7 +2915,7 @@
 	},
 	{
 		"company": "Snap Inc.",
-		"name": "Snap Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
