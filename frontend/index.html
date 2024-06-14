@@ -108,6 +108,61 @@
 			width: 2vh;
 			height: 8px;
 		}
+
+		.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+		}
+
+		.search-bar {
+			display: flex;
+			align-items: center;
+			background-color: white;
+			border: 1px solid #ccc;
+			border-radius: 30px;
+			padding: 10px 20px;
+			margin: 10px;
+			width: 100%;
+			max-width: 400px;
+		}
+
+		.search-bar input {
+			border: none;
+			outline: none;
+			font-size: 16px;
+			flex: 1;
+			padding: 10px;
+		}
+
+		.search-bar button {
+			background: none;
+			border: none;
+			cursor: pointer;
+		}
+
+		.search-bar button img {
+			width: 24px;
+			height: 24px;
+		}
+
+		.search-label {
+			font-size: 18px;
+			margin: 10px 0;
+			text-align: center;
+			width: 100%;
+		}
+
+		.search-bar-wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 45%;
+		}
+
 	</style>
 
 
@@ -151,6 +206,25 @@
 		</ul>
 	</nav>
 
+	<div class="search-bar-container">
+		<div class="search-bar-wrapper">
+			<div class="search-label">I want to be a...</div>
+			<div class="search-bar">
+				<input type="text" placeholder="Role">
+				<button><img src="search-icon.png" alt="(SEARCH BUTTON)"></button> 
+				<!-- TODO: REPLACE WITH ACTUAL ICON -->
+			</div>
+		</div>
+		<div class="search-bar-wrapper">
+			<div class="search-label">I live in...</div>
+			<div class="search-bar">
+				<input type="text" placeholder="Location">
+				<button><img src="location-icon.png" alt="(LOCATION BUTTON)"></button>
+				<!-- TODO: REPLACE WITH ACTUAL ICON -->
+			</div>
+		</div>
+	</div>
+	
 	<script type="module" src="/src/main.ts">
 		// i chatgpted this lol
 		document.addEventListener('DOMContentLoaded', function () {
