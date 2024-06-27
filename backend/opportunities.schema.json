@@ -117,7 +117,35 @@
 			"closeMonth": {"$ref": "#/definitions/month"},
 			"industries": {
 				"type": "array",
-				"items": {"$ref": "#/definitions/nonEmptyString"}
+				"items": {
+					"enum": [
+						"Accounting",
+						"Aerospace",
+						"Artificial Intelligence",
+						"Banking",
+						"Big Data and Analytics",
+						"Biotechnology",
+						"Consulting",
+						"Construction",
+						"Data Science",
+						"Defence",
+						"Energy",
+						"Gaming",
+						"Government",
+						"Finance",
+						"Intelligence",
+						"Health Technology",
+						"Manufacturing",
+						"Marketing",
+						"Mining",
+						"Retail and Sales",
+						"Startups",
+						"Technology",
+						"Telecommunications",
+						"Trading",
+						"Transportation"
+					]
+				}
 			},
 			"workingRights": {
 				"type": "array",

@@ -63,7 +63,7 @@
 		"open": true,
 		"locations": ["Australia"],
 		"duration": "12–36 Months",
-		"industries": ["Defense"],
+		"industries": ["Defence"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.adfcareers.gov.au/jobs",
 		"notes": "- Many IT/Engineering roles available for FIT degrees"
@@ -82,7 +82,7 @@
 		"open": true,
 		"locations": ["Australia"],
 		"duration": "12–36 Months",
-		"industries": ["Defense"],
+		"industries": ["Defence"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.adfcareers.gov.au/jobs",
 		"notes": "- Many IT/Engineering roles available for FIT degrees"
@@ -1152,7 +1152,7 @@
 		"locations": [],
 		"duration": "12 Weeks",
 		"openMonth": 8,
-		"industries": ["Defense", "Technology"],
+		"industries": ["Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.baesystems.com/en-aus/careers/graduate-and-early-careers#1573679801007"
 	},
@@ -1167,7 +1167,7 @@
 		"duration": "36 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Defense", "Technology"],
+		"industries": ["Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.baesystems.com/en-aus/careers/graduate-and-early-careers#1573679801007"
 	},
@@ -1274,7 +1274,7 @@
 		],
 		"duration": "24 Months",
 		"openMonth": 5,
-		"industries": ["Aerospace", "Defense"],
+		"industries": ["Aerospace", "Defence"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page"
 	},
@@ -1296,7 +1296,7 @@
 		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 7,
-		"industries": ["Aerospace", "Defense"],
+		"industries": ["Aerospace", "Defence"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page"
 	},
@@ -1633,7 +1633,7 @@
 		],
 		"duration": "12–36 Months",
 		"openMonth": 2,
-		"industries": ["Defense", "Government", "Technology"],
+		"industries": ["Defence", "Government", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.defence.gov.au/jobs-careers/student-pathways/stem-cadetship"
 	},
@@ -1660,7 +1660,7 @@
 			"Sydney"
 		],
 		"openMonth": 2,
-		"industries": ["Defense", "Government", "Technology"],
+		"industries": ["Defence", "Government", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.defence.gov.au/jobs-careers/graduate-program"
 	},
@@ -2074,7 +2074,7 @@
 		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
-		"industries": ["Biotech", "Defense", "Technology"],
+		"industries": ["Biotechnology", "Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://jobs.smartrecruiters.com/Leidos1/743999838036000-intern-software-developer-Melbourne"
 	},
@@ -2143,7 +2143,7 @@
 		"duration": "24 Months",
 		"openMonth": 1,
 		"closeMonth": 2,
-		"industries": ["Defense", "Technology"],
+		"industries": ["Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.lockheedmartin.com/en-au/careers/early-careers.html"
 	},
@@ -2158,7 +2158,7 @@
 		"duration": "6–12 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Defense", "Technology"],
+		"industries": ["Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.lockheedmartin.com/en-au/careers/early-careers.html",
 		"notes": "Separate to Monash's IBL program"
@@ -2481,7 +2481,7 @@
 		"closeMonth": 6,
 		"industries": [
 			"Big Data and Analytics",
-			"Defense",
+			"Defence",
 			"Government",
 			"Intelligence"
 		],
@@ -2498,7 +2498,7 @@
 		"locations": ["Melbourne"],
 		"time": "Summer",
 		"closeMonth": 11,
-		"industries": ["Healthtech"],
+		"industries": ["Health Technology"],
 		"workingRights": [],
 		"url": "https://jobs.lever.co/planetinnovation"
 	},
@@ -2788,7 +2788,7 @@
 		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
-		"industries": ["Telecom"],
+		"industries": ["Telecommunications"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
@@ -2849,7 +2849,7 @@
 		"locations": ["Melbourne"],
 		"time": "Summer",
 		"openMonth": 3,
-		"industries": ["Healthtech"],
+		"industries": ["Health Technology"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
