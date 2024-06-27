@@ -1,5 +1,11 @@
 {
-	"eslint.experimental.useFlatConfig": true,
+	"eslint.useFlatConfig": true,
 	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode"
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"json.schemas": [
+		{
+			"fileMatch": ["/backend/opportunities.json"],
+			"url": "/backend/opportunities.schema.json"
+		}
+	]
 }

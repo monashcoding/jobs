@@ -16,6 +16,5 @@
 		"strict": true,
 		"useDefineForClassFields": true,
 		"useUnknownInCatchVariables": true,
-		"verbatimModuleSyntax": true,
 	}
 }

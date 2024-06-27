@@ -1,0 +1,213 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema#",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"company": {"$ref": "#/definitions/nonEmptyString"},
+			"name": {"$ref": "#/definitions/nonEmptyString"},
+			"type": {
+				"enum": ["Internship", "Grad Program", "Other Program"]
+			},
+			"courseProgressions": {
+				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
+				"items": {
+					"enum": ["Pre-Penultimate", "Penultimate", "Grad"]
+				}
+			},
+			"open": {"type": "boolean"},
+			"roles": {
+				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
+				"items": {
+					"enum": [
+						"Analytics and Cognitive",
+						"Artificial Intelligence Engineer",
+						"Automation Engineer",
+						"Backend Engineer",
+						"Business Analyst",
+						"Business Engineer",
+						"Cloud Engineer",
+						"Customer Experience",
+						"Cybersecurity Advisor",
+						"Data Analyst",
+						"Data Engineer",
+						"Data Manager",
+						"Data Scientist",
+						"Data Visualisation Engineer",
+						"DevOps Engineer",
+						"Digital Architect",
+						"Digital Operations",
+						"Digital Strategist",
+						"Engineering",
+						"Equity Analyst",
+						"Financial Crimes Analyst",
+						"Forensics Technology",
+						"Frontend Engineer",
+						"Full Stack Engineer",
+						"Game Developer",
+						"Hardware Engineer",
+						"Information Technology",
+						"Infrastructure Engineer",
+						"IT Operations Engineer",
+						"Linux Engineer",
+						"Machine Learning Engineer",
+						"Machine Learning Researcher",
+						"Markets Analyst",
+						"Mobile Engineer",
+						"Network Engineer",
+						"Penetration Tester",
+						"Platform Engineer",
+						"Product Designer",
+						"Product Engineer",
+						"Product Manager",
+						"Project Analyst",
+						"Project Manager",
+						"Production Engineer",
+						"Quality Assurance Engineer",
+						"Quantitative Researcher",
+						"R&D Engineer",
+						"Sales",
+						"Security Engineer",
+						"Site Reliability Engineer",
+						"Solutions Consultant",
+						"Software Engineer",
+						"Strategy and Product",
+						"Systems Engineer",
+						"Technical Analyst",
+						"Technology Advisory",
+						"Technology Audit",
+						"Technology Consultant",
+						"Technology Risk",
+						"Technical Operations Engineer",
+						"Technical Specialist",
+						"Technical Support",
+						"Test Engineer",
+						"Trader",
+						"Trading Desk Operations Engineer",
+						"UX/UI Designer",
+						"Workspace Technology"
+					]
+				}
+			},
+			"locations": {
+				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
+				"items": {
+					"enum": [
+						"APAC",
+						"Adelaide",
+						"Amberley, QLD",
+						"Austinmer, NSW",
+						"Australia",
+						"Brisbane",
+						"Broadbeach, QLD",
+						"Canberra",
+						"Ingleburn, NSW",
+						"Karratha, WA",
+						"Hobart",
+						"Hong Kong",
+						"Melbourne",
+						"Newcastle, NSW",
+						"New South Wales",
+						"Nowra, NSW",
+						"Perth",
+						"Remote",
+						"Shanghai",
+						"Sydney",
+						"Western Australia",
+						"Williamtown, NSW"
+					]
+				}
+			},
+			"duration": {
+				"type": "string",
+				"$comment": "Must be something like ‘6–12 Weeks’, ‘3 Months’, etc.. The duration can be in terms of ‘Days’, ‘Weeks’, or ‘Months’. If it is a single day/week/month, it should be ‘1 Day’, ‘1 Week’, or ‘1 Month’.",
+				"pattern": "^(?:1 (?:Day|Week|Month)|(?:[2-9]|[1-9]\\d+|\\d+–\\d+) (?:Day|Week|Month)s)$"
+			},
+			"time": {
+				"enum": ["Semester 1", "Semester 2", "Summer", "Winter"]
+			},
+			"openMonth": {"$ref": "#/definitions/month"},
+			"closeMonth": {"$ref": "#/definitions/month"},
+			"industries": {
+				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
+				"items": {
+					"enum": [
+						"Accounting",
+						"Aerospace",
+						"Artificial Intelligence",
+						"Banking",
+						"Big Data and Analytics",
+						"Biotechnology",
+						"Consulting",
+						"Construction",
+						"Data Science",
+						"Defence",
+						"Energy",
+						"Gaming",
+						"Government",
+						"Finance",
+						"Intelligence",
+						"Health Technology",
+						"Manufacturing",
+						"Marketing",
+						"Mining",
+						"Retail and Sales",
+						"Startups",
+						"Technology",
+						"Telecommunications",
+						"Trading",
+						"Transportation"
+					]
+				}
+			},
+			"workingRights": {
+				"type": "array",
+				"minItems": 1,
+				"items": {
+					"enum": [
+						"Australian Citizen",
+						"Australian Permanent Resident",
+						"Australian Student Visa",
+						"Australian Temporary Work Visa",
+						"New Zealand Citizen",
+						"New Zealand Permanent Resident",
+						"New Zealand Student Visa",
+						"New Zealand Temporary Work Visa",
+						"Full Working Rights",
+						"International",
+						"Subclass 462"
+					]
+				}
+			},
+			"url": {
+				"type": "string",
+				"format": "uri",
+				"pattern": "^https://"
+			},
+			"description": {"$ref": "#/definitions/nonEmptyString"}
+		},
+		"required": ["company", "name", "type", "open"],
+		"additionalProperties": false
+	},
+
+	"definitions": {
+		"nonEmptyString": {
+			"type": "string",
+			"minLength": 1,
+			"pattern": "^(?:\\S(?:.|\n)*\\S|\\S)$"
+		},
+		"month": {
+			"type": "number",
+			"minimum": 1,
+			"maximum": 12
+		}
+	}
+}
