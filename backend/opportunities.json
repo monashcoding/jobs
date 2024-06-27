@@ -709,7 +709,8 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://careers.imc.com/ap/en/job/4282957101/Software-Engineer-Intern-2024-2025"
+		"url": "https://careers.imc.com/ap/en/job/4282957101/Software-Engineer-Intern-2024-2025",
+		"notes": "IMC will cover flights and accommodation."
 	},
 	{
 		"company": "IMC",
@@ -729,7 +730,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.imc.com/ap/en/job/4282959101/Trader-Intern-2024-2025-Expression-of-Interest",
-		"notes": "Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
+		"notes": "IMC will cover flights and accommodation. Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
 	},
 	{
 		"company": "IMC",
@@ -851,7 +852,8 @@
 		"duration": "3 Days",
 		"time": "Semester 2",
 		"industries": ["Trading"],
-		"url": "https://careers.imc.com/ap/en/job/4295050101/Launchpad-Australia-2024"
+		"url": "https://careers.imc.com/ap/en/job/4295050101/Launchpad-Australia-2024",
+		"notes": "IMC will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -876,7 +878,8 @@
 		"time": "Summer",
 		"openMonth": 2,
 		"industries": ["Trading"],
-		"url": "https://www.janestreet.com/join-jane-street/position/7076141002/"
+		"url": "https://www.janestreet.com/join-jane-street/position/7076141002/",
+		"notes": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -901,7 +904,8 @@
 		"time": "Summer",
 		"openMonth": 2,
 		"industries": ["Trading"],
-		"url": "https://www.janestreet.com/join-jane-street/position/7077044002/"
+		"url": "https://www.janestreet.com/join-jane-street/position/7077044002/",
+		"notes": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -925,7 +929,8 @@
 		"duration": "12 Weeks",
 		"time": "Summer",
 		"industries": ["Trading"],
-		"url": "https://www.janestreet.com/join-jane-street/position/7078177002/"
+		"url": "https://www.janestreet.com/join-jane-street/position/7078177002/",
+		"notes": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -937,7 +942,8 @@
 		"locations": ["Hong Kong"],
 		"time": "Summer",
 		"industries": ["Trading"],
-		"url": "https://www.janestreet.com/join-jane-street/position/7426805002/"
+		"url": "https://www.janestreet.com/join-jane-street/position/7426805002/",
+		"notes": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -950,7 +956,8 @@
 		"duration": "12 Weeks",
 		"time": "Summer",
 		"industries": ["Trading"],
-		"url": "https://www.janestreet.com/join-jane-street/position/7078183002/"
+		"url": "https://www.janestreet.com/join-jane-street/position/7078183002/",
+		"notes": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -973,11 +980,12 @@
 		"locations": ["Hong Kong"],
 		"time": "Summer",
 		"industries": ["Trading"],
-		"url": "https://www.janestreet.com/join-jane-street/position/7279621002/"
+		"url": "https://www.janestreet.com/join-jane-street/position/7279621002/",
+		"notes": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "KPMG",
-		"name": "Vacationer",
+		"name": "Vacation Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -986,7 +994,7 @@
 			"Technology Advisory",
 			"Technology Risk"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Adelaide", "Canberra", "Hobart", "Melbourne", "Sydney"],
 		"duration": "4–8 Weeks",
 		"openMonth": 2,
@@ -1005,7 +1013,7 @@
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": ["Business Analyst", "Technology Consultant"],
-		"open": true,
+		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Perth", "Sydney"],
 		"time": "Summer",
 		"closeMonth": 6,
@@ -1029,7 +1037,7 @@
 			"Software Engineer",
 			"Trader"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Sydney"],
 		"time": "Summer",
 		"openMonth": 2,
@@ -1041,6 +1049,44 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=Sydney"
+	},
+	{
+		"company": "Optiver",
+		"name": "FutureFocus – Technology 2024",
+		"type": "Other Program",
+		"courseProgressions": ["Pre-Penultimate"],
+		"roles": ["Hardware Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "3 Days",
+		"closeMonth": 7,
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://optiver.com/working-at-optiver/career-opportunities/7417784002/",
+		"notes": "Optiver will cover travel and accommodation costs."
+	},
+	{
+		"company": "Optiver",
+		"name": "FutureFocus – Trading and Research 2024",
+		"type": "Other Program",
+		"courseProgressions": ["Pre-Penultimate"],
+		"roles": ["Quantitative Researcher", "Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "3 Days",
+		"closeMonth": 7,
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://optiver.com/working-at-optiver/career-opportunities/7417783002/",
+		"notes": "Optiver will cover travel and accommodation costs."
 	},
 	{
 		"company": "PwC",
@@ -2935,30 +2981,6 @@
 		],
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program",
 		"notes": "You'll need to be due to complete your degree by December 2025"
-	},
-	{
-		"company": "Optiver",
-		"name": "Future Focus",
-		"type": "Other Program",
-		"courseProgressions": ["Pre-Penultimate"],
-		"roles": [
-			"Hardware Engineer",
-			"Quantitative Researcher",
-			"Software Engineer",
-			"Trader"
-		],
-		"open": false,
-		"locations": ["Sydney"],
-		"duration": "2–3 Days",
-		"openMonth": 2,
-		"closeMonth": 5,
-		"industries": ["Trading"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen"
-		],
-		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=Sydney"
 	},
 	{
 		"company": "Origin Energy",
