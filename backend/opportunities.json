@@ -432,7 +432,7 @@
 	},
 	{
 		"company": "Australian Taxation Office",
-		"name": "ATO University Paid Internship Program (UPIP)",
+		"name": "University Paid Internship Program (UPIP)",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": [
@@ -464,7 +464,7 @@
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [],
-		"open": true,
+		"open": false,
 		"locations": ["Canberra", "Melbourne", "Perth", "Sydney"],
 		"openMonth": 1,
 		"closeMonth": 3,
@@ -478,11 +478,11 @@
 	},
 	{
 		"company": "BHP",
-		"name": "BHP Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Grad"],
 		"roles": ["Security Engineer", "Data Scientist", "Software Engineer"],
-		"open": true,
+		"open": false,
 		"locations": ["Adelaide", "Brisbane", "Perth"],
 		"duration": "10–12 Weeks",
 		"openMonth": 3,
@@ -497,7 +497,7 @@
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Grad"],
 		"roles": ["Information Technology"],
-		"open": true,
+		"open": false,
 		"locations": ["Western Australia"],
 		"openMonth": 5,
 		"closeMonth": 6,
@@ -507,7 +507,7 @@
 	},
 	{
 		"company": "Deloitte",
-		"name": "Vacationer",
+		"name": "Vacationer Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -519,7 +519,7 @@
 			"Software Engineer",
 			"Technology Audit"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Canberra", "Melbourne", "Perth", "Sydney"],
 		"duration": "4–8 Weeks",
 		"openMonth": 2,
@@ -536,7 +536,7 @@
 	},
 	{
 		"company": "Deloitte",
-		"name": "Vacationer",
+		"name": "Vacationer Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -548,7 +548,7 @@
 			"Software Engineer",
 			"Technology Audit"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Canberra", "Melbourne", "Perth", "Sydney"],
 		"duration": "4–8 Weeks",
 		"openMonth": 7,
@@ -569,7 +569,7 @@
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
-		"open": true,
+		"open": false,
 		"locations": ["Sydney"],
 		"duration": "10–12 Weeks",
 		"openMonth": 2,
@@ -588,7 +588,7 @@
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Trader"],
-		"open": true,
+		"open": false,
 		"locations": ["Hong Kong"],
 		"industries": [],
 		"workingRights": [],
@@ -600,7 +600,7 @@
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Trader"],
-		"open": true,
+		"open": false,
 		"locations": ["Hong Kong"],
 		"industries": [],
 		"workingRights": [],
@@ -612,7 +612,7 @@
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [],
-		"open": true,
+		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Perth", "Sydney"],
 		"duration": "24 Months",
 		"openMonth": 9,
@@ -648,7 +648,7 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://careers.fdmgroup.com/vacancies/405/project-grace-technical-graduate-program.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_projectgrace_tgp&utm_content=aus_",
+		"url": "https://careers.fdmgroup.com/vacancies/405/project-grace-technical-graduate-program.html",
 		"notes": "2.5-year graduate program"
 	},
 	{
@@ -657,7 +657,7 @@
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [],
-		"open": true,
+		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Sydney"],
 		"duration": "12–24 Months",
 		"openMonth": 9,
@@ -678,7 +678,7 @@
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [],
-		"open": true,
+		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Sydney"],
 		"duration": "24 Months",
 		"openMonth": 9,
@@ -694,21 +694,175 @@
 	},
 	{
 		"company": "IMC",
-		"name": "Internship",
+		"name": "Software Engineer Intern 2024/2025",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": ["Hardware Engineer", "Software Engineer", "Trader"],
+		"roles": ["Software Engineer"],
 		"open": true,
 		"locations": ["Sydney"],
 		"duration": "10 Weeks",
 		"openMonth": 1,
 		"closeMonth": 8,
-		"industries": ["Technology", "Trading"],
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4282957101/Software-Engineer-Intern-2024-2025"
+	},
+	{
+		"company": "IMC",
+		"name": "Trader Intern 2024/2025 - Expression of Interest",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "10 Weeks",
+		"openMonth": 1,
+		"closeMonth": 8,
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4282959101/Trader-Intern-2024-2025-Expression-of-Interest",
+		"notes": "Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
+	},
+	{
+		"company": "IMC",
+		"name": "Internship",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Hardware Engineer"],
+		"open": false,
+		"locations": ["Sydney"],
+		"duration": "10 Weeks",
+		"openMonth": 1,
+		"closeMonth": 8,
+		"industries": ["Trading"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		]
+	},
+	{
+		"company": "IMC",
+		"name": "Graduate Site Reliability Engineer 2024/2025",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Site Reliability Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12–24 Months",
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4282961101/Graduate-Site-Reliability-Engineer-2024-2025"
+	},
+	{
+		"company": "IMC",
+		"name": "Graduate Hardware Engineer 2024/2025 - Expression of Interest",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Hardware Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12–24 Months",
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4282963101/Graduate-Hardware-Engineer-2024-2025-Expression-of-Interest"
+	},
+	{
+		"company": "IMC",
+		"name": "Graduate Trader 2024/2025 - Expression of Interest",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12–24 Months",
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4282958101/Graduate-Trader-2024-2025-Expression-of-Interest"
+	},
+	{
+		"company": "IMC",
+		"name": "Graduate Software Engineer 2024/2025 - Expression of Interest",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12–24 Months",
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4282960101/Graduate-Software-Engineer-2024-2025-Expression-of-Interest"
+	},
+	{
+		"company": "IMC",
+		"name": "IMC Graduate Program",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": [
+			"Hardware Engineer",
+			"Quantitative Researcher",
+			"Systems Engineer",
+			"Trader"
+		],
+		"open": false,
+		"locations": ["Sydney"],
+		"duration": "12–24 Months",
+		"closeMonth": 5,
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://careers.imc.com/ap/en/internships-program"
+	},
+	{
+		"company": "IMC",
+		"name": "Launchpad Australia 2024",
+		"type": "Other Program",
+		"courseProgressions": ["Pre-Penultimate"],
+		"roles": ["Software Engineer", "Hardware Engineer", "Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "3 Days",
+		"time": "Semester 2",
+		"industries": ["Trading"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"Australian Student Visa",
+			"Australian Temporary Work Visa",
+			"Full Working Rights",
+			"International",
+			"New Zealand Citizen",
+			"New Zealand Permanent Resident",
+			"Subclass 462"
+		],
+		"url": "https://careers.imc.com/ap/en/job/4295050101/Launchpad-Australia-2024"
 	},
 	{
 		"company": "Jane Street",
@@ -2148,42 +2302,6 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://au.prosple.com/graduate-employers/ibm/jobs-internships/ibm-internship-program"
-	},
-	{
-		"company": "IMC",
-		"name": "IMC Graduate Program",
-		"type": "Grad Program",
-		"courseProgressions": ["Grad"],
-		"roles": [
-			"Hardware Engineer",
-			"Quantitative Researcher",
-			"Systems Engineer",
-			"Trader"
-		],
-		"open": false,
-		"locations": ["Sydney"],
-		"duration": "12–24 Months",
-		"closeMonth": 5,
-		"industries": ["Trading"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen"
-		],
-		"url": "https://careers.imc.com/ap/en/internships-program",
-		"notes": "IMC offers the IMC launchpad program, a one day event where pre-penultimate students can learn about IMC."
-	},
-	{
-		"company": "IMC",
-		"name": "Launchpad",
-		"type": "Other Program",
-		"courseProgressions": ["Pre-Penultimate"],
-		"roles": ["Software Engineer", "Trader"],
-		"open": false,
-		"locations": ["Sydney"],
-		"duration": "2–3 Days",
-		"industries": ["Trading"],
-		"workingRights": []
 	},
 	{
 		"company": "ING Bank Australia",
