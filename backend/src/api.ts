@@ -28,7 +28,9 @@ router.get(
 			opportunities.filter(
 				o =>
 					(query.open === undefined || o.open === query.open) &&
-					(!role || o.roles.some(r => r.toLowerCase().includes(role))) &&
+					(!role ||
+						!o.roles ||
+						o.roles.some(r => r.toLowerCase().includes(role))) &&
 					(!types || types.has(o.type)) &&
 					matchesArray(o.courseProgressions, courseProgressions) &&
 					matchesArray(o.workingRights, workingRights) &&

@@ -4,7 +4,7 @@
 		"name": "Tech Bootcamp",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate"],
-		"roles": ["Cloud Engineer", "Mobile App Developer", "Software Engineer"],
+		"roles": ["Cloud Engineer", "Mobile Engineer", "Software Engineer"],
 		"open": false,
 		"locations": ["Canberra", "Melbourne", "Sydney"],
 		"duration": "2–3 Days",
@@ -39,7 +39,7 @@
 	},
 	{
 		"company": "Additive Assurance",
-		"name": "Additive Assurance Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Machine Learning Engineer", "Software Engineer"],
@@ -54,8 +54,7 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://mailto:careers@additiveassurance.com",
-		"notes": "Click on page to find out all the details"
+		"url": "https://mailto:careers@additiveassurance.com"
 	},
 	{
 		"company": "Adobe",
@@ -90,7 +89,7 @@
 		"locations": ["Melbourne"],
 		"time": "Summer",
 		"openMonth": 3,
-		"industries": [],
+		"industries": ["Technology", "Finance"],
 		"workingRights": ["International"],
 		"url": "https://jobs.lever.co/airwallex/98f20acd-3ca7-451a-a065-365f087a57ed"
 	},
@@ -112,7 +111,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://akunacapital.com/careers?&experience=intern&location=Sydney&search_term=#careers",
-		"notes": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
+		"description": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
 	},
 	{
 		"company": "Amazon",
@@ -126,9 +125,8 @@
 		"openMonth": 12,
 		"closeMonth": 1,
 		"industries": ["Artificial Intelligence", "Big Data and Analytics"],
-		"workingRights": [],
 		"url": "https://amazonmlsummerschoolaustralia.splashthat.com/?fbclid=PAAaad72dMSxMiicXSldrTZ4C7vnItTalnPHqiWCql-rtWbOnoXN2UwRgLk30_aem_AUbfAwXWoX3SDxHR-dWL2XYX01AVWu0xW1WCmgArLzYSXqaxpjvXV6O6GShUk_zgrSc1bDqJ_YgSj5hyx9k1mNuy",
-		"notes": "ML virtual summer school for APAC students"
+		"description": "ML virtual summer school for APAC students"
 	},
 	{
 		"company": "Amazon/AWS",
@@ -174,14 +172,13 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.amazon.jobs/en/jobs/2580965/2024-software-dev-engineer-intern-syd-aws",
-		"notes": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
+		"description": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
 	},
 	{
 		"company": "AMP",
 		"name": "Technology Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Sydney"],
 		"duration": "12–24 Months",
@@ -197,47 +194,79 @@
 	},
 	{
 		"company": "ANZ",
-		"name": "ANZ Internship",
+		"name": "2024/25 Technology Summer Intern",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
-			"Business Analyst",
-			"Data Analyst",
 			"Security Engineer",
+			"Cloud Engineer",
+			"Data Scientist",
+			"Infrastructure Engineer",
+			"IT Operations Engineer",
+			"Customer Experience",
+			"Data Analyst",
 			"Software Engineer"
 		],
-		"open": false,
-		"locations": ["Melbourne", "Sydney"],
+		"open": true,
+		"locations": ["Melbourne", "Sydney", "Brisbane"],
 		"time": "Summer",
-		"openMonth": 7,
-		"closeMonth": 8,
-		"industries": ["Banking"],
+		"openMonth": 6,
+		"closeMonth": 7,
+		"duration": "10 Weeks",
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://www.anz.com.au/careers/programs/summer-intern/"
+		"url": "https://au.gradconnection.com/employers/anz/jobs/anz-202425-technology-summer-intern/"
+	},
+	{
+		"company": "ANZ",
+		"name": "2024/25 ANZ Plus Summer Intern",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": [
+			"Software Engineer",
+			"Cloud Engineer",
+			"Data Scientist",
+			"Infrastructure Engineer",
+			"IT Operations Engineer",
+			"Customer Experience",
+			"Data Analyst"
+		],
+		"open": true,
+		"locations": ["Melbourne"],
+		"time": "Summer",
+		"openMonth": 6,
+		"closeMonth": 7,
+		"industries": ["Banking", "Finance"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://au.gradconnection.com/employers/anz/jobs/anz-202425-anz-plus-summer-intern/"
 	},
 	{
 		"company": "ANZ",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": ["Information Technology", "Software Engineer"],
 		"open": false,
 		"locations": ["Australia"],
 		"duration": "6–24 Months",
 		"openMonth": 8,
 		"closeMonth": 9,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
 		"url": "https://www.anz.com.au/careers/programs/graduates/",
-		"notes": "Other allowed Visas:\n- Subclass 485 Temporary Graduate;\n- Subclass 461 New Zealand Citizen Family Relationship;\n- Subclass 801/802 Partner; or\n- Subclass 155 Resident Return."
+		"description": "Other allowed visas:\n- Subclass 485 Temporary Graduate;\n- Subclass 461 New Zealand Citizen Family Relationship;\n- Subclass 801/802 Partner; or\n- Subclass 155 Resident Return."
 	},
 	{
 		"company": "Apple",
@@ -247,7 +276,7 @@
 		"roles": [
 			"Data Scientist",
 			"Data Visualisation Engineer",
-			"Mobile App Developer",
+			"Mobile Engineer",
 			"Software Engineer"
 		],
 		"open": false,
@@ -259,16 +288,28 @@
 	},
 	{
 		"company": "Arcitecta",
-		"name": "Arcitecta Internship",
+		"name": "Student Internship",
 		"type": "Internship",
-		"courseProgressions": ["Penultimate"],
+		"courseProgressions": ["Pre-Penultimate", "Penultimate", "Grad"],
 		"roles": ["Software Engineer"],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne"],
 		"time": "Summer",
-		"industries": [],
-		"workingRights": [],
-		"url": "https://www.arcitecta.com/internships/"
+		"industries": ["Technology"],
+		"url": "https://www.arcitecta.com/careers/#student-opportunities",
+		"description": "Duration and dates are flexible."
+	},
+	{
+		"company": "Arcitecta",
+		"name": "Graduate Software Maker",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer", "Full Stack Engineer"],
+		"open": true,
+		"locations": ["Melbourne"],
+		"time": "Summer",
+		"industries": ["Technology"],
+		"url": "https://www.arcitecta.com/careers/#student-opportunities"
 	},
 	{
 		"company": "Arup",
@@ -279,7 +320,6 @@
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"industries": ["Construction"],
-		"workingRights": [],
 		"url": "https://www.arup.com/careers/early-careers/internships/australasia-internships/internship-roles-with-arup-australasia"
 	},
 	{
@@ -525,7 +565,7 @@
 		"courseProgressions": ["Grad"],
 		"roles": ["Software Engineer", "Technology Consultant"],
 		"open": false,
-		"locations": [],
+		"locations": ["Melbourne"],
 		"openMonth": 2,
 		"closeMonth": 4,
 		"industries": [
@@ -541,7 +581,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.aurecongroup.com/careers/early-careers/graduate-programme",
-		"notes": "- Must be studying Engineering"
+		"description": "Must be studying Engineering"
 	},
 	{
 		"company": "Aurecon",
@@ -550,7 +590,7 @@
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer", "Technology Consultant"],
 		"open": false,
-		"locations": [],
+		"locations": ["Melbourne"],
 		"duration": "12 Weeks",
 		"openMonth": 7,
 		"closeMonth": 8,
@@ -567,14 +607,18 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.aurecongroup.com/careers/early-careers/intern-programme#criteria",
-		"notes": "- Must be studying Engineering"
+		"description": "Must be studying Engineering"
 	},
 	{
 		"company": "Australia Post",
 		"name": "2025 Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": [
+			"Customer Experience",
+			"Information Technology",
+			"Network Engineer"
+		],
 		"open": false,
 		"locations": ["Melbourne"],
 		"duration": "24 Months",
@@ -590,7 +634,7 @@
 	},
 	{
 		"company": "Australian Bureau of Statistics",
-		"name": "ABS ICT Graduate Recruitment Program",
+		"name": "ICT Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Security Engineer", "Network Engineer", "Software Engineer"],
@@ -613,7 +657,7 @@
 	},
 	{
 		"company": "Australian Bureau Statistics",
-		"name": "ABS Data Graduate Recruitment Program",
+		"name": "Australian Government Graduate Program (AGGP) – Data stream",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Data Scientist"],
@@ -728,7 +772,7 @@
 		"industries": ["Defence"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.adfcareers.gov.au/jobs",
-		"notes": "- Many IT/Engineering roles available for FIT degrees"
+		"description": "- Many IT/Engineering roles available for FIT degrees"
 	},
 	{
 		"company": "Australian Defence Force",
@@ -747,7 +791,7 @@
 		"industries": ["Defence"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.adfcareers.gov.au/jobs",
-		"notes": "- Many IT/Engineering roles available for FIT degrees"
+		"description": "- Many IT/Engineering roles available for FIT degrees"
 	},
 	{
 		"company": "Australian Federal Police",
@@ -768,7 +812,7 @@
 		"industries": ["Government"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.afp.gov.au/jobs/pathway/university-graduate-program",
-		"notes": "- Majority of roles are in Canberra\n- Program runs Feb to Feb each year"
+		"description": "Majority of roles are in Canberra. Program runs Feb to Feb each year."
 	},
 	{
 		"company": "Australian Secret Intelligence Service",
@@ -786,7 +830,7 @@
 			"Network Engineer",
 			"Software Engineer"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Canberra"],
 		"closeMonth": 2,
 		"industries": ["Government"],
@@ -830,7 +874,6 @@
 			"Machine Learning Engineer",
 			"Business Analyst",
 			"Cloud Engineer",
-			"Security Engineer",
 			"Data Analyst",
 			"Data Engineer",
 			"Data Scientist",
@@ -845,7 +888,7 @@
 		"industries": ["Government", "Intelligence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.asd.gov.au/careers/im-starting-my-career",
-		"notes": "Vast majority of positions are based in Canberra."
+		"description": "Vast majority of positions are based in Canberra."
 	},
 	{
 		"company": "Australian Signals Directorate",
@@ -860,7 +903,6 @@
 			"Data Analyst",
 			"Data Scientist",
 			"Information Technology",
-			"Information Technology",
 			"Software Engineer"
 		],
 		"open": false,
@@ -870,7 +912,7 @@
 		"industries": ["Government", "Intelligence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.asd.gov.au/careers/im-starting-my-career",
-		"notes": "Vast majority of positions are based in Canberra."
+		"description": "Vast majority of positions are based in Canberra."
 	},
 	{
 		"company": "Australian Signals Directorate",
@@ -882,7 +924,6 @@
 			"Machine Learning Engineer",
 			"Business Analyst",
 			"Cloud Engineer",
-			"Security Engineer",
 			"Data Analyst",
 			"Data Engineer",
 			"Data Scientist",
@@ -898,7 +939,7 @@
 		"industries": ["Government", "Intelligence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.asd.gov.au/careers/im-starting-my-career",
-		"notes": "Vast majority of positions are based in Canberra."
+		"description": "Vast majority of positions are based in Canberra."
 	},
 	{
 		"company": "Australian Tax Office",
@@ -959,16 +1000,22 @@
 		"industries": ["Finance", "Government"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.ato.gov.au/about-ato/careers/entry-level-programs/university-paid-internship-program",
-		"notes": "- Applications are open all year round\n- Three intakes per year (February, July, November). First intake is July 2024."
+		"description": "- Applications are open all year round\n- Three intakes per year (February, July, November). First intake is July 2024."
 	},
 	{
 		"company": "BAE Systems",
 		"name": "Summer Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": ["Information Technology"],
 		"open": false,
-		"locations": [],
+		"locations": [
+			"Melbourne",
+			"Sydney",
+			"Brisbane",
+			"Perth",
+			"Adelaide",
+			"Canberra"
+		],
 		"duration": "12 Weeks",
 		"openMonth": 8,
 		"industries": ["Defence", "Technology"],
@@ -980,9 +1027,15 @@
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": ["Information Technology"],
 		"open": false,
-		"locations": [],
+		"locations": [
+			"Melbourne",
+			"Sydney",
+			"Brisbane",
+			"Perth",
+			"Adelaide",
+			"Canberra"
+		],
 		"duration": "36 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
@@ -995,7 +1048,7 @@
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": ["Technology Consultant"],
 		"open": false,
 		"locations": ["Canberra", "Melbourne", "Perth", "Sydney"],
 		"openMonth": 1,
@@ -1045,7 +1098,7 @@
 		"industries": ["Accounting", "Consulting"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://gradaustralia.com.au/graduate-employers/bdo/jobs-internships",
-		"notes": "Three intakes per year: June, November, January"
+		"description": "Three intakes per year: June, November, January"
 	},
 	{
 		"company": "BDO",
@@ -1064,7 +1117,7 @@
 		"industries": ["Accounting", "Consulting"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://www.bdo.com.au/en-au/about/student-careers#programs",
-		"notes": "Intakes in Jan and June"
+		"description": "Intakes in Jan and June"
 	},
 	{
 		"company": "BHP",
@@ -1093,12 +1146,11 @@
 		"openMonth": 3,
 		"closeMonth": 4,
 		"industries": ["Mining"],
-		"workingRights": [],
 		"url": "https://www.bhp.com/careers/graduate-student-programs/australia"
 	},
 	{
 		"company": "Bloomberg",
-		"name": "Bloomberg Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Data Analyst", "Sales", "Software Engineer"],
@@ -1106,7 +1158,6 @@
 		"locations": ["APAC"],
 		"time": "Summer",
 		"industries": ["Banking", "Finance"],
-		"workingRights": [],
 		"url": "https://www.bloomberg.com/company/career/engineering-apac/"
 	},
 	{
@@ -1132,7 +1183,7 @@
 	},
 	{
 		"company": "Boeing",
-		"name": "Boeing Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": ["Data Analyst", "Software Engineer", "Systems Engineer"],
@@ -1145,12 +1196,14 @@
 			"Nowra, NSW",
 			"Williamtown, NSW"
 		],
+		"duration": "12 Weeks",
 		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 7,
 		"industries": ["Aerospace", "Defence"],
 		"workingRights": ["Full Working Rights"],
-		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page"
+		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page",
+		"description": "Program starts in late November and ends mid-February the following year, before the standard university semester commences."
 	},
 	{
 		"company": "Canva",
@@ -1176,8 +1229,7 @@
 		"industries": ["Technology"],
 		"workingRights": ["Full Working Rights", "International"],
 		"url": "https://www.lifeatcanva.com/en/jobs/?search=&location=Sydney&type=Internship&pagesize=20#results",
-		"description": "Canva Summer Tech Internships 23/24",
-		"notes": "Engineering internships are posted first, followed by design/misc roles."
+		"description": "Engineering internships are posted first, followed by design/misc roles."
 	},
 	{
 		"company": "Chevron",
@@ -1195,7 +1247,7 @@
 	},
 	{
 		"company": "CISCO",
-		"name": "CISCO Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -1217,16 +1269,73 @@
 		"url": "https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B214420%5D&21178_format=6020&21180=%5B165%5D&21180_format=6022&listFilterMode=1"
 	},
 	{
+		"company": "CISCO",
+		"name": "Network Support Engineer Intern, Fall 2024 - ETR, Sydney (Meraki)",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Network Engineer"],
+		"open": false,
+		"locations": ["Sydney"],
+		"duration": "6–12 Months",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://jobs.cisco.com/jobs/ProjectDetail/Network-Support-Engineer-Intern-Fall-2024-ETR-Sydney-Meraki/1422337",
+		"description": "Not available to those enrolled in a Master's program. Must be working towards or have a B.S. in Computer Networking, Information Technology, or a related discipline."
+	},
+	{
 		"company": "Citadel",
-		"name": "Discovery Day",
+		"name": "Discover Citadel",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
 		"roles": ["Software Engineer", "Trader"],
-		"open": false,
+		"open": true,
 		"locations": ["Sydney"],
-		"duration": "2–3 Days",
+		"duration": "2 Days",
+		"time": "Semester 2",
+		"closeMonth": 8,
 		"industries": ["Trading"],
-		"workingRights": []
+		"url": "https://www.citadel.com/careers/students/discover-citadel/"
+	},
+	{
+		"company": "Citadel Securities",
+		"name": "Quantitative Research – Summer Internship 2024-2025 (Australia)",
+		"type": "Internship",
+		"roles": ["Quantitative Researcher"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "11 Weeks",
+		"time": "Summer",
+		"industries": ["Trading"],
+		"url": "https://www.citadelsecurities.com/careers/details/quantitative-research-summer-internship-2024-2025-australia/",
+		"description": "Bachelors, Master or PhD degree required in Mathematics, Statistics, Physics, Computer Science, or another highly quantitative field"
+	},
+	{
+		"company": "Citadel Securities",
+		"name": "Quantitative Trading – Summer Internship 2024-2025 (Australia)",
+		"type": "Internship",
+		"roles": ["Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"time": "Summer",
+		"industries": ["Trading"],
+		"url": "https://www.citadelsecurities.com/careers/details/quantitative-trading-summer-internship-2024-2025-australia/",
+		"description": "Advanced training required in Applied Math, Engineering, Statistical Modeling, Calculus, Computer Science, Physics or related disciplines required (bachelor’s, master’s, PhD Degree)"
+	},
+	{
+		"company": "Citadel Securities",
+		"name": "Site Reliability Engineer – Summer Internship 2024-2025 (Australia)",
+		"type": "Internship",
+		"roles": ["Site Reliability Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"time": "Summer",
+		"industries": ["Trading"],
+		"url": "https://www.citadelsecurities.com/careers/details/site-reliability-engineer-summer-internship-2024-2025-australia/",
+		"description": "Bachelor’s Degree in Computer Science or a related field required"
 	},
 	{
 		"company": "Citadel Securities",
@@ -1239,8 +1348,7 @@
 		"time": "Summer",
 		"openMonth": 2,
 		"closeMonth": 10,
-		"industries": ["Banking", "Finance"],
-		"workingRights": [],
+		"industries": ["Trading"],
 		"url": "https://www.citadelsecurities.com/careers/open-roles/roles-for-students/?keyword=Intern"
 	},
 	{
@@ -1248,7 +1356,6 @@
 		"name": "Technology & Digital Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Melbourne"],
 		"openMonth": 2,
@@ -1267,7 +1374,7 @@
 		"name": "Engineering and Logistics Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": ["Engineering"],
 		"open": false,
 		"locations": ["New South Wales"],
 		"openMonth": 2,
@@ -1280,74 +1387,87 @@
 			"New Zealand Permanent Resident"
 		],
 		"url": "https://prosple.com/graduate-employers/coles/jobs-internships/2024-engineering-and-logistics-graduate-program-pre-register",
-		"notes": "*duration not specified"
+		"description": "*duration not specified"
 	},
 	{
 		"company": "Commonwealth Bank",
-		"name": "Global Markets Summer Analyst Program",
+		"name": "Global Markets Summer Analyst Program (Nov 2024)",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [],
-		"open": false,
+		"roles": ["Markets Analyst"],
+		"open": true,
 		"locations": ["Sydney"],
+		"duration": "10 Weeks",
 		"time": "Summer",
 		"openMonth": 5,
 		"closeMonth": 7,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
-		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-commbank-global-markets-summer-analyst-program"
+		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-commbank-global-markets-summer-analyst-program",
+		"description": "25 Nov 2024 – 31 Jan 2925"
 	},
 	{
 		"company": "Commonwealth Bank",
-		"name": "Engineering Summer Intern Program",
+		"name": "Engineering Summer Intern Program (Nov 2024)",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [],
-		"open": false,
+		"roles": [
+			"Data Engineer",
+			"Machine Learning Engineer",
+			"Artificial Intelligence Engineer",
+			"Software Engineer",
+			"Backend Engineer",
+			"Frontend Engineer",
+			"Full Stack Engineer",
+			"Mobile Engineer",
+			"Site Reliability Engineer",
+			"Security Engineer"
+		],
+		"open": true,
 		"locations": ["Melbourne", "Perth", "Sydney"],
 		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-engineering-summer-intern-program"
+		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-engineering-summer-intern-program",
+		"description": "Open for pre-register on Prosple. Starts on 27 Nov 2024."
 	},
 	{
 		"company": "Commonwealth Bank",
-		"name": "Data Science and Analytics Summer Intern Program",
+		"name": "Data Science and Analytics Summer Intern Program (Nov 2024)",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Data Analyst", "Data Scientist"],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne", "Perth", "Sydney"],
 		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-data-science-and-analytics-summer-intern-program",
-		"notes": "*New Zealand citizen already residing in Australia"
+		"description": "Open for pre-register on Prosple. If you are a New Zealand citizen, you must be already residing in Australia."
 	},
 	{
 		"company": "Commonwealth Bank",
-		"name": "Bankwest Technology Graduate Program",
+		"name": "Bankwest Technology Graduate Program (Feb 2025)",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Perth", "Western Australia"],
 		"duration": "12–24 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
@@ -1362,18 +1482,17 @@
 		"courseProgressions": ["Grad"],
 		"roles": [
 			"Artificial Intelligence Engineer",
-			"Machine Learning Engineer",
 			"Cloud Engineer",
 			"Security Engineer",
 			"Machine Learning Engineer",
-			"Mobile App Developer"
+			"Mobile Engineer"
 		],
 		"open": false,
 		"locations": ["Adelaide", "Brisbane", "Melbourne", "Perth", "Sydney"],
 		"duration": "12–24 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/engineering-and-cyber-security-graduate-program"
 	},
@@ -1388,7 +1507,7 @@
 		"duration": "12–24 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/data-science-and-analytics-graduate-program"
 	},
@@ -1434,8 +1553,7 @@
 		"locations": ["Melbourne"],
 		"time": "Summer",
 		"closeMonth": 11,
-		"industries": ["Technology"],
-		"workingRights": []
+		"industries": ["Technology"]
 	},
 	{
 		"company": "Deloitte",
@@ -1447,7 +1565,7 @@
 			"Business Engineer",
 			"Cloud Engineer",
 			"Data Analyst",
-			"Platforms Engineer",
+			"Platform Engineer",
 			"Software Engineer",
 			"Technology Audit"
 		],
@@ -1464,7 +1582,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www2.deloitte.com/au/en/pages/careers/articles/summer-vacation-program-careers.html",
-		"notes": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
+		"description": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
 	},
 	{
 		"company": "Deloitte",
@@ -1476,7 +1594,7 @@
 			"Business Engineer",
 			"Cloud Engineer",
 			"Data Analyst",
-			"Platforms Engineer",
+			"Platform Engineer",
 			"Software Engineer",
 			"Technology Audit"
 		],
@@ -1493,7 +1611,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www2.deloitte.com/au/en/pages/careers/articles/summer-vacation-program-careers.html",
-		"notes": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
+		"description": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
 	},
 	{
 		"company": "Deloitte",
@@ -1505,7 +1623,7 @@
 			"Business Engineer",
 			"Cloud Engineer",
 			"Data Analyst",
-			"Platforms Engineer",
+			"Platform Engineer",
 			"Software Engineer",
 			"Technology Audit"
 		],
@@ -1530,8 +1648,7 @@
 		"open": false,
 		"locations": ["Canberra", "Melbourne", "Perth", "Sydney"],
 		"duration": "2–3 Days",
-		"industries": ["Consulting"],
-		"workingRights": []
+		"industries": ["Consulting"]
 	},
 	{
 		"company": "Department of Defence",
@@ -1557,6 +1674,7 @@
 		],
 		"duration": "12–36 Months",
 		"openMonth": 2,
+		"closeMonth": 4,
 		"industries": ["Defence", "Government", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.defence.gov.au/jobs-careers/student-pathways/stem-cadetship"
@@ -1584,6 +1702,7 @@
 			"Sydney"
 		],
 		"openMonth": 2,
+		"closeMonth": 4,
 		"industries": ["Defence", "Government", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.defence.gov.au/jobs-careers/graduate-program"
@@ -1597,8 +1716,7 @@
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"time": "Semester 1",
-		"industries": ["Technology"],
-		"workingRights": []
+		"industries": ["Technology"]
 	},
 	{
 		"company": "Deputy",
@@ -1609,8 +1727,7 @@
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"time": "Semester 2",
-		"industries": ["Technology"],
-		"workingRights": []
+		"industries": ["Technology"]
 	},
 	{
 		"company": "Deputy",
@@ -1621,12 +1738,11 @@
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"time": "Summer",
-		"industries": ["Technology"],
-		"workingRights": []
+		"industries": ["Technology"]
 	},
 	{
 		"company": "Dolby",
-		"name": "Dolby Internship",
+		"name": "Intern Software Engineer",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -1651,8 +1767,7 @@
 		"roles": ["Trader"],
 		"open": false,
 		"locations": ["Hong Kong"],
-		"industries": [],
-		"workingRights": [],
+		"industries": ["Trading"],
 		"url": "https://www.eclipsetrading.com/all-jobs/"
 	},
 	{
@@ -1663,8 +1778,7 @@
 		"roles": ["Trader"],
 		"open": false,
 		"locations": ["Hong Kong"],
-		"industries": [],
-		"workingRights": [],
+		"industries": ["Trading"],
 		"url": "https://www.eclipsetrading.com/all-jobs/"
 	},
 	{
@@ -1701,7 +1815,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.ey.com/en_au/careers/students-apply-here",
-		"notes": "Also available through the IBL program."
+		"description": "Also available through the IBL program."
 	},
 	{
 		"company": "EY",
@@ -1712,8 +1826,7 @@
 		"open": false,
 		"locations": ["Canberra", "Melbourne", "Perth", "Sydney"],
 		"duration": "1 Day",
-		"industries": ["Consulting"],
-		"workingRights": []
+		"industries": ["Consulting"]
 	},
 	{
 		"company": "EY",
@@ -1737,7 +1850,6 @@
 		"name": "2024 Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Perth", "Sydney"],
 		"duration": "24 Months",
@@ -1750,7 +1862,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/96/australia--2023-graduate-technical-consultant.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_tc_&utm_content=aus_",
-		"notes": "2.5-year graduate program"
+		"description": "2.5-year graduate program"
 	},
 	{
 		"company": "FDM Group",
@@ -1775,14 +1887,14 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/405/project-grace-technical-graduate-program.html",
-		"notes": "2.5-year graduate program"
+		"description": "2.5-year graduate program"
 	},
 	{
 		"company": "FDM Group",
 		"name": "Technical Analysis Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": ["Technical Analyst"],
 		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Sydney"],
 		"duration": "12–24 Months",
@@ -1796,14 +1908,14 @@
 			"Subclass 462"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/244/australia--technical-analyst-consultant.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_ta_&utm_content=aus_",
-		"notes": "2.5-year graduate program"
+		"description": "2.5-year graduate program"
 	},
 	{
 		"company": "FDM Group",
 		"name": "Software Development Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": ["Software Engineer"],
 		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Sydney"],
 		"duration": "24 Months",
@@ -1816,7 +1928,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/217/australia--software-development-consultant.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_dev_&utm_content=aus_",
-		"notes": "2.5-year graduate program"
+		"description": "2.5-year graduate program"
 	},
 	{
 		"company": "Google",
@@ -1876,7 +1988,6 @@
 		"duration": "6–12 Months",
 		"openMonth": 12,
 		"industries": ["Technology"],
-		"workingRights": [],
 		"url": "https://www.ibm.com/au-en/employment/entrylevel/"
 	},
 	{
@@ -1884,7 +1995,6 @@
 		"name": "IBM Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"duration": "6–12 Months",
@@ -1915,7 +2025,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.imc.com/ap/en/job/4282957101/Software-Engineer-Intern-2024-2025",
-		"notes": "IMC will cover flights and accommodation."
+		"description": "IMC will cover flights and accommodation."
 	},
 	{
 		"company": "IMC",
@@ -1935,7 +2045,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.imc.com/ap/en/job/4282959101/Trader-Intern-2024-2025-Expression-of-Interest",
-		"notes": "IMC will cover flights and accommodation. Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
+		"description": "IMC will cover flights and accommodation. Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
 	},
 	{
 		"company": "IMC",
@@ -2025,7 +2135,7 @@
 	},
 	{
 		"company": "IMC",
-		"name": "IMC Graduate Program",
+		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": [
@@ -2058,25 +2168,30 @@
 		"time": "Semester 2",
 		"industries": ["Trading"],
 		"url": "https://careers.imc.com/ap/en/job/4295050101/Launchpad-Australia-2024",
-		"notes": "IMC will cover flights and accommodation."
+		"description": "IMC will cover flights and accommodation."
 	},
 	{
 		"company": "ING Bank Australia",
 		"name": "International Talent Programme",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Grad"],
-		"roles": [],
+		"roles": [
+			"Data Analyst",
+			"Software Engineer",
+			"Digital Architect",
+			"Network Engineer"
+		],
 		"open": false,
 		"locations": ["Sydney"],
 		"duration": "12–24 Months",
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"Australian Temporary Work Visa"
 		],
 		"url": "https://prosple.com/graduate-employers/ing-bank-australia/jobs-internships/2023-graduate-programs",
-		"notes": "*desirable to have no more than 2 years of professional working experience\n*open and close dates not specified"
+		"description": "*desirable to have no more than 2 years of professional working experience\n*open and close dates not specified"
 	},
 	{
 		"company": "Jacobs",
@@ -2089,7 +2204,7 @@
 			"Software Engineer",
 			"Systems Engineer"
 		],
-		"open": false,
+		"open": true,
 		"locations": ["Australia"],
 		"duration": "12 Weeks",
 		"openMonth": 7,
@@ -2098,11 +2213,15 @@
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
-			"International",
-			"New Zealand Citizen"
+			"Australian Student Visa",
+			"Australian Temporary Work Visa",
+			"New Zealand Citizen",
+			"New Zealand Permanent Resident",
+			"New Zealand Student Visa",
+			"New Zealand Temporary Work Visa"
 		],
 		"url": "https://prosple.com/graduate-employers/jacobs-australia/jobs-internships/202223-summer-internship-program-australia",
-		"notes": "Open for pre-register on Prosple"
+		"description": "Open for pre-register on Prosple"
 	},
 	{
 		"company": "Jacobs",
@@ -2128,7 +2247,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://prosple.com/graduate-employers/jacobs-australia/jobs-internships/2024-graduate-program-australia",
-		"notes": "Open for pre-register on Prosple"
+		"description": "Open for pre-register on Prosple"
 	},
 	{
 		"company": "Jane Street",
@@ -2154,7 +2273,7 @@
 		"openMonth": 2,
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7076141002/",
-		"notes": "Jane Street will cover flights and accommodation."
+		"description": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2180,7 +2299,7 @@
 		"openMonth": 2,
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7077044002/",
-		"notes": "Jane Street will cover flights and accommodation."
+		"description": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2205,7 +2324,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7078177002/",
-		"notes": "Jane Street will cover flights and accommodation."
+		"description": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2218,7 +2337,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7426805002/",
-		"notes": "Jane Street will cover flights and accommodation."
+		"description": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2232,7 +2351,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7078183002/",
-		"notes": "Jane Street will cover flights and accommodation."
+		"description": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2256,7 +2375,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7279621002/",
-		"notes": "Jane Street will cover flights and accommodation."
+		"description": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2287,10 +2406,9 @@
 			"Software Engineer"
 		],
 		"open": false,
-		"locations": ["Shanghai"],
+		"locations": ["Sydney", "Shanghai"],
 		"time": "Summer",
-		"industries": ["Finance", "Technology", "Trading"],
-		"workingRights": [],
+		"industries": ["Trading"],
 		"url": "https://www.jumptrading.com/careers/?titleSearch=campus+intern"
 	},
 	{
@@ -2302,8 +2420,7 @@
 		"open": false,
 		"locations": ["Melbourne"],
 		"time": "Summer",
-		"industries": [],
-		"workingRights": [],
+		"industries": ["Accounting"],
 		"url": "https://kordamentha.com/careers/graduate-careers"
 	},
 	{
@@ -2339,8 +2456,7 @@
 		"open": false,
 		"locations": ["Adelaide", "Canberra", "Melbourne", "Sydney"],
 		"duration": "1 Day",
-		"industries": ["Consulting"],
-		"workingRights": []
+		"industries": ["Consulting"]
 	},
 	{
 		"company": "KPMG",
@@ -2376,7 +2492,7 @@
 		"duration": "12 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Technology"],
+		"industries": ["Biotechnology", "Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/graduate-business-analyst"
 	},
@@ -2391,7 +2507,7 @@
 		"duration": "12 Months",
 		"openMonth": 3,
 		"closeMonth": 5,
-		"industries": ["Technology"],
+		"industries": ["Biotechnology", "Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/2024-graduate-systems-engineer-Melbourne-cbd-scoresby-and-Canberra"
 	},
@@ -2421,7 +2537,7 @@
 		"duration": "12 Months",
 		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Technology"],
+		"industries": ["Biotechnology", "Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/graduate-cyber-analyst"
 	},
@@ -2441,21 +2557,6 @@
 		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/graduate-software-engineer-2"
 	},
 	{
-		"company": "Level Crossing Removal Program",
-		"name": "Level Crossing Removal Project Internship Program",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": ["Information Technology", "Software Engineer"],
-		"open": false,
-		"locations": ["Melbourne"],
-		"duration": "6–12 Months",
-		"openMonth": 8,
-		"closeMonth": 9,
-		"industries": ["Government", "Transportation"],
-		"workingRights": ["Full Working Rights"],
-		"url": "https://bigbuild.vic.gov.au/jobs/training-programs/level-crossing-removal-project-internship-program"
-	},
-	{
 		"company": "Lockheed Martin",
 		"name": "Graduate Software Engineering Program",
 		"type": "Grad Program",
@@ -2471,7 +2572,6 @@
 			"UX/UI Designer"
 		],
 		"open": false,
-		"locations": [],
 		"duration": "24 Months",
 		"openMonth": 1,
 		"closeMonth": 2,
@@ -2493,63 +2593,94 @@
 		"industries": ["Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.lockheedmartin.com/en-au/careers/early-careers.html",
-		"notes": "Separate to Monash's IBL program"
+		"description": "Separate to Monash's IBL program"
 	},
 	{
 		"company": "Macquarie",
 		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
+		"roles": [
+			"Software Engineer",
+			"UX/UI Designer",
+			"Test Engineer",
+			"Business Analyst"
+		],
 		"open": false,
 		"locations": ["Sydney"],
 		"duration": "12–24 Months",
-		"openMonth": 2,
+		"openMonth": 3,
 		"closeMonth": 4,
-		"industries": ["Banking"],
-		"workingRights": [],
+		"industries": ["Banking", "Finance"],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/our-programs.html",
-		"notes": "Commences Feb 2025"
+		"description": "Commences Feb 2025"
 	},
 	{
 		"company": "Macquarie",
-		"name": "Summer Internship Program",
+		"name": "2024/2025 Macquarie Summer Internship Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": [],
-		"open": false,
-		"locations": ["Brisbane", "Melbourne", "Perth", "Sydney"],
+		"roles": [
+			"Software Engineer",
+			"UX/UI Designer",
+			"Test Engineer",
+			"Business Analyst"
+		],
+		"open": true,
+		"locations": ["Melbourne", "Perth"],
 		"duration": "10–12 Weeks",
 		"time": "Summer",
-		"openMonth": 5,
+		"openMonth": 4,
 		"closeMonth": 7,
-		"industries": ["Banking"],
-		"workingRights": []
+		"industries": ["Banking", "Finance"],
+		"url": "https://recruitment.macquarie.com/en_US/careers/FeaturedJobDetail?jobId=9737"
+	},
+	{
+		"company": "Macquarie",
+		"name": "2024/2025 Macquarie Summer Internship Data and Technology Program",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": [
+			"Software Engineer",
+			"UX/UI Designer",
+			"Test Engineer",
+			"Business Analyst",
+			"Data Analyst",
+			"Cybersecurity Advisor",
+			"Security Engineer",
+			"Project Manager"
+		],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "10–12 Weeks",
+		"time": "Summer",
+		"openMonth": 4,
+		"closeMonth": 7,
+		"industries": ["Banking", "Finance"],
+		"url": "https://recruitment.macquarie.com/en_US/careers/FeaturedJobDetail?jobId=10136",
+		"description": "December to January"
 	},
 	{
 		"company": "Macquarie",
 		"name": "Winter Development Program",
 		"type": "Other Program",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [],
+		"courseProgressions": ["Penultimate"],
 		"open": false,
-		"locations": [],
 		"time": "Winter",
 		"openMonth": 1,
 		"closeMonth": 3,
 		"industries": ["Technology"],
-		"workingRights": [],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/our-programs.html",
-		"notes": "criteria : Science, technology, engineering and maths students or women from any discipline in their penultimate year of study"
+		"description": "Science, technology, engineering and maths students or women from any discipline."
 	},
 	{
 		"company": "Macquarie Group",
-		"name": "Macquarie Group Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": [
 			"Business Analyst",
-			"Mobile App Developer",
+			"Mobile Engineer",
 			"Project Manager",
 			"Software Engineer"
 		],
@@ -2566,16 +2697,16 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/programs-and-business-groups.html",
-		"notes": "Melbourne stream closes earlier, compared to the Sydney stream."
+		"description": "Melbourne stream closes earlier, compared to the Sydney stream."
 	},
 	{
 		"company": "Macquarie Group",
-		"name": "Macquarie Group Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": [
 			"Business Analyst",
-			"Mobile App Developer",
+			"Mobile Engineer",
 			"Project Manager",
 			"Software Engineer"
 		],
@@ -2592,7 +2723,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/programs-and-business-groups.html",
-		"notes": "Melbourne stream closes earlier, compared to the Sydney stream."
+		"description": "Melbourne stream closes earlier, compared to the Sydney stream."
 	},
 	{
 		"company": "McKinsey & Company",
@@ -2611,11 +2742,11 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.mckinsey.com/au/careers/upcoming-opportunities/womens-internship-and-scholarship",
-		"notes": "$20,000 Scholarship"
+		"description": "$20,000 Scholarship"
 	},
 	{
 		"company": "Microsoft",
-		"name": "Microsoft Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -2641,7 +2772,7 @@
 	},
 	{
 		"company": "MongoDB",
-		"name": "MongoDB Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Product Designer", "Software Engineer"],
@@ -2651,7 +2782,6 @@
 		"openMonth": 7,
 		"closeMonth": 8,
 		"industries": ["Technology"],
-		"workingRights": [],
 		"url": "https://gradaustralia.com.au/graduate-employers/mongodb/jobs-internships/20222023-software-engineering-internship-summer"
 	},
 	{
@@ -2669,7 +2799,7 @@
 			"Project Analyst",
 			"Software Engineer"
 		],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne", "Sydney"],
 		"duration": "6–12 Months",
 		"time": "Semester 1",
@@ -2682,7 +2812,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/information-technology-internship",
-		"notes": "The technology program can be done by pre-penultimate students."
+		"description": "The technology program can be done by pre-penultimate students."
 	},
 	{
 		"company": "NAB",
@@ -2712,69 +2842,24 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/information-technology-internship",
-		"notes": "The technology program can be done by pre-penultimate students."
-	},
-	{
-		"company": "NAB",
-		"name": "NAB Technology Intern Program",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [
-			"Business Analyst",
-			"Cloud Engineer",
-			"Data Engineer",
-			"Project Analyst",
-			"Software Engineer"
-		],
-		"open": false,
-		"locations": ["Brisbane", "Melbourne", "Sydney"],
-		"duration": "6–12 Months",
-		"openMonth": 3,
-		"industries": ["Banking"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen"
-		],
-		"url": "https://www.nab.com.au/about-us/careers/early-careers/information-technology-internship"
+		"description": "The technology program can be done by pre-penultimate students."
 	},
 	{
 		"company": "NAB",
 		"name": "NAB Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Melbourne"],
 		"openMonth": 2,
 		"closeMonth": 4,
-		"industries": ["Banking"],
+		"industries": ["Banking", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/graduate-careers"
-	},
-	{
-		"company": "NAB",
-		"name": "NAB Summer Intern Program",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate"],
-		"roles": [],
-		"open": false,
-		"locations": ["Brisbane", "Melbourne", "Perth", "Sydney"],
-		"time": "Summer",
-		"openMonth": 7,
-		"closeMonth": 8,
-		"industries": ["Banking"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen"
-		],
-		"url": "https://www.nab.com.au/about-us/careers/early-careers/summer-intern-program",
-		"notes": "You'll need to be due to complete your degree by December 2025"
 	},
 	{
 		"company": "Optiver",
@@ -2817,7 +2902,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://optiver.com/working-at-optiver/career-opportunities/7417784002/",
-		"notes": "Optiver will cover travel and accommodation costs."
+		"description": "Optiver will cover travel and accommodation costs."
 	},
 	{
 		"company": "Optiver",
@@ -2836,7 +2921,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://optiver.com/working-at-optiver/career-opportunities/7417783002/",
-		"notes": "Optiver will cover travel and accommodation costs."
+		"description": "Optiver will cover travel and accommodation costs."
 	},
 	{
 		"company": "Origin Energy",
@@ -2854,9 +2939,8 @@
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"industries": ["Energy"],
-		"workingRights": [],
 		"url": "https://www.originenergy.com.au/about/careers/graduate-program/",
-		"notes": "Offers IBL placement through Monash. "
+		"description": "Offers IBL placement through Monash."
 	},
 	{
 		"company": "Palantir",
@@ -2888,7 +2972,6 @@
 		"time": "Summer",
 		"closeMonth": 11,
 		"industries": ["Health Technology"],
-		"workingRights": [],
 		"url": "https://jobs.lever.co/planetinnovation"
 	},
 	{
@@ -2904,7 +2987,7 @@
 			"Software Engineer",
 			"Technology Consultant"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Sydney"],
 		"time": "Summer",
 		"openMonth": 3,
@@ -2912,7 +2995,7 @@
 		"industries": ["Consulting", "Finance"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.pwc.com.au/careers/students/vacation-program.html",
-		"notes": "PwC has two intakes. The first one opens in March and the second one in September."
+		"description": "PwC has two intakes. The first one opens in March and the second one in September."
 	},
 	{
 		"company": "PwC",
@@ -2927,7 +3010,7 @@
 			"Software Engineer",
 			"Technology Consultant"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Sydney"],
 		"time": "Summer",
 		"openMonth": 9,
@@ -2935,7 +3018,7 @@
 		"industries": ["Consulting", "Finance"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.pwc.com.au/careers/students/vacation-program.html",
-		"notes": "PwC has two intakes. The first one opens in March and the second one in September."
+		"description": "PwC has two intakes. The first one opens in March and the second one in September."
 	},
 	{
 		"company": "PwC",
@@ -2990,41 +3073,51 @@
 	},
 	{
 		"company": "RACV",
-		"name": "Technology Graduate",
+		"name": "Technology Graduate (Jan 2025)",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": [],
-		"open": false,
+		"roles": [
+			"Cybersecurity Advisor",
+			"Security Engineer",
+			"Digital Operations",
+			"Infrastructure Engineer",
+			"Information Technology"
+		],
+		"open": true,
 		"locations": ["Melbourne"],
 		"duration": "12 Months",
-		"openMonth": 5,
-		"closeMonth": 6,
+		"time": "Summer",
+		"openMonth": 6,
+		"closeMonth": 7,
 		"industries": ["Retail and Sales"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"Australian Temporary Work Visa"
 		],
-		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/technology-graduate-pre-register"
+		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/technology-graduate",
+		"description": "Starts on 26 Jan 2025. Must have completed studies within the last 2 years."
 	},
 	{
 		"company": "RACV",
-		"name": "Growth, Strategy & Analytics Graduate",
+		"name": "Data, Strategy & Analytics Graduate (Jan 2025)",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"roles": ["Business Analyst", "Data Engineer", "Data Scientist"],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne"],
 		"duration": "12 Months",
-		"openMonth": 5,
-		"closeMonth": 6,
+		"time": "Summer",
+		"openMonth": 6,
+		"closeMonth": 7,
 		"industries": ["Retail and Sales"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"Australian Temporary Work Visa"
 		],
-		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/growth-strategy-analytics-graduate-pre-register"
+		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/data-strategy-analytics-graduate",
+		"description": "Starts on 26 Jan 2025. Must have completed a Bachelor’s Degree in science, computing mathematics or similar within the last 2 years."
 	},
 	{
 		"company": "Reserve Bank of Australia",
@@ -3044,7 +3137,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.rba.gov.au/careers/careers-at-the-rba/students-and-graduates/information-technology.html",
-		"notes": "- Applications open: February\n- Applications close: April\n- Assessment and face to face interviews: May\n- Offers made: May\n- Program commences: February of the following year"
+		"description": "- Applications open: February\n- Applications close: April\n- Assessment and face to face interviews: May\n- Offers made: May\n- Program commences: February of the following year"
 	},
 	{
 		"company": "Rio Tinto",
@@ -3057,48 +3150,52 @@
 			"Security Engineer",
 			"Software Engineer"
 		],
-		"open": true,
+		"open": false,
 		"locations": ["Perth"],
 		"duration": "10–12 Weeks",
 		"openMonth": 2,
 		"closeMonth": 3,
 		"industries": ["Mining"],
-		"workingRights": ["Australian Citizen"]
+		"workingRights": ["Australian Citizen"],
+		"url": "https://www.riotinto.com/en/careers/graduates-students"
 	},
 	{
 		"company": "SAP",
-		"name": "SAP Internship",
+		"name": "Student Training and Rotation Program (STAR)",
 		"type": "Internship",
-		"courseProgressions": ["Grad"],
+		"courseProgressions": ["Pre-Penultimate"],
 		"roles": ["Customer Experience", "Sales"],
 		"open": false,
 		"locations": ["Melbourne", "Sydney"],
 		"duration": "6–12 Months",
 		"openMonth": 7,
-		"closeMonth": 9,
+		"closeMonth": 8,
 		"industries": ["Technology"],
-		"workingRights": [],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen",
+			"New Zealand Permanent Resident"
+		],
 		"url": "https://www.sap.com/australia/about/careers/students-graduates/vocational-training/australia-and-new-zealand.html"
 	},
 	{
 		"company": "SAS",
-		"name": "SAS Internship",
+		"name": "Workforce Connection Program (Rolling Intake)",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Business Analyst", "Technology Consultant"],
-		"open": false,
+		"open": true,
 		"locations": ["Brisbane", "Canberra", "Melbourne", "Perth", "Sydney"],
 		"time": "Summer",
-		"openMonth": 12,
-		"closeMonth": 1,
+		"closeMonth": 12,
 		"industries": ["Big Data and Analytics", "Consulting", "Finance"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
-			"Full Working Rights"
+			"Australian Temporary Work Visa"
 		],
-		"url": "https://gradaustralia.com.au/graduate-employers/sas/jobs-internships/the-workforce-connection-program",
-		"notes": "Internship,Clerkship and placement"
+		"url": "https://gradaustralia.com.au/graduate-employers/sas/jobs-internships/the-workforce-connection-program"
 	},
 	{
 		"company": "Schneider Electric",
@@ -3125,7 +3222,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.se.com/au/en/about-us/careers/students-young-professionals.jsp",
-		"notes": "Full time basis over Uni Summer break, and then continue on a part time basis (minimum 15 hours per week) for fifteen (15) weeks"
+		"description": "Full time basis over Uni Summer break, and then continue on a part time basis (minimum 15 hours per week) for fifteen (15) weeks"
 	},
 	{
 		"company": "Schneider Electric",
@@ -3164,8 +3261,7 @@
 		"time": "Summer",
 		"openMonth": 2,
 		"industries": ["Technology"],
-		"workingRights": [],
-		"url": "https://wd1.myworkdaysite.com/recruiting/snapchat/snap/job/Sydney-Australia/Software-Engineer-Intern--Sydney_R0023106-1"
+		"url": "https://careers.snap.com/university"
 	},
 	{
 		"company": "Snap Inc.",
@@ -3179,8 +3275,7 @@
 		"openMonth": 2,
 		"closeMonth": 4,
 		"industries": ["Technology"],
-		"workingRights": [],
-		"url": "https://wd1.myworkdaysite.com/recruiting/snapchat/snap/job/Sydney-Australia/Software-Engineering-Intern--Summer-2024--Sydney_R0033677-1"
+		"url": "https://careers.snap.com/university"
 	},
 	{
 		"company": "Startmate",
@@ -3195,8 +3290,8 @@
 		"openMonth": 4,
 		"closeMonth": 5,
 		"industries": ["Startups"],
-		"workingRights": [],
-		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment "
+		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment.",
+		"url": "https://www.startmate.com/program/student-fellowship"
 	},
 	{
 		"company": "Startmate",
@@ -3211,102 +3306,105 @@
 		"openMonth": 9,
 		"closeMonth": 11,
 		"industries": ["Startups"],
-		"workingRights": [],
-		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment "
+		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment.",
+		"url": "https://www.startmate.com/program/student-fellowship"
 	},
 	{
 		"company": "Susquehanna International Group (SIG)",
-		"name": "SIG Graduate Program",
-		"type": "Grad Program",
-		"courseProgressions": ["Grad"],
-		"roles": ["Equity Analyst", "Trader"],
-		"open": true,
-		"locations": ["Sydney"],
-		"openMonth": 1,
-		"industries": ["Technology", "Trading"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen"
-		],
-		"url": "https://careers.sig.com"
-	},
-	{
-		"company": "Susquehanna International Group (SIG)",
-		"name": "SIG Internship",
+		"name": "Quantitative Trading Internship: November 2024",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": [
-			"Equity Analyst",
-			"Quantitative Researcher",
-			"Software Engineer",
-			"Trader"
-		],
+		"roles": ["Trader"],
 		"open": true,
-		"locations": ["Sydney"],
+		"duration": "10 Weeks",
 		"time": "Summer",
-		"openMonth": 1,
-		"closeMonth": 5,
-		"industries": ["Technology", "Trading"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"Full Working Rights"
-		],
-		"url": "https://careers.sig.com/Sydney-campus"
+		"locations": ["Sydney"],
+		"industries": ["Trading"],
+		"url": "https://careers.sig.com/job/7050/Quantitative-Trading-Internship-November-2024"
 	},
 	{
 		"company": "Susquehanna International Group (SIG)",
-		"name": "Discovery Day",
+		"name": "Graduate Quantitative Trader: 2025",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Trading"],
+		"url": "https://careers.sig.com/job/7051/Graduate-Quantitative-Trader-2025"
+	},
+	{
+		"company": "Susquehanna International Group (SIG)",
+		"name": "Quantitative Trading Discovery Day: 2024",
 		"type": "Other Program",
 		"courseProgressions": ["Pre-Penultimate"],
-		"roles": ["Software Engineer", "Trader"],
-		"open": false,
+		"roles": ["Trader"],
+		"open": true,
+		"duration": "2 Days",
+		"time": "Semester 2",
 		"locations": ["Sydney"],
-		"duration": "2–3 Days",
 		"industries": ["Trading"],
-		"workingRights": []
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen",
+			"New Zealand Permanent Resident"
+		],
+		"url": "https://careers.sig.com/job/8052/Quantitative-Trading-Discovery-Day-2024",
+		"description": "23 Sep 2024 – 24 Sep 2024. SIG will cover travel and accommodation if you are interstate."
+	},
+	{
+		"company": "Susquehanna International Group (SIG)",
+		"name": "Quantitative Systematic Trader – Honours and Master’s",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Trader"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Trading"],
+		"url": "https://careers.sig.com/job/8058/Quantitative-Systematic-Trader-Honours-and-Master%E2%80%99s"
+	},
+	{
+		"company": "Susquehanna International Group (SIG)",
+		"name": "Quantitative Researcher – Honours and Master’s",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Quantitative Researcher"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Trading"],
+		"url": "https://careers.sig.com/job/8055/Quantitative-Researcher-Honours-and-Master%E2%80%99s"
 	},
 	{
 		"company": "TasNetworks",
 		"name": "TasNetworks Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": [],
 		"open": false,
-		"locations": [],
 		"time": "Summer",
 		"openMonth": 8,
 		"industries": ["Energy"],
-		"workingRights": [],
 		"url": "https://www.tasnetworks.com.au/careers/summer-student-program"
 	},
 	{
 		"company": "Telstra",
-		"name": "Telstra Internship",
+		"name": "Career Start Edge Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": [
-			"Data Analyst",
-			"Network Engineer",
-			"Product Designer",
-			"Software Engineer",
-			"Technology Consultant"
-		],
+		"roles": ["Network Engineer", "Software Engineer"],
 		"open": false,
-		"locations": ["Remote"],
+		"locations": ["Melbourne", "Sydney"],
 		"time": "Summer",
 		"openMonth": 7,
-		"closeMonth": 8,
+		"closeMonth": 7,
 		"industries": ["Telecommunications"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
-			"International",
-			"New Zealand Citizen"
+			"International"
 		],
-		"url": "https://careers.telstra.com/fields-of-work/students/summer-vacation-program",
-		"notes": "Must be a penultimate year student."
+		"url": "https://www.telstra.com.au/careers/students-and-graduates/career-start-internship",
+		"description": "Commences in November 2024 — you’ll complete a summer internship working full-time for a few weeks, before reducing to part-time in early 2025 when university starts. They will work with you to find the timing and balance that suits you best."
 	},
 	{
 		"company": "The Trade Desk",
@@ -3318,73 +3416,474 @@
 		"locations": ["Sydney"],
 		"time": "Summer",
 		"industries": ["Marketing"],
-		"workingRights": [],
 		"url": "https://careers.thetradedesk.com/us/en/job/REQ-5550/2023-Summer-Internship-Software-Engineering-Sydney"
 	},
 	{
 		"company": "Tibra Capital",
-		"name": "Accelerator Program",
+		"name": "Quant Trader Developer Accelerator Program",
 		"type": "Other Program",
 		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
 		"roles": ["Trader"],
 		"open": true,
-		"locations": ["Sydney"],
+		"locations": ["Austinmer, NSW"],
 		"openMonth": 1,
-		"industries": [],
-		"workingRights": [],
-		"url": "https://apply.workable.com/tibra-capital-1/j/0E09BEE49D/apply/"
+		"industries": ["Trading"],
+		"url": "https://apply.workable.com/tibra-capital-1/j/0E09BEE49D/"
 	},
 	{
 		"company": "TikTok",
-		"name": "Intern (TikTok Engineering) - 2024 start",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [
-			"Backend Engineer",
-			"Frontend Engineer",
-			"Mobile App Developer",
-			"Software Engineer"
-		],
+		"name": "Graduate Backend Engineer - Edge CDN Scheduling System - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Backend Engineer", "Software Engineer"],
 		"open": true,
 		"locations": ["Sydney"],
-		"duration": "6–12 Months",
-		"openMonth": 11,
-		"closeMonth": 1,
 		"industries": ["Technology"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"International"
 		],
-		"url": "https://careers.tiktok.com/position?keywords=&category=&location=CT_244&project=&type=3&job_hot_flag=&current=1&limit=10&functionCategory=&tag="
+		"url": "https://careers.tiktok.com/position/7320465143439231283/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Backend Software Engineer - Multimedia Platform - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Backend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7365864585888745737/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Backend Software Engineer, TikTok Live Revenue (Sydney) - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Backend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7373489530361563401/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Backend Software Engineer, TikTok LIVE - Foundation (Sydney) - 2025 start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Backend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7371321402894715173/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Backend Software Engineer, Trust and Safety Engineering - 2025 Start (Australia)",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Backend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7329812111635679526/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Frontend Software Engineer, TikTok Trust and Safety - 2025 start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Frontend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7330452763731773746/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate LiveNet backend R&D engineer - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Backend Engineer", "R&D Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7280693071417772325/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Machine Learning Engineer (Big Data) - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Machine Learning Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7359456258078656819/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Machine Learning Engineer (Trust & Safety) - 2025 Start (Australia)",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Machine Learning Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7330868633084659978/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Media SDK Software Engineer (Live Streaming) - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7289185881121671482/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Mobile Engineer, TikTok LIVE - Foundation (Sydney) - 2025 start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Mobile Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7371321405311666470/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Mobile Engineer, TikTok LIVE Revenue - (Sydney) - 2025 start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Mobile Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7374787697716234546/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Multimedia Engineer - Multimedia Software Development - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7337923195876870451/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Platform R&D Engineer - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["R&D Engineer", "Platform Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7373593261402097971/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Quality Assurance Engineer, Video Arch- 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Quality Assurance Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7264422689727727927/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Site Reliability Engineer - Tech Infrastructure - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Site Reliability Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7337932948878608677/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Backend Software Engineer, Trust and Safety Engineering - 2024 Start (Australia)",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7261843973399857445/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Software Development Engineer in Test (Trust & Safety) - 2025 Start (Australia)",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Test Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7330868705252084006/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Graduate Technical Operations Engineer, Video Arch - 2025 Start",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Technical Operations Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7264422066052516151/detail"
+	},
+	{
+		"company": "TikTok",
+		"name": "Backend Engineer Intern (Edge CDN Scheduling System) - 2024 Start",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Backend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7340505239751461146/detail",
+		"description": "Starts mid-November. Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+	},
+	{
+		"company": "TikTok",
+		"name": "Backend Engineer Intern (Trust & Safety Platform) - 2024 Nov/Dec Start",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Backend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7332417543137118473/detail",
+		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+	},
+	{
+		"company": "TikTok",
+		"name": "Frontend Software Engineering Intern, TikTok Trust and Safety - 2024 Nov/Dec Start",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Frontend Engineer", "Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7332423663117551923/detail",
+		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+	},
+	{
+		"company": "TikTok",
+		"name": "Machine Learning Engineer Intern (Trust & Safety) - 2024 Nov/Dec Start",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Machine Learning Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7332422590395468042/detail",
+		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+	},
+	{
+		"company": "TikTok",
+		"name": "Software Development Test Engineer Intern (Trust & Safety Platform) - 2024 Nov/Dec Start",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Test Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"International"
+		],
+		"url": "https://careers.tiktok.com/position/7332421684945406218/detail",
+		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
 	},
 	{
 		"company": "Toll Group",
 		"name": "Technology Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Penultimate", "Grad"],
-		"roles": [],
 		"open": false,
 		"locations": ["Melbourne"],
 		"duration": "12–24 Months",
 		"openMonth": 2,
 		"closeMonth": 4,
 		"industries": ["Retail and Sales"],
-		"workingRights": [],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"Australian Temporary Work Visa"
+		],
 		"url": "https://au.prosple.com/graduate-employers/toll-group/jobs-internships/technology-graduate-program-pre-register"
 	},
 	{
 		"company": "Transurban",
-		"name": "Transurban Internship",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate"],
-		"roles": [],
+		"name": "Graduate Program",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": [
+			"Data Analyst",
+			"Cybersecurity Advisor",
+			"Security Engineer",
+			"Project Manager",
+			"Cloud Engineer",
+			"Automation Engineer"
+		],
 		"open": false,
-		"locations": [],
+		"locations": ["Melbourne", "Sydney", "Brisbane"],
 		"industries": ["Transportation"],
-		"workingRights": [],
-		"url": "https://careers.transurban.com/blog/summer-intern-program",
-		"notes": "Also offers IBL placement through Monash."
+		"url": "https://careers.transurban.com/graduate-program"
+	},
+	{
+		"company": "Transurban",
+		"name": "Females Excelling in Engineering and Technology (FEET) Mentoring Program",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": [
+			"Data Analyst",
+			"Cybersecurity Advisor",
+			"Security Engineer",
+			"Project Manager",
+			"Cloud Engineer",
+			"Automation Engineer"
+		],
+		"open": false,
+		"locations": ["Melbourne", "Sydney", "Brisbane"],
+		"duration": "3 Months",
+		"industries": ["Transportation"],
+		"url": "https://www.transurban.com/feet",
+		"description": "Unpaid mentorship where participants will work with mentors once a week for three months."
 	},
 	{
 		"company": "Tyro",
@@ -3420,53 +3919,27 @@
 		"open": false,
 		"locations": ["Melbourne"],
 		"duration": "24 Months",
-		"openMonth": 2,
-		"closeMonth": 4,
+		"openMonth": 7,
 		"industries": ["Government", "Transportation"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://bigbuild.vic.gov.au/jobs/training-programs/graduate-programs"
 	},
 	{
 		"company": "Westpac",
-		"name": "2024 Summer Intern Program",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": [],
-		"open": false,
-		"locations": ["Sydney"],
-		"duration": "10 Weeks",
-		"openMonth": 7,
-		"closeMonth": 8,
-		"industries": ["Banking"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen",
-			"New Zealand Permanent Resident"
-		],
-		"url": "https://prosple.com/graduate-employers/westpac-group/jobs-internships/global-transaction-services-summer-intern-program"
-	},
-	{
-		"company": "Westpac",
-		"name": "Westpac Internship",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate"],
+		"name": "Technology Rotational Graduate Program",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
 		"roles": [
-			"Artificial Intelligence Engineer",
-			"Machine Learning Engineer",
-			"Business Analyst",
-			"Cloud Engineer",
+			"Cybersecurity Advisor",
 			"Security Engineer",
-			"Data Analyst",
 			"Data Scientist",
-			"Network Engineer",
-			"Platforms Engineer",
 			"Software Engineer",
-			"UX/UI Designer"
+			"Digital Strategist",
+			"Digital Architect"
 		],
 		"open": false,
-		"locations": [],
-		"time": "Summer",
+		"locations": ["Sydney", "Adelaide"],
+		"duration": "12–24 Months",
 		"openMonth": 7,
 		"closeMonth": 8,
 		"industries": ["Banking", "Finance"],
@@ -3475,11 +3948,41 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/"
+		"url": "https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/technology-rotational/",
+		"description": "Flexible 12 to 24-month program with a maximum of four rotations."
+	},
+	{
+		"company": "Westpac",
+		"name": "Technology (Specialist Areas) Graduate Program",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": [
+			"Automation Engineer",
+			"Software Engineer",
+			"UX/UI Designer",
+			"Business Analyst",
+			"Cybersecurity Advisor",
+			"Security Engineer",
+			"Data Analyst",
+			"Data Scientist"
+		],
+		"open": false,
+		"locations": ["Sydney", "Broadbeach, QLD"],
+		"duration": "12 Months",
+		"openMonth": 7,
+		"closeMonth": 8,
+		"industries": ["Banking", "Finance"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/technology-specialist/",
+		"description": "4 specialist areas: Robotics, Engineering, Cyber, and Data."
 	},
 	{
 		"company": "Woodside",
-		"name": "Woodside Internship",
+		"name": "Summer Vacation Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": [
@@ -3491,23 +3994,127 @@
 		],
 		"open": false,
 		"locations": ["Karratha, WA", "Perth"],
+		"duration": "12 Weeks",
 		"time": "Summer",
-		"openMonth": 7,
-		"closeMonth": 8,
+		"openMonth": 8,
 		"industries": ["Energy"],
 		"workingRights": [
 			"Australian Citizen",
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://www.woodside.com.au/careers/graduates-and-students"
+		"url": "https://www.woodside.com.au/careers/graduates-and-students",
+		"description": "Late November to mid-February."
 	},
 	{
-		"company": "WooliesX",
-		"name": "WooliesX Graduate Program",
+		"company": "Woodside",
+		"name": "Indigenous Summer Vacation Program",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": [
+			"Business Analyst",
+			"Cloud Engineer",
+			"Data Analyst",
+			"Security Engineer",
+			"Software Engineer"
+		],
+		"open": false,
+		"locations": ["Karratha, WA", "Perth"],
+		"duration": "6–12 Weeks",
+		"time": "Summer",
+		"openMonth": 8,
+		"industries": ["Energy"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.woodside.com.au/careers/graduates-and-students",
+		"description": "For students who identify as an Australian Aboriginal and/or Torres Strait Islander. Commences late November."
+	},
+	{
+		"company": "Woodside",
+		"name": "Better Future Pathways",
+		"type": "Internship",
+		"courseProgressions": ["Pre-Penultimate"],
+		"roles": [
+			"Business Analyst",
+			"Cloud Engineer",
+			"Data Analyst",
+			"Security Engineer",
+			"Software Engineer"
+		],
+		"open": false,
+		"locations": ["Perth"],
+		"duration": "2–3 Months",
+		"time": "Summer",
+		"openMonth": 8,
+		"industries": ["Energy"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.woodside.com.au/careers/graduates-and-students",
+		"description": "Late November to mid-February."
+	},
+	{
+		"company": "Woodside",
+		"name": "Professional Development Program",
+		"type": "Internship",
+		"courseProgressions": ["Pre-Penultimate"],
+		"roles": [
+			"Business Analyst",
+			"Cloud Engineer",
+			"Data Analyst",
+			"Security Engineer",
+			"Software Engineer"
+		],
+		"open": false,
+		"locations": ["Perth"],
+		"duration": "2–3 Months",
+		"time": "Summer",
+		"openMonth": 8,
+		"industries": ["Energy"],
+		"workingRights": ["International"],
+		"url": "https://www.woodside.com.au/careers/graduates-and-students",
+		"description": "For Timor-Leste nationals. Integrated with the Summer Vacation Program. Late November to mid-February."
+	},
+	{
+		"company": "Woodside",
+		"name": "Graduate Development Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
-		"roles": ["Business Engineer", "Information Technology"],
+		"roles": [
+			"Business Analyst",
+			"Cloud Engineer",
+			"Data Analyst",
+			"Security Engineer",
+			"Software Engineer"
+		],
+		"open": false,
+		"locations": ["Perth"],
+		"openMonth": 8,
+		"industries": ["Energy"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.woodside.com.au/careers/graduates-and-students",
+		"description": "Commences in February."
+	},
+	{
+		"company": "Woolworths",
+		"name": "Technology Graduate",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": [
+			"Business Engineer",
+			"Information Technology",
+			"Cybersecurity Advisor",
+			"Security Engineer"
+		],
 		"open": false,
 		"locations": ["Sydney"],
 		"duration": "24 Months",
@@ -3519,41 +4126,63 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://grads.woolworths.com.au/"
+		"url": "https://grads.woolworths.com.au/",
+		"description": "Cyber Security specialist program available for graduates with a Cyber Security related degree."
 	},
 	{
 		"company": "Xero",
-		"name": "Intern Engineer",
+		"name": "Intern Program",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": [],
-		"open": false,
-		"locations": ["Canberra"],
-		"time": "Summer",
-		"openMonth": 6,
-		"closeMonth": 7,
-		"industries": ["Technology"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"Subclass 462"
+		"roles": [
+			"Software Engineer",
+			"Full Stack Engineer",
+			"Frontend Engineer",
+			"Backend Engineer",
+			"Quality Assurance Engineer"
 		],
-		"url": "https://prosple.com/graduate-employers/xero/jobs-internships/xero-2020-grad-and-intern-programs"
-	},
-	{
-		"company": "Xero",
-		"name": "Xero Internship",
-		"type": "Internship",
-		"courseProgressions": ["Penultimate"],
-		"roles": ["Software Engineer"],
 		"open": false,
 		"locations": ["Canberra", "Melbourne"],
+		"duration": "3 Months",
 		"time": "Summer",
 		"openMonth": 3,
 		"closeMonth": 5,
 		"industries": ["Technology"],
-		"workingRights": ["International"],
-		"url": "https://www.xero.com/au/about/graduate/internships/"
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"Australian Temporary Work Visa",
+			"Full Working Rights"
+		],
+		"url": "https://www.xero.com/au/graduate/internships/",
+		"description": "November 2024 to mid-February 2025."
+	},
+	{
+		"company": "Xero",
+		"name": "Technical Grad Program",
+		"type": "Grad Program",
+		"courseProgressions": ["Penultimate"],
+		"roles": [
+			"Software Engineer",
+			"Full Stack Engineer",
+			"Frontend Engineer",
+			"Backend Engineer",
+			"Mobile Engineer",
+			"Data Engineer"
+		],
+		"open": false,
+		"locations": ["Canberra", "Melbourne"],
+		"openMonth": 3,
+		"closeMonth": 4,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"Australian Temporary Work Visa",
+			"Full Working Rights"
+		],
+		"url": "https://www.xero.com/au/graduate/",
+		"description": "Commences in February 2025."
 	},
 	{
 		"company": "Zendesk",
@@ -3565,7 +4194,6 @@
 		"locations": ["Melbourne"],
 		"closeMonth": 5,
 		"industries": ["Technology"],
-		"workingRights": [],
 		"url": "https://jobs.zendesk.com/us/en/internships"
 	}
 ]

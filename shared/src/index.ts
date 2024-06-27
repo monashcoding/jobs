@@ -18,14 +18,16 @@ export type CourseProgression = z.TypeOf<typeof CourseProgression>;
 
 export const WorkingRights = z.union([
 	z.literal('Australian Citizen'),
-	z.literal('New Zealand Citizen'),
 	z.literal('Australian Permanent Resident'),
+	z.literal('Australian Student Visa'),
+	z.literal('Australian Temporary Work Visa'),
+	z.literal('New Zealand Citizen'),
+	z.literal('New Zealand Permanent Resident'),
+	z.literal('New Zealand Student Visa'),
+	z.literal('New Zealand Temporary Work Visa'),
 	z.literal('Full Working Rights'),
 	z.literal('International'),
-	z.literal('Subclass 462'),
-	z.literal('Australian Temporary Work Visa'),
-	z.literal('New Zealand Permanent Resident'),
-	z.literal('Australian Student Visa'),
+	z.literal('Subclass 46'),
 ]);
 export type WorkingRights = z.TypeOf<typeof WorkingRights>;
 
@@ -36,10 +38,11 @@ export interface Opportunity {
 	company: string;
 	name: string;
 	type: OpportunityType;
+	// Missing properties indicate unknown information
 	courseProgressions?: CourseProgression[];
 	open: boolean;
-	roles: string[];
-	locations: string[];
+	roles?: string[];
+	locations?: string[];
 	duration?: string | undefined;
 	time?: string | undefined;
 	openMonth?: Month | undefined;
