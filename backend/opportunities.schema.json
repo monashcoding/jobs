@@ -11,6 +11,7 @@
 			},
 			"courseProgressions": {
 				"type": "array",
+				"uniqueItems": true,
 				"items": {
 					"enum": ["Pre-Penultimate", "Penultimate", "Grad"]
 				}
