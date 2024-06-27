@@ -9,9 +9,9 @@ const toSet = <T>(xs: readonly T[] | undefined): Set<T> | undefined =>
 	xs ? new Set(xs) : undefined;
 
 const matchesArray = <T>(
-	values: readonly T[],
+	values: readonly T[] | undefined,
 	filter: ReadonlySet<T> | undefined,
-): boolean => !filter || values.some(x => filter.has(x));
+): boolean => !filter || !values || values.some(x => filter.has(x));
 
 router.get(
 	'/opportunities',
