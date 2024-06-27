@@ -11,6 +11,7 @@
 			},
 			"courseProgressions": {
 				"type": "array",
+				"minItems": 1,
 				"uniqueItems": true,
 				"items": {
 					"enum": ["Pre-Penultimate", "Penultimate", "Grad"]
@@ -19,6 +20,8 @@
 			"open": {"type": "boolean"},
 			"roles": {
 				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
 				"items": {
 					"enum": [
 						"Analytics and Cognitive",
@@ -36,11 +39,15 @@
 						"Data Scientist",
 						"Data Visualisation Engineer",
 						"DevOps Engineer",
+						"Digital Architect",
+						"Digital Operations",
 						"Digital Strategist",
+						"Engineering",
 						"Equity Analyst",
 						"Financial Crimes Analyst",
 						"Forensics Technology",
 						"Frontend Engineer",
+						"Full Stack Engineer",
 						"Game Developer",
 						"Hardware Engineer",
 						"Information Technology",
@@ -49,17 +56,20 @@
 						"Linux Engineer",
 						"Machine Learning Engineer",
 						"Machine Learning Researcher",
-						"Mobile App Developer",
+						"Markets Analyst",
+						"Mobile Engineer",
 						"Network Engineer",
 						"Penetration Tester",
-						"Platforms Engineer",
+						"Platform Engineer",
 						"Product Designer",
 						"Product Engineer",
 						"Product Manager",
 						"Project Analyst",
 						"Project Manager",
 						"Production Engineer",
+						"Quality Assurance Engineer",
 						"Quantitative Researcher",
+						"R&D Engineer",
 						"Sales",
 						"Security Engineer",
 						"Site Reliability Engineer",
@@ -72,8 +82,10 @@
 						"Technology Audit",
 						"Technology Consultant",
 						"Technology Risk",
+						"Technical Operations Engineer",
 						"Technical Specialist",
 						"Technical Support",
+						"Test Engineer",
 						"Trader",
 						"Trading Desk Operations Engineer",
 						"UX/UI Designer",
@@ -83,13 +95,17 @@
 			},
 			"locations": {
 				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
 				"items": {
 					"enum": [
+						"APAC",
 						"Adelaide",
 						"Amberley, QLD",
-						"APAC",
+						"Austinmer, NSW",
 						"Australia",
 						"Brisbane",
+						"Broadbeach, QLD",
 						"Canberra",
 						"Ingleburn, NSW",
 						"Karratha, WA",
@@ -120,6 +136,8 @@
 			"closeMonth": {"$ref": "#/definitions/month"},
 			"industries": {
 				"type": "array",
+				"minItems": 1,
+				"uniqueItems": true,
 				"items": {
 					"enum": [
 						"Accounting",
@@ -152,17 +170,20 @@
 			},
 			"workingRights": {
 				"type": "array",
+				"minItems": 1,
 				"items": {
 					"enum": [
 						"Australian Citizen",
-						"New Zealand Citizen",
 						"Australian Permanent Resident",
+						"Australian Student Visa",
+						"Australian Temporary Work Visa",
+						"New Zealand Citizen",
+						"New Zealand Permanent Resident",
+						"New Zealand Student Visa",
+						"New Zealand Temporary Work Visa",
 						"Full Working Rights",
 						"International",
-						"Subclass 462",
-						"Australian Temporary Work Visa",
-						"New Zealand Permanent Resident",
-						"Australian Student Visa"
+						"Subclass 462"
 					]
 				}
 			},
@@ -171,17 +192,17 @@
 				"format": "uri",
 				"pattern": "^https://"
 			},
-			"description": {"$ref": "#/definitions/nonEmptyString"},
-			"notes": {"$ref": "#/definitions/nonEmptyString"}
+			"description": {"$ref": "#/definitions/nonEmptyString"}
 		},
-		"required": ["company", "name", "type", "open", "roles", "locations"],
+		"required": ["company", "name", "type", "open"],
 		"additionalProperties": false
 	},
 
 	"definitions": {
 		"nonEmptyString": {
 			"type": "string",
-			"minLength": 1
+			"minLength": 1,
+			"pattern": "^(?:\\S(?:.|\n)*\\S|\\S)$"
 		},
 		"month": {
 			"type": "number",
