@@ -78,12 +78,41 @@
 					]
 				}
 			},
-			"locations": {"$ref": "#/definitions/nonEmptyStrings"},
+			"locations": {
+				"type": "array",
+				"items": {
+					"enum": [
+						"Adelaide",
+						"Amberley, QLD",
+						"APAC",
+						"Australia",
+						"Brisbane",
+						"Canberra",
+						"Ingleburn, NSW",
+						"Karratha, WA",
+						"Hobart",
+						"Hong Kong",
+						"Melbourne",
+						"Newcastle, NSW",
+						"New South Wales",
+						"Nowra, NSW",
+						"Perth",
+						"Remote",
+						"Shanghai",
+						"Sydney",
+						"Western Australia",
+						"Williamtown, NSW"
+					]
+				}
+			},
 			"duration": {"$ref": "#/definitions/nonEmptyString"},
 			"time": {"$ref": "#/definitions/nonEmptyString"},
 			"openMonth": {"$ref": "#/definitions/month"},
 			"closeMonth": {"$ref": "#/definitions/month"},
-			"industries": {"$ref": "#/definitions/nonEmptyStrings"},
+			"industries": {
+				"type": "array",
+				"items": {"$ref": "#/definitions/nonEmptyString"}
+			},
 			"workingRights": {
 				"type": "array",
 				"items": {
@@ -115,10 +144,6 @@
 		"nonEmptyString": {
 			"type": "string",
 			"minLength": 1
-		},
-		"nonEmptyStrings": {
-			"type": "array",
-			"items": {"$ref": "#/definitions/nonEmptyString"}
 		},
 		"month": {
 			"type": "number",
