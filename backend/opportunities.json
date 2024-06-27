@@ -1,7 +1,33 @@
 [
 	{
 		"company": "Amazon/AWS",
-		"name": "2024 Software Dev Engineer Intern SYD, AWS",
+		"name": "2024 Software Dev Engineer Intern - Grocery Shopping Experience",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"open": true,
+		"roles": ["Software Engineer"],
+		"locations": ["Brisbane"],
+		"duration": "3 Months",
+		"time": "Summer",
+		"industries": ["Retail and Sales", "Technology"],
+		"url": "https://www.amazon.jobs/en/jobs/2606106/2024-software-dev-engineer-intern-Brisbane-grocery-shopping-experience"
+	},
+	{
+		"company": "Amazon/AWS",
+		"name": "2024 Software Dev Engineer Intern - Grocery Shopping Experience",
+		"type": "Internship",
+		"courseProgressions": ["Pre-Penultimate", "Penultimate", "Grad"],
+		"open": true,
+		"roles": ["Software Engineer"],
+		"locations": ["Brisbane"],
+		"duration": "2–3 Months",
+		"time": "Summer",
+		"industries": ["Retail and Sales", "Technology"],
+		"url": "https://www.amazon.jobs/en/jobs/2643228/2024-software-dev-engineer-intern-Brisbane-grocery-shopping-experience"
+	},
+	{
+		"company": "Amazon/AWS",
+		"name": "2024 Software Dev Engineer Intern",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer"],
@@ -20,25 +46,29 @@
 		"notes": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
 	},
 	{
+		"company": "Amazon",
+		"name": "Machine Learning Summer School 2024",
+		"type": "Other Program",
+		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
+		"roles": ["Machine Learning Engineer"],
+		"open": false,
+		"locations": ["Remote"],
+		"duration": "4–8 Weeks",
+		"openMonth": 12,
+		"closeMonth": 1,
+		"industries": ["Artificial Intelligence", "Big Data and Analytics"],
+		"workingRights": [],
+		"url": "https://amazonmlsummerschoolaustralia.splashthat.com/?fbclid=PAAaad72dMSxMiicXSldrTZ4C7vnItTalnPHqiWCql-rtWbOnoXN2UwRgLk30_aem_AUbfAwXWoX3SDxHR-dWL2XYX01AVWu0xW1WCmgArLzYSXqaxpjvXV6O6GShUk_zgrSc1bDqJ_YgSj5hyx9k1mNuy",
+		"notes": "ML virtual summer school for APAC students"
+	},
+	{
 		"company": "Atlassian",
-		"name": "Summer 2024/2025 Internship",
+		"name": "Customer Experience Intern, Summer 2024/2025 Australia & New Zealand",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
-		"roles": [
-			"Customer Experience",
-			"Data Analyst",
-			"Data Scientist",
-			"Information Technology",
-			"Machine Learning Engineer",
-			"Product Designer",
-			"Product Manager",
-			"Sales",
-			"Security Engineer",
-			"Site Reliability Engineer",
-			"Software Engineer"
-		],
-		"open": true,
-		"locations": ["Melbourne", "Sydney"],
+		"roles": ["Customer Experience"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
 		"time": "Summer",
 		"openMonth": 1,
 		"industries": ["Technology"],
@@ -48,6 +78,224 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Data Analyst Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Data Analyst"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Data Science Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Data Scientist"],
+		"open": true,
+		"locations": ["Sydney", "Remote"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/details/12503"
+	},
+	{
+		"company": "Atlassian",
+		"name": "IT Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Information Technology"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Machine Learning Engineer Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Machine Learning Engineer"],
+		"open": true,
+		"locations": ["Sydney", "Remote"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/details/12506"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Product Designer Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Product Designer"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Product Manager Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Product Manager"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Sales Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Sales"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Security Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Security Engineer"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Security/Intelligence Engineer Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Security Engineer"],
+		"open": true,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/details/12547"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Site Reliability Engineer Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Site Reliability Engineer"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/details/12508"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Software Engineer Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": ["Software Engineer"],
+		"open": false,
+		"locations": ["Sydney", "Remote"],
+		"time": "Summer",
+		"openMonth": 1,
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/all-jobs?team=&location=Australia&search=2024/2025"
+	},
+	{
+		"company": "Atlassian",
+		"name": "Workplace Technology Intern, Summer 2024/2025 Australia & New Zealand",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate", "Grad"],
+		"roles": ["Workspace Technology"],
+		"open": true,
+		"locations": ["Sydney", "Remote"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"industries": ["Technology"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://www.atlassian.com/company/careers/details/12552"
 	},
 	{
 		"company": "Australian Defence Force",
@@ -738,22 +986,7 @@
 		"url": "https://akunacapital.com/careers?&experience=intern&location=Sydney&search_term=#careers",
 		"notes": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
 	},
-	{
-		"company": "Amazon",
-		"name": "Machine Learning Summer School 2024",
-		"type": "Other Program",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate", "Grad"],
-		"roles": ["Machine Learning Engineer"],
-		"open": false,
-		"locations": ["Remote"],
-		"duration": "4–8 Weeks",
-		"openMonth": 12,
-		"closeMonth": 1,
-		"industries": ["Artificial Intelligence", "Big Data and Analytics"],
-		"workingRights": [],
-		"url": "https://amazonmlsummerschoolaustralia.splashthat.com/?fbclid=PAAaad72dMSxMiicXSldrTZ4C7vnItTalnPHqiWCql-rtWbOnoXN2UwRgLk30_aem_AUbfAwXWoX3SDxHR-dWL2XYX01AVWu0xW1WCmgArLzYSXqaxpjvXV6O6GShUk_zgrSc1bDqJ_YgSj5hyx9k1mNuy",
-		"notes": "ML virtual summer school for APAC students"
-	},
+
 	{
 		"company": "AMP",
 		"name": "Technology Graduate Program",
