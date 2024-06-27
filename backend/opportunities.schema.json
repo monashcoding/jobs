@@ -105,8 +105,14 @@
 					]
 				}
 			},
-			"duration": {"$ref": "#/definitions/nonEmptyString"},
-			"time": {"$ref": "#/definitions/nonEmptyString"},
+			"duration": {
+				"type": "string",
+				"$comment": "Must be something like ‘6–12 Weeks’, ‘3 Months’, etc.. The duration can be in terms of ‘Days’, ‘Weeks’, or ‘Months’. If it is a single day/week/month, it should be ‘1 Day’, ‘1 Week’, or ‘1 Month’.",
+				"pattern": "^(?:1 (?:Day|Week|Month)|(?:[2-9]|[1-9]\\d+|\\d+–\\d+) (?:Day|Week|Month)s)$"
+			},
+			"time": {
+				"enum": ["Semester 1", "Semester 2", "Summer", "Winter"]
+			},
 			"openMonth": {"$ref": "#/definitions/month"},
 			"closeMonth": {"$ref": "#/definitions/month"},
 			"industries": {
@@ -137,7 +143,8 @@
 			"description": {"$ref": "#/definitions/nonEmptyString"},
 			"notes": {"$ref": "#/definitions/nonEmptyString"}
 		},
-		"required": ["company", "name", "type", "open", "roles", "locations"]
+		"required": ["company", "name", "type", "open", "roles", "locations"],
+		"additionalProperties": false
 	},
 
 	"definitions": {
