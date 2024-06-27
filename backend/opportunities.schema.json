@@ -1,0 +1,68 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema#",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"properties": {
+			"company": {"$ref": "#/definitions/nonEmptyString"},
+			"name": {"$ref": "#/definitions/nonEmptyString"},
+			"type": {
+				"enum": ["Internship", "Grad Program", "Other Program"]
+			},
+			"courseProgressions": {
+				"type": "array",
+				"items": {
+					"enum": ["Pre-Penultimate", "Penultimate", "Grad"]
+				}
+			},
+			"open": {"type": "boolean"},
+			"roles": {"$ref": "#/definitions/nonEmptyStrings"},
+			"locations": {"$ref": "#/definitions/nonEmptyStrings"},
+			"duration": {"$ref": "#/definitions/nonEmptyString"},
+			"time": {"$ref": "#/definitions/nonEmptyString"},
+			"openMonth": {"$ref": "#/definitions/month"},
+			"closeMonth": {"$ref": "#/definitions/month"},
+			"industries": {"$ref": "#/definitions/nonEmptyStrings"},
+			"workingRights": {
+				"type": "array",
+				"items": {
+					"enum": [
+						"Australian Citizen",
+						"New Zealand Citizen",
+						"Australian Permanent Resident",
+						"Full Working Rights",
+						"International",
+						"Subclass 462",
+						"Australian Temporary Work Visa",
+						"New Zealand Permanent Resident",
+						"Australian Student Visa"
+					]
+				}
+			},
+			"url": {
+				"type": "string",
+				"format": "uri",
+				"pattern": "^https://"
+			},
+			"description": {"$ref": "#/definitions/nonEmptyString"},
+			"notes": {"$ref": "#/definitions/nonEmptyString"}
+		},
+		"required": ["company", "name", "type", "open", "roles", "locations"]
+	},
+
+	"definitions": {
+		"nonEmptyString": {
+			"type": "string",
+			"minLength": 1
+		},
+		"nonEmptyStrings": {
+			"type": "array",
+			"items": {"$ref": "#/definitions/nonEmptyString"}
+		},
+		"month": {
+			"type": "number",
+			"minimum": 1,
+			"maximum": 12
+		}
+	}
+}
