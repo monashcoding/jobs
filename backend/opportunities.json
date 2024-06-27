@@ -61,7 +61,7 @@
 			"Software Engineer"
 		],
 		"open": true,
-		"locations": ["Australia Wide"],
+		"locations": ["Australia"],
 		"duration": "12-36 Months",
 		"industries": ["Defense"],
 		"workingRights": ["Australian Citizen"],
@@ -80,7 +80,7 @@
 			"Software Engineer"
 		],
 		"open": true,
-		"locations": ["Australia Wide"],
+		"locations": ["Australia"],
 		"duration": "12-36 Months",
 		"industries": ["Defense"],
 		"workingRights": ["Australian Citizen"],
@@ -183,7 +183,7 @@
 		"closeMonth": 6,
 		"industries": ["Energy", "Mining"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
-		"url": "https://careers.chevron.com/job/perth/information-technology-chevron-intern-program/38138/61960686320"
+		"url": "https://careers.chevron.com/job/Perth/information-technology-chevron-intern-program/38138/61960686320"
 	},
 	{
 		"company": "Deloitte",
@@ -478,7 +478,7 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=sydney"
+		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=Sydney"
 	},
 	{
 		"company": "PwC",
@@ -584,7 +584,7 @@
 			"Australian Permanent Resident",
 			"Full Working Rights"
 		],
-		"url": "https://careers.sig.com/sydney-campus"
+		"url": "https://careers.sig.com/Sydney-campus"
 	},
 	{
 		"company": "Tibra Capital",
@@ -735,7 +735,7 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://akunacapital.com/careers?&experience=intern&location=sydney&search_term=#careers",
+		"url": "https://akunacapital.com/careers?&experience=intern&location=Sydney&search_term=#careers",
 		"notes": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
 	},
 	{
@@ -804,7 +804,7 @@
 		"courseProgressions": ["Grad"],
 		"roles": [],
 		"open": false,
-		"locations": ["Australia Wide"],
+		"locations": ["Australia"],
 		"duration": "6-24 Months",
 		"openMonth": 8,
 		"closeMonth": 9,
@@ -1266,11 +1266,11 @@
 		"open": false,
 		"locations": [
 			"Adelaide",
-			"Amberley",
+			"Amberley, QLD",
 			"Brisbane",
 			"Melbourne",
-			"Nowra",
-			"Williamtown"
+			"Nowra, NSW",
+			"Williamtown, NSW"
 		],
 		"duration": "24 months",
 		"openMonth": 5,
@@ -1287,11 +1287,11 @@
 		"open": false,
 		"locations": [
 			"Adelaide",
-			"Amberley",
+			"Amberley, QLD",
 			"Brisbane",
 			"Melbourne",
-			"Nowra",
-			"Williamtown"
+			"Nowra, NSW",
+			"Williamtown, NSW"
 		],
 		"duration": "Summer",
 		"openMonth": 7,
@@ -1317,7 +1317,7 @@
 			"UX/UI Designer"
 		],
 		"open": false,
-		"locations": ["Flexible", "Melbourne", "Sydney"],
+		"locations": ["Remote", "Melbourne", "Sydney"],
 		"duration": "Summer",
 		"openMonth": 3,
 		"closeMonth": 6,
@@ -1403,7 +1403,7 @@
 		"courseProgressions": ["Grad"],
 		"roles": [],
 		"open": false,
-		"locations": ["NSW"],
+		"locations": ["New South Wales"],
 		"openMonth": 2,
 		"closeMonth": 4,
 		"industries": ["Retail and Sales"],
@@ -1627,7 +1627,7 @@
 			"Brisbane",
 			"Canberra",
 			"Melbourne",
-			"New Castle",
+			"Newcastle, NSW",
 			"Perth",
 			"Sydney"
 		],
@@ -1655,7 +1655,7 @@
 			"Brisbane",
 			"Canberra",
 			"Melbourne",
-			"New Castle",
+			"Newcastle, NSW",
 			"Perth",
 			"Sydney"
 		],
@@ -1886,7 +1886,7 @@
 			"Systems Engineer"
 		],
 		"open": false,
-		"locations": ["Australia Wide"],
+		"locations": ["Australia"],
 		"duration": "12 weeks",
 		"openMonth": 7,
 		"closeMonth": 7,
@@ -1912,7 +1912,7 @@
 			"Systems Engineer"
 		],
 		"open": false,
-		"locations": ["Australia Wide"],
+		"locations": ["Australia"],
 		"duration": "24 months",
 		"openMonth": 3,
 		"closeMonth": 3,
@@ -2037,7 +2037,7 @@
 		"closeMonth": 5,
 		"industries": ["Technology"],
 		"workingRights": ["Australian Citizen"],
-		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/2024-graduate-systems-engineer-melbourne-cbd-scoresby-and-canberra"
+		"url": "https://prosple.com/graduate-employers/leidos/jobs-internships/2024-graduate-systems-engineer-Melbourne-cbd-scoresby-and-Canberra"
 	},
 	{
 		"company": "Leidos",
@@ -2052,7 +2052,7 @@
 		"closeMonth": 8,
 		"industries": ["Biotech", "Defense", "Technology"],
 		"workingRights": ["Australian Citizen"],
-		"url": "https://jobs.smartrecruiters.com/Leidos1/743999838036000-intern-software-developer-melbourne"
+		"url": "https://jobs.smartrecruiters.com/Leidos1/743999838036000-intern-software-developer-Melbourne"
 	},
 	{
 		"company": "Leidos",
@@ -2364,7 +2364,7 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=sydney"
+		"url": "https://www.optiver.com/working-at-optiver/career-opportunities/?filter-level=internship&filter-office=Sydney"
 	},
 	{
 		"company": "Origin Energy",
@@ -2573,7 +2573,7 @@
 		"locations": [
 			"Adelaide",
 			"Brisbane",
-			"Ingleburn",
+			"Ingleburn, NSW",
 			"Melbourne",
 			"Perth",
 			"Sydney"
@@ -2599,7 +2599,7 @@
 		"locations": [
 			"Adelaide",
 			"Brisbane",
-			"Ingleburn",
+			"Ingleburn, NSW",
 			"Melbourne",
 			"Perth",
 			"Sydney"
@@ -2698,7 +2698,7 @@
 			"Technology Consultant"
 		],
 		"open": false,
-		"locations": ["Flexible"],
+		"locations": ["Remote"],
 		"duration": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
@@ -2857,7 +2857,7 @@
 			"Software Engineer"
 		],
 		"open": false,
-		"locations": ["Karratha", "Perth"],
+		"locations": ["Karratha, WA", "Perth"],
 		"duration": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
