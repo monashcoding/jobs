@@ -3120,6 +3120,25 @@
 		"description": "Starts on 26 Jan 2025. Must have completed a Bachelor’s Degree in science, computing mathematics or similar within the last 2 years."
 	},
 	{
+		"company": "REA Group",
+		"name": "Graduate Software Development and Engineering",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer"],
+		"open": true,
+		"locations": ["Melbourne"],
+		"duration": "12 Months",
+		"openMonth": 7,
+		"industries": ["Retail and Sales"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"Full Working Rights",
+			"International"
+		],
+		"url": "https://careers.rea-group.com/au/en/job/R0011987/Graduate-Software-Development-and-Engineering"
+	},
+	{
 		"company": "Reserve Bank of Australia",
 		"name": "Reserve Bank Graduate Program",
 		"type": "Grad Program",
