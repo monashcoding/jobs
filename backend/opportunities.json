@@ -589,10 +589,10 @@
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Software Engineer", "Technology Consultant"],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne"],
 		"duration": "12 Weeks",
-		"openMonth": 7,
+		"openMonth": 6,
 		"closeMonth": 8,
 		"industries": [
 			"Construction",
@@ -2786,9 +2786,9 @@
 	},
 	{
 		"company": "NAB",
-		"name": "NAB Internship",
+		"name": "Technology Talent Program",
 		"type": "Internship",
-		"courseProgressions": ["Penultimate", "Grad"],
+		"courseProgressions": ["Pre-Penultimate"],
 		"roles": [
 			"Business Analyst",
 			"Cloud Engineer",
@@ -2801,7 +2801,7 @@
 		],
 		"open": true,
 		"locations": ["Melbourne", "Sydney"],
-		"duration": "6–12 Months",
+		"duration": "12 Weeks",
 		"time": "Semester 1",
 		"openMonth": 7,
 		"closeMonth": 8,
@@ -2811,12 +2811,12 @@
 			"Australian Permanent Resident",
 			"New Zealand Citizen"
 		],
-		"url": "https://www.nab.com.au/about-us/careers/early-careers/information-technology-internship",
-		"description": "The technology program can be done by pre-penultimate students."
+		"url": "https://www.nab.com.au/about-us/careers/early-careers/technology-talent-program",
+		"description": "25 Nov 2024 to 14 Feb 2025. Includes 10-weeks paid bootcamp and 2 weeks unpaid leave over the Christmas and New Year period"
 	},
 	{
 		"company": "NAB",
-		"name": "NAB Internship",
+		"name": "Internship",
 		"type": "Internship",
 		"courseProgressions": ["Penultimate", "Grad"],
 		"roles": [
@@ -2846,7 +2846,7 @@
 	},
 	{
 		"company": "NAB",
-		"name": "NAB Graduate Program",
+		"name": "Graduate Program",
 		"type": "Grad Program",
 		"courseProgressions": ["Grad"],
 		"open": false,
@@ -3411,7 +3411,7 @@
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Network Engineer", "Software Engineer"],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne", "Sydney"],
 		"time": "Summer",
 		"openMonth": 7,
@@ -3935,7 +3935,7 @@
 			"Project Manager",
 			"Software Engineer"
 		],
-		"open": false,
+		"open": true,
 		"locations": ["Melbourne"],
 		"duration": "24 Months",
 		"openMonth": 7,
