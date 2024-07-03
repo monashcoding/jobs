@@ -7,5 +7,6 @@
 			"fileMatch": ["/backend/opportunities.json"],
 			"url": "/backend/opportunities.schema.json"
 		}
-	]
+	],
+	"liveServer.settings.port": 5501
 }

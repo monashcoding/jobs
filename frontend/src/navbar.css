@@ -1,69 +1,184 @@
-body {
-    margin: 0;
-    padding: 0;
-    /* font-family: ;
-    font-size: ; */
+#navbar .filterButtons * {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #490ef2;
+	border: white;
+	color: #bfbfbf;
+	font-family: 'poppins';
+	font-size: 18px;
+	border-radius: 22px;
+	padding: 6px 16px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	width: 130px;
 }
 
-nav {
-    background-color: yellow;
-    border-radius: 999px;
-    /* idk RANDOM NUMBER RN */
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: max-content;
-    margin: 0 auto;
-    margin-top: 50px;
-    /* Adjust */
+#navbar .disabled {
+	opacity: 0.6;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#navbar #jobType {
+	font-family: 'poppins';
+	font-weight: normal;
+	padding-left: 20px;
+	margin-left: 8px;
 }
 
-nav ul li {
-    position: relative;
-    padding: 10px;
-    cursor: pointer;
+#navbar #allJobTypes {
+	width: 145px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
+#navbar nav {
+	background-color: #ffe330;
+	border-radius: 100px;
+	/* idk RANDOM NUMBER RN */
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 60px;
+	border: 1.5px solid black;
+	box-shadow: 1px 3px 3px rgb(180, 177, 177);
+	/* Adjust */
 }
 
-nav ul li.selected {
-    background-color: white;
-    border-radius: 10px 10px 0 0;
+#navbar nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-/* nav ul li.dropdown {
-    padding-right: 30px;
+#navbar nav ul li {
+	position: relative;
+	cursor: pointer;
+}
+
+#navbar nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#navbar .dropdown-content a {
+	margin-left: -45px;
+}
+
+#navbar .selected {
+	background-color: white;
+	border-radius: 10px;
+}
+
+/* #navbar nav ul li.dropdown {
+padding-right: 30px;
 } */
 
-nav ul li.dropdown .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+#navbar .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
 }
 
-nav ul li.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
+#navbar a {
+	padding: 10px;
 }
 
-nav ul li.dropdown-content li {
-    padding: 10px;
+#navbar .dropdown:hover + .dropdown-content {
+	display: flex;
+	flex-direction: column;
+	margin-top: 13px;
 }
 
-nav ul li.dropdown-content li a:hover {
-    background-color: #f1f1f1;
+#navbar li {
+	padding: 15px;
+	padding-top: 10px;
+}
+
+#navbar a:hover {
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	font-weight: 600;
+}
+
+#navbar .events {
+	margin-right: 40px;
+}
+
+#navbar img {
+	margin-left: 4px;
+	width: 2vh;
+	height: 8px;
+}
+
+#navbar nav {
+	background-color: yellow;
+	border-radius: 999px;
+	/* idk RANDOM NUMBER RN */
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 50px;
+	/* Adjust */
+}
+
+#navbar nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#navbar nav ul li {
+	position: relative;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#navbar nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#navbar nav ul li.selected {
+	background-color: white;
+	border-radius: 10px 10px 0 0;
+}
+
+/* #navbar nav ul li.dropdown {
+	padding-right: 30px;
+} */
+
+#navbar nav ul li.dropdown .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+#navbar nav ul li.dropdown:hover .dropdown-content {
+	display: flex;
+	flex-direction: column;
+}
+
+#navbar nav ul li.dropdown-content li {
+	padding: 10px;
+}
+
+#navbar nav ul li.dropdown-content li a:hover {
+	background-color: #f1f1f1;
 }
