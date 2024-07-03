@@ -1,8 +1,9 @@
 import {initialiseAutocomplete} from './autocomplete';
 
-import './navbar.css';
-import './search-bar.css';
-import './style.css';
+import './styles/footer.css';
+import './styles/navbar.css';
+import './styles/search-bar.css';
+import './styles/style.css';
 
 const main = (): void => {
 	initialiseAutocomplete();
