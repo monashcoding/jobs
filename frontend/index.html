@@ -13,115 +13,107 @@
 	</head>
 
 	<body>
-		<div id="navbar">
-			<!-- <h1>MAC projects let's gooooo</h1> -->
-			<nav>
-				<ul>
-					<li class="selected">
-						<!--default have this selected-->
-						<a href="https://www.google.com">Job Search</a>
+		<nav>
+			<ul>
+				<!-- See navbar.css for why we need the 'title' attributes -->
+				<li class="selected">
+					<!--default have this selected-->
+					<a href="#" title="Job Search">Job Search</a>
+					<!-- TODO: REPLACE WITH ACTUAL LINKS-->
+				</li>
+				<li>
+					<a href="#" title="Employer Search">Employer Search</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="Advice">Advice</a>
+					<ul class="dropdown-content">
+						<li>
+							<a href="#" title="Sub-item 1">Sub-item 1</a>
+						</li>
 						<!-- TODO: REPLACE WITH ACTUAL LINKS-->
-					</li>
-					<li>
-						<a href="#">Employer Search</a>
-					</li>
-					<li class="dropdown">
-						<a href="">Advice</a>
-						<ul class="dropdown-content">
-							<li>
-								<a
-									href="https://www.google.com/search?client=firefox-b-d&q=how+to+find+jib"
-									>Sub-item 1</a
-								>
-							</li>
-							<!-- TODO: REPLACE WITH ACTUAL LINKS-->
-							<li>
-								<a
-									href="https://www.google.com/search?client=firefox-b-d&q=how+to+make+pancakes"
-									>Sub-item 2</a
-								>
-							</li>
-							<!-- TODO: REPLACE WITH ACTUAL LINKS-->
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a ref="#">Work With </a>
-						<ul class="dropdown-content">
-							<li><a href="#">Sub-item 1</a></li>
-							<li><a href="#">Sub-item 2</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">Events</a>
-					</li>
-				</ul>
-			</nav>
+						<li>
+							<a href="#" title="Sub-item 2">Sub-item 2</a>
+						</li>
+						<!-- TODO: REPLACE WITH ACTUAL LINKS-->
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" title="Work With">Work With </a>
+					<ul class="dropdown-content">
+						<li><a href="#" title="Sub-item 1">Sub-item 1</a></li>
+						<li><a href="#" title="Sub-item 2">Sub-item 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" title="Events">Events</a>
+				</li>
+			</ul>
+		</nav>
 
-			<h3 id="jobType">Job Type:</h3>
+		<h3 id="jobType">Job Type:</h3>
 
-			<div class="filterButtons" id="filters">
-				<button id="allJobTypes" onclick="onFilterButtonClick(this.id)">
-					All job types
-				</button>
+		<div class="filter-buttons" id="filters">
+			<button id="allJobTypes" onclick="onFilterButtonClick(this.id)">
+				All job types
+			</button>
 
-				<button
-					id="internship"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Internship
-				</button>
+			<button
+				id="internship"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Internship
+			</button>
 
-				<button
-					id="entryLevel"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Entry Level
-				</button>
+			<button
+				id="entryLevel"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Entry Level
+			</button>
 
-				<button
-					id="clerkship"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Clerkship
-				</button>
+			<button
+				id="clerkship"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Clerkship
+			</button>
 
-				<button
-					id="fullTime"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Full-time
-				</button>
+			<button
+				id="fullTime"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Full-time
+			</button>
 
-				<br />
+			<br />
 
-				<button
-					id="parTime"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Part-time
-				</button>
+			<button
+				id="parTime"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Part-time
+			</button>
 
-				<button
-					id="contract"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Contract
-				</button>
+			<button
+				id="contract"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Contract
+			</button>
 
-				<button
-					id="casual"
-					class="disabled"
-					onclick="onFilterButtonClick(this.id)"
-				>
-					Casual
-				</button>
-			</div>
+			<button
+				id="casual"
+				class="disabled"
+				onclick="onFilterButtonClick(this.id)"
+			>
+				Casual
+			</button>
 		</div>
 
 		<div class="search-bar">

@@ -1,4 +1,4 @@
-#navbar .filterButtons * {
+.filter-buttons * {
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -15,69 +15,98 @@
 	width: 130px;
 }
 
-#navbar .disabled {
+.filter-buttons .disabled {
 	opacity: 0.6;
 }
 
-#navbar #jobType {
+#jobType {
 	font-family: 'poppins';
 	font-weight: normal;
 	padding-left: 20px;
 	margin-left: 8px;
 }
 
-#navbar #allJobTypes {
+#allJobTypes {
 	width: 145px;
 }
 
-#navbar nav {
+nav {
 	background-color: #ffe330;
 	border-radius: 100px;
-	/* idk RANDOM NUMBER RN */
-	padding: 0 15px;
+	padding: 0px 50px;
+
 	display: flex;
-	justify-content: space-evenly;
 	align-items: center;
+
 	width: max-content;
 	margin: 0 auto;
 	margin-top: 50px;
 	height: 60px;
+
 	border: 1.5px solid black;
 	box-shadow: 1px 3px 3px rgb(180, 177, 177);
-	/* Adjust */
 }
 
-#navbar nav ul {
+nav ul {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	gap: 10px;
+	padding: 0;
 }
 
-#navbar nav ul li {
+nav ul li {
 	position: relative;
+	padding: 10px;
 	cursor: pointer;
-}
-
-#navbar nav ul li a {
-	text-decoration: none;
-	color: black;
-}
-
-#navbar .dropdown-content a {
-	margin-left: -45px;
-}
-
-#navbar .selected {
-	background-color: white;
 	border-radius: 10px;
 }
 
-/* #navbar nav ul li.dropdown {
+nav ul li.selected {
+	background-color: white;
+}
+
+nav ul li:hover {
+	background-color: #f1f1f1;
+}
+
+nav ul li:hover > a {
+	font-weight: 600;
+}
+
+/*
+To avoid content shift on hover due to bolding the font, we add an invisible
+bold pseudoelement. This relies on having the 'title' attribute on the <a>
+element containing the link text.
+https://stackoverflow.com/a/20249560/8289918
+*/
+nav a::before {
+	display: block;
+	content: attr(title);
+	font-weight: bold;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+
+nav img {
+	margin-left: 4px;
+	width: 2vh;
+	height: 8px;
+}
+
+/* nav ul li.dropdown {
 padding-right: 30px;
 } */
 
-#navbar .dropdown-content {
+nav.dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
@@ -89,79 +118,7 @@ padding-right: 30px;
 	border-radius: 10px;
 }
 
-#navbar a {
-	padding: 10px;
-}
-
-#navbar .dropdown:hover + .dropdown-content {
-	display: flex;
-	flex-direction: column;
-	margin-top: 13px;
-}
-
-#navbar li {
-	padding: 15px;
-	padding-top: 10px;
-}
-
-#navbar a:hover {
-	background-color: #f1f1f1;
-	border-radius: 10px;
-	font-weight: 600;
-}
-
-#navbar .events {
-	margin-right: 40px;
-}
-
-#navbar img {
-	margin-left: 4px;
-	width: 2vh;
-	height: 8px;
-}
-
-#navbar nav {
-	background-color: yellow;
-	border-radius: 999px;
-	/* idk RANDOM NUMBER RN */
-	padding: 0 15px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	width: max-content;
-	margin: 0 auto;
-	margin-top: 50px;
-	/* Adjust */
-}
-
-#navbar nav ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-#navbar nav ul li {
-	position: relative;
-	padding: 10px;
-	cursor: pointer;
-}
-
-#navbar nav ul li a {
-	text-decoration: none;
-	color: black;
-}
-
-#navbar nav ul li.selected {
-	background-color: white;
-	border-radius: 10px 10px 0 0;
-}
-
-/* #navbar nav ul li.dropdown {
-	padding-right: 30px;
-} */
-
-#navbar nav ul li.dropdown .dropdown-content {
+nav ul li.dropdown .dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
@@ -170,15 +127,21 @@ padding-right: 30px;
 	z-index: 1;
 }
 
-#navbar nav ul li.dropdown:hover .dropdown-content {
+nav ul li.dropdown:hover .dropdown-content {
 	display: flex;
 	flex-direction: column;
 }
 
-#navbar nav ul li.dropdown-content li {
+nav ul li.dropdown-content li {
 	padding: 10px;
 }
 
-#navbar nav ul li.dropdown-content li a:hover {
+nav ul li.dropdown-content li a:hover {
 	background-color: #f1f1f1;
+}
+
+nav .dropdown:hover + .dropdown-content {
+	display: flex;
+	flex-direction: column;
+	margin-top: 13px;
 }
