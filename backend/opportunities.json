@@ -175,6 +175,18 @@
 		"description": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
 	},
 	{
+		"company": "Amazon/AWS",
+		"name": "2024 Software Development Graduate",
+		"type": "Grad Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Software Engineer"],
+		"open": true,
+		"locations": ["Sydney"],
+		"openMonth": 7,
+		"industries": ["Retail and Sales", "Technology"],
+		"url": "https://amazon.jobs/en/jobs/2652749/2024-software-development-graduate-aws"
+	},
+	{
 		"company": "AMP",
 		"name": "Technology Graduate Program",
 		"type": "Grad Program",
