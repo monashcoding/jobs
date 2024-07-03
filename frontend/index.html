@@ -13,152 +13,115 @@
 	</head>
 
 	<body>
-		<nav>
-			<ul>
-				<!-- See navbar.css for why we need the 'title' attributes -->
-				<li class="selected">
-					<!--default have this selected-->
-					<a href="#" title="Job Search">Job Search</a>
-					<!-- TODO: REPLACE WITH ACTUAL LINKS-->
-				</li>
-				<li>
-					<a href="#" title="Employer Search">Employer Search</a>
-				</li>
-				<li class="dropdown">
-					<a href="#" title="Advice">Advice</a>
-					<ul class="dropdown-content">
-						<li>
-							<a href="#" title="Sub-item 1">Sub-item 1</a>
-						</li>
+		<header>
+			<nav>
+				<ul>
+					<!-- See navbar.css for why we need the 'title' attributes -->
+					<li class="selected">
+						<!--default have this selected-->
+						<a href="#" title="Job Search">Job Search</a>
 						<!-- TODO: REPLACE WITH ACTUAL LINKS-->
-						<li>
-							<a href="#" title="Sub-item 2">Sub-item 2</a>
-						</li>
-						<!-- TODO: REPLACE WITH ACTUAL LINKS-->
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" title="Work With">Work With </a>
-					<ul class="dropdown-content">
-						<li><a href="#" title="Sub-item 1">Sub-item 1</a></li>
-						<li><a href="#" title="Sub-item 2">Sub-item 2</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#" title="Events">Events</a>
-				</li>
-			</ul>
-		</nav>
+					</li>
+					<li>
+						<a href="#" title="Employer Search">Employer Search</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" title="Advice">Advice</a>
+						<ul class="dropdown-content">
+							<li>
+								<a href="#" title="Sub-item 1">Sub-item 1</a>
+							</li>
+							<!-- TODO: REPLACE WITH ACTUAL LINKS-->
+							<li>
+								<a href="#" title="Sub-item 2">Sub-item 2</a>
+							</li>
+							<!-- TODO: REPLACE WITH ACTUAL LINKS-->
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" title="Work With">Work With </a>
+						<ul class="dropdown-content">
+							<li><a href="#" title="Sub-item 1">Sub-item 1</a></li>
+							<li><a href="#" title="Sub-item 2">Sub-item 2</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" title="Events">Events</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-		<div class="prompt">
-			<h1>DISCOVER YOUR NEXT OPPORTUNITY</h1>
-			<h6>Find your new job with MAC</h6>
-		</div>
-		<div class="container">
-			<img src="src/image.png" alt="Description of your image" />
-		</div>
-
-		<h3 id="jobType">Job Type:</h3>
-
-		<div class="filter-buttons" id="filters">
-			<button id="allJobTypes" onclick="onFilterButtonClick(this.id)">
-				All job types
-			</button>
-
-			<button
-				id="internship"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Internship
-			</button>
-
-			<button
-				id="entryLevel"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Entry Level
-			</button>
-
-			<button
-				id="clerkship"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Clerkship
-			</button>
-
-			<button
-				id="fullTime"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Full-time
-			</button>
-
-			<br />
-
-			<button
-				id="parTime"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Part-time
-			</button>
-
-			<button
-				id="contract"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Contract
-			</button>
-
-			<button
-				id="casual"
-				class="disabled"
-				onclick="onFilterButtonClick(this.id)"
-			>
-				Casual
-			</button>
-		</div>
-
-		<div class="search-bar">
-			<form class="search-form" action="" autocomplete="off">
-				<div class="search-left">
-					<div class="input-left">
-						<p>I want to be a…</p>
-					</div>
-
-					<div class="search-box-1">
-						<div class="autocomplete-input">
-							<input class="search-input" type="text" placeholder="Role" />
-							<ul></ul>
-						</div>
-						<button type="submit" class="search-button magnifying-glass">
-							<img src="assets/icons/search-icon.png" alt="search-icon" />
-						</button>
-					</div>
-					<div class="result-box"></div>
+		<main>
+			<div class="top">
+				<div class="prompt">
+					<h1>Discover your next opportunity</h1>
+					<p>Find your new job with MAC</p>
 				</div>
 
-				<div class="search-right">
-					<div class="input-right">
-						<p>I live in...</p>
+				<img src="src/image.png" alt="Description of your image" />
+
+				<div class="query">
+					<div class="search-bar">
+						<form class="search-form" action="" autocomplete="off">
+							<div class="search-left">
+								<div class="input-left">
+									<p>I want to be a…</p>
+								</div>
+								<div class="search-box-1">
+									<div class="autocomplete-input">
+										<input
+											class="search-input"
+											type="text"
+											placeholder="Role"
+										/>
+										<ul></ul>
+									</div>
+									<button type="submit" class="search-button magnifying-glass">
+										<img src="assets/icons/search-icon.png" alt="search-icon" />
+									</button>
+								</div>
+								<div class="result-box"></div>
+							</div>
+							<div class="search-right">
+								<div class="input-right">
+									<p>I live in…</p>
+								</div>
+								<div class="search-box-2">
+									<input
+										type="text"
+										class="search-input"
+										placeholder="Location"
+									/>
+									<button class="search-button map-pointer">
+										<img src="assets/icons/map-icon.png" alt="map-pointer" />
+									</button>
+								</div>
+							</div>
+						</form>
 					</div>
 
-					<div class="search-box-2">
-						<input type="text" class="search-input" placeholder="Location" />
-						<button class="search-button map-pointer">
-							<img src="assets/icons/map-icon.png" alt="map-pointer" />
-						</button>
+					<p>Job Type:</p>
+					<div class="filter-buttons" id="filters">
+						<button>All job types</button>
+						<button class="disabled">Internship</button>
+						<button class="disabled">Grad Program</button>
+						<button class="disabled">Other Program</button>
+					</div>
+
+					<p>Course Progression:</p>
+					<div class="filter-buttons" id="filters">
+						<button>All course progressions</button>
+						<button class="disabled">Pre-Penultimate</button>
+						<button class="disabled">Penultimate</button>
+						<button class="disabled">Graduate</button>
 					</div>
 				</div>
-			</form>
-		</div>
+			</div>
+		</main>
 
-		<div class="wave"></div>
+		<!-- TODO: add wave -->
+		<!-- <div class="wave"></div> -->
 
 		<footer class="footer">
 			<div class="footer-column-container">

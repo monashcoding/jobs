@@ -116,3 +116,7 @@
 	text-align: left;
 	padding: 0.5em;
 }
+
+.filter-buttons button {
+	width: auto;
+}
