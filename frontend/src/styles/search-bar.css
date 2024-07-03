@@ -1,3 +1,8 @@
+.search-form {
+	display: flex;
+	gap: 50px;
+}
+
 .search-box-1,
 .search-box-2 {
 	display: flex;
@@ -49,9 +54,7 @@
 .search-right {
 	display: inline-flex;
 	flex-direction: column;
-	align-items: left;
-	height: 50px;
-	margin-right: 50px;
+	align-items: flex-start;
 }
 
 #search-bar p {
@@ -85,7 +88,6 @@
 
 .autocomplete-input {
 	display: inline-block;
-	position: relative;
 }
 
 .autocomplete-input > ul {
@@ -98,6 +100,7 @@
 
 .autocomplete-input > ul li {
 	border: 1px solid #fdfdfd;
+	background-color: white;
 	border-top: unset;
 }
 
