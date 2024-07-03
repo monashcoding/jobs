@@ -122,46 +122,6 @@
 					Casual
 				</button>
 			</div>
-
-			<script type="module" src="/src/main.ts">
-				    // i chatgpted this lol
-				document.addEventListener('DOMContentLoaded', function() {
-				    var currentPath = window.location.pathname.replace(/\/$/, '');
-				    var navLinks = document.querySelectorAll('nav ul li a');
-
-				    navLinks.forEach(function(link) {
-				        var linkPath = link.getAttribute('href').replace(/\/$/, '');
-				        if (currentPath === linkPath) {
-				            link.parentElement.classList.add('active');
-				        }
-				    });
-				});
-
-				const getSelectedFilters = () => {
-				  let allFilters = document.getElementById("filters")
-				    .getElementsByTagName("*")
-
-				  let selectedFilters = []
-
-				  for (let i = 0; i < allFilters.length; i++) {
-				    if (!allFilters[i].classList.contains("disabled")) {
-				      selectedFilters.push(allFilters[i].id)
-				    }
-				  }
-
-				  return selectedFilters
-				}
-
-				const onFilterButtonClick = (id) => {
-				  var btn = document.getElementById(id)
-
-				  if (btn.classList.contains("disabled")) {
-				    btn.classList.remove("disabled")
-				  } else {
-				    btn.classList.add("disabled")
-				  }
-				}
-			</script>
 		</div>
 
 		<div class="search-bar">
@@ -197,5 +157,7 @@
 				</div>
 			</form>
 		</div>
+
+		<script type="module" src="/src/main.ts"></script>
 	</body>
 </html>
