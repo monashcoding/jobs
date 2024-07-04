@@ -1,24 +1,3 @@
-.filter-buttons * {
-	display: inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	background-color: #490ef2;
-	border: white;
-	color: #bfbfbf;
-	font-family: 'poppins';
-	font-size: 18px;
-	border-radius: 22px;
-	padding: 6px 16px;
-	margin-right: 8px;
-	margin-bottom: 10px;
-	width: 130px;
-}
-
-.filter-buttons .disabled {
-	opacity: 0.6;
-}
-
 nav {
 	background-color: #ffe330;
 	border-radius: 100px;
