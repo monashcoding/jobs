@@ -19,6 +19,6 @@
 		"mac-jobs-shared": "workspace:*"
 	},
 	"devDependencies": {
-		"vite": "^5.1.4"
+		"vite": "^5.3.3"
 	}
 }
