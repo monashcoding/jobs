@@ -36,6 +36,7 @@ export default tseslint.config(
 	},
 	{
 		rules: {
+			'@typescript-eslint/explicit-function-return-type': 'error',
 			'@typescript-eslint/no-confusing-void-expression': 'off',
 			'@typescript-eslint/no-misused-promises': [
 				'warn',
