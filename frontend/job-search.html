@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en-AU">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>MAC Job Board</title>
+	<link rel="stylesheet" href="/job-search.css" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Poppins", sans-serif;
+			font-size: 15px;
+		}
+
+		nav {
+			background-color: #FFE330;
+			border-radius: 100px;
+			/* idk RANDOM NUMBER RN */
+			padding: 0 15px;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			width: max-content;
+			margin: 0 auto;
+			margin-top: 50px;
+			height: 60px;
+			border: 1.5px solid black;
+			box-shadow: 1px 3px 3px rgb(180, 177, 177);
+			/* Adjust */
+		}
+
+		nav ul {
+			list-style-type: none;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		nav ul li {
+			position: relative;
+			cursor: pointer;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: black;
+		}
+
+		.dropdown-content a {
+			margin-left: -45px;
+
+		}
+
+		.selected {
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		/* nav ul li.dropdown {
+			padding-right: 30px;
+		} */
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			z-index: 1;
+			align-items: center;
+			justify-content: center;
+			border-radius: 10px;
+		}
+
+		a {
+			padding: 10px;
+		}
+
+		.dropdown:hover+.dropdown-content {
+			display: flex;
+			flex-direction: column;
+			margin-top: 13px;
+		}
+
+		li {
+			padding: 15px;
+			padding-top: 10px;
+		}
+
+		a:hover {
+			background-color: #f1f1f1;
+			border-radius: 10px;
+			font-weight: 600;
+		}
+
+		.events {
+			margin-right: 40px;
+		}
+
+		img {
+			margin-left: 4px;
+			width: 2vh;
+			height: 8px;
+		}
+
+		.search-bar-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 20px auto;
+			width: 100%;
+			max-width: 1000px;
+		}
+
+		.search-bar {
+			display: flex;
+			align-items: center;
+			background-color: white;
+			border: 1px solid #ccc;
+			border-radius: 30px;
+			padding: 10px 20px;
+			margin: 10px;
+			width: 100%;
+			max-width: 400px;
+		}
+
+		.search-bar input {
+			border: none;
+			outline: none;
+			font-size: 16px;
+			flex: 1;
+			padding: 10px;
+		}
+
+		.search-bar button {
+			background: none;
+			border: none;
+			cursor: pointer;
+		}
+
+		.search-bar button img {
+			width: 24px;
+			height: 24px;
+		}
+
+		.search-label {
+			font-size: 18px;
+			margin: 10px 0;
+			text-align: center;
+			width: 100%;
+		}
+
+		.search-bar-wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 45%;
+		}
+
+		.filter-buttons-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 20px auto;
+			width: 100%;
+			max-width: 1000px;
+			flex-wrap: wrap;
+		}
+
+		.filter-button {
+			background-color: #7D6BFD; /* Change color as needed */
+			color: white;
+			border: none;
+			border-radius: 20px;
+			padding: 10px 20px;
+			margin: 10px;
+			cursor: pointer;
+			font-size: 14px;
+		}
+
+        .filter-button:hover .dropdown-content {
+            display: block;
+        }
+
+		.dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+		.dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+
+		.clear-filters-button {
+			color: grey;
+			cursor: pointer;
+			font-size: 14px;
+			display: flex;
+			align-items: center;
+			margin-left: 10px;
+		}
+
+
+		.clear-filters-button img {
+			width: 16px;
+			height: 16px;
+			margin-right: 5px;
+		}
+
+		.clear-filters-button:hover {
+			color: black;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<!-- <h1>MAC projects let's gooooo</h1> -->
+	<nav>
+		<ul>
+			<li> <!--default have this selected-->
+
+				<a href="https://www.google.com" class="selected">Job Search</a> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+			</li>
+			<li>
+				<a href="#">Employer Search</a>
+			</li>
+			<li>
+				<a href="" class="dropdown">Advice<img src="dropdown.png.png" alt="map-pointer"></a>
+				<ul class="dropdown-content">
+					<li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+find+jib">Sub-item 1</a></li>
+					<!-- TODO: REPLACE WITH ACTUAL LINKS-->
+					<li><a href="https://www.google.com/search?client=firefox-b-d&q=how+to+make+pancakes">Sub-item 2</a>
+					</li> <!-- TODO: REPLACE WITH ACTUAL LINKS-->
+				</ul>
+			</li>
+
+			<li>
+				<a href="#" class="dropdown" >Work With <img src="dropdown.png.png"
+						alt="map-pointer"></a>
+
+
+				<ul class="dropdown-content">
+					<li><a href="#">Sub-item 1</a></li>
+					<li><a href="#">Sub-item 2</a></li>
+				</ul>
+			</li>
+
+			<li class="events">
+				<a href="#">Events</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="search-bar-container">
+		<div class="search-bar-wrapper">
+			<div class="search-label">I want to be a...</div>
+			<div class="search-bar">
+				<input type="text" placeholder="Role">
+				<button><img src="search-icon.png" alt="(SEARCH BUTTON)"></button>
+				<!-- TODO: REPLACE WITH ACTUAL ICON -->
+			</div>
+		</div>
+		<div class="search-bar-wrapper">
+			<div class="search-label">I live in...</div>
+			<div class="search-bar">
+				<input type="text" placeholder="Location">
+				<button><img src="location-icon.png" alt="(LOCATION BUTTON)"></button>
+				<!-- TODO: REPLACE WITH ACTUAL ICON -->
+			</div>
+		</div>
+	</div>
+
+	<div class="filter-buttons-container">
+		<div class="filter-button">
+			Job Type
+			<div class="dropdown-content">
+				<a href="#">Full-time</a>
+				<a href="#">Part-time</a>
+			</div>
+		</div>
+		<div class="filter-button">
+			Working Rights
+			<div class="dropdown-content">
+				<a href="#">Australian Citizen</a>
+			</div>
+		</div>
+		<div class="filter-button">
+			Distance
+			<div class="dropdown-content">
+				<a href="#">Within 5 km</a>
+			</div>
+		</div>
+		<div class="filter-button">
+			Pay
+			<div class="dropdown-content">
+				<a href="#">$50,000 - $60,000</a>
+			</div>
+		</div>
+		<div class="filter-button">
+			Industry
+			<div class="dropdown-content">
+				<a href="#">Engineering idk</a>
+		</div>
+		<div class="filter-button">
+			Salary
+			<div class="dropdown-content">
+				<a href="#">$50,000 - $60,000</a>
+			</div>
+		</div>
+		<span class="clear-filters-button"><img src="clear-icon.png" alt="X"> Clear Filters</span>
+	</div>
+
+	<script type="module" src="/src/main.ts">
+		// i chatgpted this lol
+		document.addEventListener('DOMContentLoaded', function () {
+			var currentPath = window.location.pathname.replace(/\/$/, '');
+			var navLinks = document.querySelectorAll('nav ul li a');
+
+			navLinks.forEach(function (link) {
+				var linkPath = link.getAttribute('href').replace(/\/$/, '');
+				if (currentPath === linkPath) {
+					link.parentElement.classList.add('active');
+				}
+
+			});
+
+		});
+
+
+
+	</script>
+</body>
+
+</html>
