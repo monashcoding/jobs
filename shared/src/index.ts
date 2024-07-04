@@ -50,8 +50,7 @@ export interface Opportunity {
 	industries?: string[];
 	workingRights?: WorkingRights[];
 	url?: string | undefined;
-	description?: string | undefined;
-	notes?: string | undefined;
+	note?: string | undefined;
 }
 
 export const GetOpportunitiesQuery = z.object({

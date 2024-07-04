@@ -111,7 +111,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://akunacapital.com/careers?&experience=intern&location=Sydney&search_term=#careers",
-		"description": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
+		"note": "Note that the winter internship is offered to pre-penultimate students, and the summer internship is for penultimate students."
 	},
 	{
 		"company": "Amazon",
@@ -126,7 +126,7 @@
 		"closeMonth": 1,
 		"industries": ["Artificial Intelligence", "Big Data and Analytics"],
 		"url": "https://amazonmlsummerschoolaustralia.splashthat.com/?fbclid=PAAaad72dMSxMiicXSldrTZ4C7vnItTalnPHqiWCql-rtWbOnoXN2UwRgLk30_aem_AUbfAwXWoX3SDxHR-dWL2XYX01AVWu0xW1WCmgArLzYSXqaxpjvXV6O6GShUk_zgrSc1bDqJ_YgSj5hyx9k1mNuy",
-		"description": "ML virtual summer school for APAC students"
+		"note": "ML virtual summer school for APAC students"
 	},
 	{
 		"company": "Amazon/AWS",
@@ -172,7 +172,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.amazon.jobs/en/jobs/2580965/2024-software-dev-engineer-intern-syd-aws",
-		"description": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
+		"note": "Various non-tech roles also offered, see: https://www.amazon.jobs/en/teams/internships-for-students"
 	},
 	{
 		"company": "Amazon/AWS",
@@ -280,7 +280,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.anz.com.au/careers/programs/graduates/",
-		"description": "Other allowed visas:\n- Subclass 485 Temporary Graduate;\n- Subclass 461 New Zealand Citizen Family Relationship;\n- Subclass 801/802 Partner; or\n- Subclass 155 Resident Return."
+		"note": "Other allowed visas:\n- Subclass 485 Temporary Graduate;\n- Subclass 461 New Zealand Citizen Family Relationship;\n- Subclass 801/802 Partner; or\n- Subclass 155 Resident Return."
 	},
 	{
 		"company": "Apple",
@@ -311,7 +311,7 @@
 		"time": "Summer",
 		"industries": ["Technology"],
 		"url": "https://www.arcitecta.com/careers/#student-opportunities",
-		"description": "Duration and dates are flexible."
+		"note": "Duration and dates are flexible."
 	},
 	{
 		"company": "Arcitecta",
@@ -595,7 +595,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.aurecongroup.com/careers/early-careers/graduate-programme",
-		"description": "Must be studying Engineering"
+		"note": "Must be studying Engineering"
 	},
 	{
 		"company": "Aurecon",
@@ -621,7 +621,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.aurecongroup.com/careers/early-careers/intern-programme#criteria",
-		"description": "Must be studying Engineering"
+		"note": "Must be studying Engineering"
 	},
 	{
 		"company": "Australia Post",
@@ -788,7 +788,7 @@
 		"industries": ["Government"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.afp.gov.au/jobs/pathway/university-graduate-program",
-		"description": "Majority of roles are in Canberra. Program runs Feb to Feb each year."
+		"note": "Majority of roles are in Canberra. Program runs Feb to Feb each year."
 	},
 	{
 		"company": "Australian Secret Intelligence Service",
@@ -864,7 +864,7 @@
 		"industries": ["Government", "Intelligence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.asd.gov.au/careers/im-starting-my-career",
-		"description": "Vast majority of positions are based in Canberra."
+		"note": "Vast majority of positions are based in Canberra."
 	},
 	{
 		"company": "Australian Signals Directorate",
@@ -888,7 +888,7 @@
 		"industries": ["Government", "Intelligence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.asd.gov.au/careers/im-starting-my-career",
-		"description": "Vast majority of positions are based in Canberra."
+		"note": "Vast majority of positions are based in Canberra."
 	},
 	{
 		"company": "Australian Signals Directorate",
@@ -915,7 +915,7 @@
 		"industries": ["Government", "Intelligence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.asd.gov.au/careers/im-starting-my-career",
-		"description": "Vast majority of positions are based in Canberra."
+		"note": "Vast majority of positions are based in Canberra."
 	},
 	{
 		"company": "Australian Tax Office",
@@ -976,7 +976,7 @@
 		"industries": ["Finance", "Government"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.ato.gov.au/about-ato/careers/entry-level-programs/university-paid-internship-program",
-		"description": "- Applications are open all year round\n- Three intakes per year (February, July, November). First intake is July 2024."
+		"note": "- Applications are open all year round\n- Three intakes per year (February, July, November). First intake is July 2024."
 	},
 	{
 		"company": "BAE Systems",
@@ -1074,7 +1074,7 @@
 		"industries": ["Accounting", "Consulting"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://gradaustralia.com.au/graduate-employers/bdo/jobs-internships",
-		"description": "Three intakes per year: June, November, January"
+		"note": "Three intakes per year: June, November, January"
 	},
 	{
 		"company": "BDO",
@@ -1093,7 +1093,7 @@
 		"industries": ["Accounting", "Consulting"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://www.bdo.com.au/en-au/about/student-careers#programs",
-		"description": "Intakes in Jan and June"
+		"note": "Intakes in Jan and June"
 	},
 	{
 		"company": "BHP",
@@ -1179,7 +1179,7 @@
 		"industries": ["Aerospace", "Defence"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.boeing.com.au/careers/interns-and-graduates.page",
-		"description": "Program starts in late November and ends mid-February the following year, before the standard university semester commences."
+		"note": "Program starts in late November and ends mid-February the following year, before the standard university semester commences."
 	},
 	{
 		"company": "BOQ Group",
@@ -1200,7 +1200,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://au.prosple.com/graduate-employers/boq-group/jobs-internships/technology-internship",
-		"description": "Open for pre-register on Prosple. Starts on 18 Nov 2024."
+		"note": "Open for pre-register on Prosple. Starts on 18 Nov 2024."
 	},
 	{
 		"company": "Canva",
@@ -1226,7 +1226,7 @@
 		"industries": ["Technology"],
 		"workingRights": ["Full Working Rights", "International"],
 		"url": "https://www.lifeatcanva.com/en/jobs/?search=&location=Sydney&type=Internship&pagesize=20#results",
-		"description": "Engineering internships are posted first, followed by design/misc roles."
+		"note": "Engineering internships are posted first, followed by design/misc roles."
 	},
 	{
 		"company": "Chevron",
@@ -1281,7 +1281,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://jobs.cisco.com/jobs/ProjectDetail/Network-Support-Engineer-Intern-Fall-2024-ETR-Sydney-Meraki/1422337",
-		"description": "Not available to those enrolled in a Master's program. Must be working towards or have a B.S. in Computer Networking, Information Technology, or a related discipline."
+		"note": "Not available to those enrolled in a Master's program. Must be working towards or have a B.S. in Computer Networking, Information Technology, or a related discipline."
 	},
 	{
 		"company": "Citadel",
@@ -1308,7 +1308,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.citadelsecurities.com/careers/details/quantitative-research-summer-internship-2024-2025-australia/",
-		"description": "Bachelors, Master or PhD degree required in Mathematics, Statistics, Physics, Computer Science, or another highly quantitative field"
+		"note": "Bachelors, Master or PhD degree required in Mathematics, Statistics, Physics, Computer Science, or another highly quantitative field"
 	},
 	{
 		"company": "Citadel Securities",
@@ -1320,7 +1320,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.citadelsecurities.com/careers/details/quantitative-trading-summer-internship-2024-2025-australia/",
-		"description": "Advanced training required in Applied Math, Engineering, Statistical Modeling, Calculus, Computer Science, Physics or related disciplines required (bachelor’s, master’s, PhD Degree)"
+		"note": "Advanced training required in Applied Math, Engineering, Statistical Modeling, Calculus, Computer Science, Physics or related disciplines required (bachelor’s, master’s, PhD Degree)"
 	},
 	{
 		"company": "Citadel Securities",
@@ -1332,7 +1332,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.citadelsecurities.com/careers/details/site-reliability-engineer-summer-internship-2024-2025-australia/",
-		"description": "Bachelor’s Degree in Computer Science or a related field required"
+		"note": "Bachelor’s Degree in Computer Science or a related field required"
 	},
 	{
 		"company": "Citadel Securities",
@@ -1384,7 +1384,7 @@
 			"New Zealand Permanent Resident"
 		],
 		"url": "https://prosple.com/graduate-employers/coles/jobs-internships/2024-engineering-and-logistics-graduate-program-pre-register",
-		"description": "Duration not specified."
+		"note": "Duration not specified."
 	},
 	{
 		"company": "Commonwealth Bank",
@@ -1401,7 +1401,7 @@
 		"industries": ["Banking", "Finance"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-commbank-global-markets-summer-analyst-program",
-		"description": "25 Nov 2024 – 31 Jan 2925"
+		"note": "25 Nov 2024 – 31 Jan 2925"
 	},
 	{
 		"company": "Commonwealth Bank",
@@ -1432,7 +1432,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-engineering-summer-intern-program",
-		"description": "Open for pre-register on Prosple. Starts on 27 Nov 2024."
+		"note": "Open for pre-register on Prosple. Starts on 27 Nov 2024."
 	},
 	{
 		"company": "Commonwealth Bank",
@@ -1452,7 +1452,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://prosple.com/graduate-employers/commonwealth-bank/jobs-internships/202324-data-science-and-analytics-summer-intern-program",
-		"description": "Open for pre-register on Prosple. If you are a New Zealand citizen, you must be already residing in Australia."
+		"note": "Open for pre-register on Prosple. If you are a New Zealand citizen, you must be already residing in Australia."
 	},
 	{
 		"company": "Commonwealth Bank",
@@ -1579,7 +1579,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www2.deloitte.com/au/en/pages/careers/articles/summer-vacation-program-careers.html",
-		"description": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
+		"note": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
 	},
 	{
 		"company": "Deloitte",
@@ -1608,7 +1608,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www2.deloitte.com/au/en/pages/careers/articles/summer-vacation-program-careers.html",
-		"description": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
+		"note": "Deloitte’s summer program has 2 intakes. The first one opens in February and the mid year one opens in July. Deloitte also offers an Insider program for pre-penultimate students."
 	},
 	{
 		"company": "Deloitte",
@@ -1754,7 +1754,7 @@
 			"Australian Permanent Resident",
 			"Australian Student Visa"
 		],
-		"description": "Intern Software Engineer (multiple roles)"
+		"note": "Intern Software Engineer (multiple roles)"
 	},
 	{
 		"company": "Eclipse Trading",
@@ -1791,7 +1791,7 @@
 		"closeMonth": 2,
 		"industries": ["Gaming"],
 		"workingRights": ["Australian Citizen"],
-		"description": "Software Engineering Intern - need to have graduated and specialise in C++ and C#"
+		"note": "Software Engineering Intern - need to have graduated and specialise in C++ and C#"
 	},
 	{
 		"company": "EY",
@@ -1812,7 +1812,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.ey.com/en_au/careers/students-apply-here",
-		"description": "Also available through the IBL program."
+		"note": "Also available through the IBL program."
 	},
 	{
 		"company": "EY",
@@ -1859,7 +1859,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/96/australia--2023-graduate-technical-consultant.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_tc_&utm_content=aus_",
-		"description": "2.5-year graduate program"
+		"note": "2.5-year graduate program"
 	},
 	{
 		"company": "FDM Group",
@@ -1884,7 +1884,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/405/project-grace-technical-graduate-program.html",
-		"description": "2.5-year graduate program"
+		"note": "2.5-year graduate program"
 	},
 	{
 		"company": "FDM Group",
@@ -1905,7 +1905,7 @@
 			"Subclass 462"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/244/australia--technical-analyst-consultant.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_ta_&utm_content=aus_",
-		"description": "2.5-year graduate program"
+		"note": "2.5-year graduate program"
 	},
 	{
 		"company": "FDM Group",
@@ -1925,7 +1925,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.fdmgroup.com/vacancies/217/australia--software-development-consultant.html?utm_source=gradaustralia&utm_medium=jobad&utm_campaign=grad_dev_&utm_content=aus_",
-		"description": "2.5-year graduate program"
+		"note": "2.5-year graduate program"
 	},
 	{
 		"company": "Google",
@@ -2022,7 +2022,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.imc.com/ap/en/job/4282957101/Software-Engineer-Intern-2024-2025",
-		"description": "IMC will cover flights and accommodation."
+		"note": "IMC will cover flights and accommodation."
 	},
 	{
 		"company": "IMC",
@@ -2042,7 +2042,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://careers.imc.com/ap/en/job/4282959101/Trader-Intern-2024-2025-Expression-of-Interest",
-		"description": "IMC will cover flights and accommodation. Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
+		"note": "IMC will cover flights and accommodation. Positions are full, but if you express your interest they ‘will be in touch should any more positions open up’."
 	},
 	{
 		"company": "IMC",
@@ -2165,7 +2165,7 @@
 		"time": "Semester 2",
 		"industries": ["Trading"],
 		"url": "https://careers.imc.com/ap/en/job/4295050101/Launchpad-Australia-2024",
-		"description": "IMC will cover flights and accommodation."
+		"note": "IMC will cover flights and accommodation."
 	},
 	{
 		"company": "ING Bank Australia",
@@ -2188,7 +2188,7 @@
 			"Australian Temporary Work Visa"
 		],
 		"url": "https://prosple.com/graduate-employers/ing-bank-australia/jobs-internships/2023-graduate-programs",
-		"description": "*desirable to have no more than 2 years of professional working experience\n*open and close dates not specified"
+		"note": "*desirable to have no more than 2 years of professional working experience\n*open and close dates not specified"
 	},
 	{
 		"company": "Jacobs",
@@ -2218,7 +2218,7 @@
 			"New Zealand Temporary Work Visa"
 		],
 		"url": "https://prosple.com/graduate-employers/jacobs-australia/jobs-internships/202223-summer-internship-program-australia",
-		"description": "Open for pre-register on Prosple"
+		"note": "Open for pre-register on Prosple"
 	},
 	{
 		"company": "Jacobs",
@@ -2244,7 +2244,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://prosple.com/graduate-employers/jacobs-australia/jobs-internships/2024-graduate-program-australia",
-		"description": "Open for pre-register on Prosple"
+		"note": "Open for pre-register on Prosple"
 	},
 	{
 		"company": "Jane Street",
@@ -2270,7 +2270,7 @@
 		"openMonth": 2,
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7076141002/",
-		"description": "Jane Street will cover flights and accommodation."
+		"note": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2296,7 +2296,7 @@
 		"openMonth": 2,
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7077044002/",
-		"description": "Jane Street will cover flights and accommodation."
+		"note": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2321,7 +2321,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7078177002/",
-		"description": "Jane Street will cover flights and accommodation."
+		"note": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2334,7 +2334,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7426805002/",
-		"description": "Jane Street will cover flights and accommodation."
+		"note": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2348,7 +2348,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7078183002/",
-		"description": "Jane Street will cover flights and accommodation."
+		"note": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2372,7 +2372,7 @@
 		"time": "Summer",
 		"industries": ["Trading"],
 		"url": "https://www.janestreet.com/join-jane-street/position/7279621002/",
-		"description": "Jane Street will cover flights and accommodation."
+		"note": "Jane Street will cover flights and accommodation."
 	},
 	{
 		"company": "Jane Street",
@@ -2590,7 +2590,7 @@
 		"industries": ["Defence", "Technology"],
 		"workingRights": ["Australian Citizen"],
 		"url": "https://www.lockheedmartin.com/en-au/careers/early-careers.html",
-		"description": "Separate to Monash's IBL program"
+		"note": "Separate to Monash's IBL program"
 	},
 	{
 		"company": "Macquarie",
@@ -2610,7 +2610,7 @@
 		"closeMonth": 4,
 		"industries": ["Banking", "Finance"],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/our-programs.html",
-		"description": "Commences Feb 2025"
+		"note": "Commences Feb 2025"
 	},
 	{
 		"company": "Macquarie",
@@ -2654,7 +2654,7 @@
 		"closeMonth": 7,
 		"industries": ["Banking", "Finance"],
 		"url": "https://recruitment.macquarie.com/en_US/careers/FeaturedJobDetail?jobId=10136",
-		"description": "December to January"
+		"note": "December to January"
 	},
 	{
 		"company": "Macquarie",
@@ -2667,7 +2667,7 @@
 		"closeMonth": 3,
 		"industries": ["Technology"],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/our-programs.html",
-		"description": "Science, technology, engineering and maths students or women from any discipline."
+		"note": "Science, technology, engineering and maths students or women from any discipline."
 	},
 	{
 		"company": "Macquarie Group",
@@ -2693,7 +2693,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/programs-and-business-groups.html",
-		"description": "Melbourne stream closes earlier, compared to the Sydney stream."
+		"note": "Melbourne stream closes earlier, compared to the Sydney stream."
 	},
 	{
 		"company": "Macquarie Group",
@@ -2719,7 +2719,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.macquarie.com/au/en/careers/graduates-and-interns/programs-and-business-groups.html",
-		"description": "Melbourne stream closes earlier, compared to the Sydney stream."
+		"note": "Melbourne stream closes earlier, compared to the Sydney stream."
 	},
 	{
 		"company": "McKinsey & Company",
@@ -2738,7 +2738,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.mckinsey.com/au/careers/upcoming-opportunities/womens-internship-and-scholarship",
-		"description": "$20,000 Scholarship"
+		"note": "$20,000 Scholarship"
 	},
 	{
 		"company": "Microsoft",
@@ -2807,7 +2807,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/technology-talent-program",
-		"description": "25 Nov 2024 to 14 Feb 2025. Includes 10-weeks paid bootcamp and 2 weeks unpaid leave over the Christmas and New Year period"
+		"note": "25 Nov 2024 to 14 Feb 2025. Includes 10-weeks paid bootcamp and 2 weeks unpaid leave over the Christmas and New Year period"
 	},
 	{
 		"company": "NAB",
@@ -2836,7 +2836,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.nab.com.au/about-us/careers/early-careers/information-technology-internship",
-		"description": "The technology program can be done by pre-penultimate students."
+		"note": "The technology program can be done by pre-penultimate students."
 	},
 	{
 		"company": "NAB",
@@ -2896,7 +2896,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://optiver.com/working-at-optiver/career-opportunities/7417784002/",
-		"description": "Optiver will cover travel and accommodation costs."
+		"note": "Optiver will cover travel and accommodation costs."
 	},
 	{
 		"company": "Optiver",
@@ -2915,7 +2915,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://optiver.com/working-at-optiver/career-opportunities/7417783002/",
-		"description": "Optiver will cover travel and accommodation costs."
+		"note": "Optiver will cover travel and accommodation costs."
 	},
 	{
 		"company": "Origin Energy",
@@ -2934,7 +2934,7 @@
 		"locations": ["Melbourne", "Sydney"],
 		"industries": ["Energy"],
 		"url": "https://www.originenergy.com.au/about/careers/graduate-program/",
-		"description": "Offers IBL placement through Monash."
+		"note": "Offers IBL placement through Monash."
 	},
 	{
 		"company": "Palantir",
@@ -2989,7 +2989,7 @@
 		"industries": ["Consulting", "Finance"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.pwc.com.au/careers/students/vacation-program.html",
-		"description": "PwC has two intakes. The first one opens in March and the second one in September."
+		"note": "PwC has two intakes. The first one opens in March and the second one in September."
 	},
 	{
 		"company": "PwC",
@@ -3012,7 +3012,7 @@
 		"industries": ["Consulting", "Finance"],
 		"workingRights": ["Full Working Rights"],
 		"url": "https://www.pwc.com.au/careers/students/vacation-program.html",
-		"description": "PwC has two intakes. The first one opens in March and the second one in September."
+		"note": "PwC has two intakes. The first one opens in March and the second one in September."
 	},
 	{
 		"company": "PwC",
@@ -3089,7 +3089,7 @@
 			"Australian Temporary Work Visa"
 		],
 		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/technology-graduate",
-		"description": "Starts on 26 Jan 2025. Must have completed studies within the last 2 years."
+		"note": "Starts on 26 Jan 2025. Must have completed studies within the last 2 years."
 	},
 	{
 		"company": "RACV",
@@ -3110,7 +3110,7 @@
 			"Australian Temporary Work Visa"
 		],
 		"url": "https://au.prosple.com/graduate-employers/racv/jobs-internships/data-strategy-analytics-graduate",
-		"description": "Starts on 26 Jan 2025. Must have completed a Bachelor’s Degree in science, computing mathematics or similar within the last 2 years."
+		"note": "Starts on 26 Jan 2025. Must have completed a Bachelor’s Degree in science, computing mathematics or similar within the last 2 years."
 	},
 	{
 		"company": "REA Group",
@@ -3149,7 +3149,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.rba.gov.au/careers/careers-at-the-rba/students-and-graduates/information-technology.html",
-		"description": "- Applications open: February\n- Applications close: April\n- Assessment and face to face interviews: May\n- Offers made: May\n- Program commences: February of the following year"
+		"note": "- Applications open: February\n- Applications close: April\n- Assessment and face to face interviews: May\n- Offers made: May\n- Program commences: February of the following year"
 	},
 	{
 		"company": "Rio Tinto",
@@ -3224,7 +3224,7 @@
 		"industries": ["Energy", "Manufacturing"],
 		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
 		"url": "https://au.prosple.com/graduate-employers/schneider-electric-australia-new-zealand/jobs-internships/technical-internship-program-0",
-		"description": "Open for pre-register on Prosple. December 2024 to May 2025. Part time (minimum 15 hours per week) over the university break and continue working part time once university commences."
+		"note": "Open for pre-register on Prosple. December 2024 to May 2025. Part time (minimum 15 hours per week) over the university break and continue working part time once university commences."
 	},
 	{
 		"company": "Schneider Electric",
@@ -3285,7 +3285,7 @@
 		"openMonth": 4,
 		"closeMonth": 5,
 		"industries": ["Startups"],
-		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment.",
+		"note": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment.",
 		"url": "https://www.startmate.com/program/student-fellowship"
 	},
 	{
@@ -3301,7 +3301,7 @@
 		"openMonth": 9,
 		"closeMonth": 11,
 		"industries": ["Startups"],
-		"description": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment.",
+		"note": "Program to inform students about the Australian Startup ecosystem. Students can potentially partake in speed interviews and mentorship which can lead to employment.",
 		"url": "https://www.startmate.com/program/student-fellowship"
 	},
 	{
@@ -3346,7 +3346,7 @@
 			"New Zealand Permanent Resident"
 		],
 		"url": "https://careers.sig.com/job/8052/Quantitative-Trading-Discovery-Day-2024",
-		"description": "23 Sep 2024 – 24 Sep 2024. SIG will cover travel and accommodation if you are interstate."
+		"note": "23 Sep 2024 – 24 Sep 2024. SIG will cover travel and accommodation if you are interstate."
 	},
 	{
 		"company": "Susquehanna International Group (SIG)",
@@ -3399,7 +3399,7 @@
 			"International"
 		],
 		"url": "https://www.telstra.com.au/careers/students-and-graduates/career-start-internship",
-		"description": "Commences in November 2024 — you’ll complete a summer internship working full-time for a few weeks, before reducing to part-time in early 2025 when university starts. They will work with you to find the timing and balance that suits you best."
+		"note": "Commences in November 2024 — you’ll complete a summer internship working full-time for a few weeks, before reducing to part-time in early 2025 when university starts. They will work with you to find the timing and balance that suits you best."
 	},
 	{
 		"company": "The Trade Desk",
@@ -3746,7 +3746,7 @@
 			"International"
 		],
 		"url": "https://careers.tiktok.com/position/7340505239751461146/detail",
-		"description": "Starts mid-November. Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+		"note": "Starts mid-November. Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
 	},
 	{
 		"company": "TikTok",
@@ -3765,7 +3765,7 @@
 			"International"
 		],
 		"url": "https://careers.tiktok.com/position/7332417543137118473/detail",
-		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+		"note": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
 	},
 	{
 		"company": "TikTok",
@@ -3784,7 +3784,7 @@
 			"International"
 		],
 		"url": "https://careers.tiktok.com/position/7332423663117551923/detail",
-		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+		"note": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
 	},
 	{
 		"company": "TikTok",
@@ -3803,7 +3803,7 @@
 			"International"
 		],
 		"url": "https://careers.tiktok.com/position/7332422590395468042/detail",
-		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+		"note": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
 	},
 	{
 		"company": "TikTok",
@@ -3822,7 +3822,7 @@
 			"International"
 		],
 		"url": "https://careers.tiktok.com/position/7332421684945406218/detail",
-		"description": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
+		"note": "Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply."
 	},
 	{
 		"company": "Toll Group",
@@ -3876,7 +3876,7 @@
 		"duration": "3 Months",
 		"industries": ["Transportation"],
 		"url": "https://www.transurban.com/feet",
-		"description": "Unpaid mentorship where participants will work with mentors once a week for three months."
+		"note": "Unpaid mentorship where participants will work with mentors once a week for three months."
 	},
 	{
 		"company": "Tyro",
@@ -3941,7 +3941,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/technology-rotational/",
-		"description": "Flexible 12 to 24-month program with a maximum of four rotations."
+		"note": "Flexible 12 to 24-month program with a maximum of four rotations."
 	},
 	{
 		"company": "Westpac",
@@ -3969,7 +3969,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.westpac.com.au/about-westpac/careers/pathways/grad-program/technology-specialist/",
-		"description": "4 specialist areas: Robotics, Engineering, Cyber, and Data."
+		"note": "4 specialist areas: Robotics, Engineering, Cyber, and Data."
 	},
 	{
 		"company": "Woodside",
@@ -3995,7 +3995,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.woodside.com.au/careers/graduates-and-students",
-		"description": "Late November to mid-February."
+		"note": "Late November to mid-February."
 	},
 	{
 		"company": "Woodside",
@@ -4021,7 +4021,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.woodside.com.au/careers/graduates-and-students",
-		"description": "For students who identify as an Australian Aboriginal and/or Torres Strait Islander. Commences late November."
+		"note": "For students who identify as an Australian Aboriginal and/or Torres Strait Islander. Commences late November."
 	},
 	{
 		"company": "Woodside",
@@ -4047,7 +4047,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.woodside.com.au/careers/graduates-and-students",
-		"description": "Late November to mid-February."
+		"note": "Late November to mid-February."
 	},
 	{
 		"company": "Woodside",
@@ -4069,7 +4069,7 @@
 		"industries": ["Energy"],
 		"workingRights": ["International"],
 		"url": "https://www.woodside.com.au/careers/graduates-and-students",
-		"description": "For Timor-Leste nationals. Integrated with the Summer Vacation Program. Late November to mid-February."
+		"note": "For Timor-Leste nationals. Integrated with the Summer Vacation Program. Late November to mid-February."
 	},
 	{
 		"company": "Woodside",
@@ -4093,7 +4093,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://www.woodside.com.au/careers/graduates-and-students",
-		"description": "Commences in February."
+		"note": "Commences in February."
 	},
 	{
 		"company": "Woolworths",
@@ -4113,7 +4113,7 @@
 			"New Zealand Citizen"
 		],
 		"url": "https://grads.woolworths.com.au/",
-		"description": "Cyber Security specialist program available for graduates with a Cyber Security related degree."
+		"note": "Cyber Security specialist program available for graduates with a Cyber Security related degree."
 	},
 	{
 		"company": "Xero",
@@ -4141,7 +4141,7 @@
 			"Full Working Rights"
 		],
 		"url": "https://www.xero.com/au/graduate/internships/",
-		"description": "November 2024 to mid-February 2025."
+		"note": "November 2024 to mid-February 2025."
 	},
 	{
 		"company": "Xero",
@@ -4168,7 +4168,7 @@
 			"Full Working Rights"
 		],
 		"url": "https://www.xero.com/au/graduate/",
-		"description": "Commences in February 2025."
+		"note": "Commences in February 2025."
 	},
 	{
 		"company": "Zendesk",

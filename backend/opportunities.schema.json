@@ -193,7 +193,7 @@
 				"format": "uri",
 				"pattern": "^https://"
 			},
-			"description": {"$ref": "#/definitions/nonEmptyString"}
+			"note": {"$ref": "#/definitions/nonEmptyString"}
 		},
 		"required": ["company", "name", "type", "open"],
 		"additionalProperties": false
