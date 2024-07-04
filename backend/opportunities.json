@@ -1145,11 +1145,10 @@
 		"open": false,
 		"locations": [
 			"Adelaide",
-			"Amberley, QLD",
 			"Brisbane",
 			"Melbourne",
-			"Nowra, NSW",
-			"Williamtown, NSW"
+			"Newcastle, NSW",
+			"Nowra, NSW"
 		],
 		"duration": "24 Months",
 		"openMonth": 5,
@@ -1166,11 +1165,10 @@
 		"open": false,
 		"locations": [
 			"Adelaide",
-			"Amberley, QLD",
 			"Brisbane",
 			"Melbourne",
-			"Nowra, NSW",
-			"Williamtown, NSW"
+			"Newcastle, NSW",
+			"Nowra, NSW"
 		],
 		"duration": "12 Weeks",
 		"time": "Summer",
@@ -3973,7 +3971,7 @@
 			"Data Scientist"
 		],
 		"open": false,
-		"locations": ["Sydney", "Broadbeach, QLD"],
+		"locations": ["Sydney", "Gold Coast, QLD"],
 		"duration": "12 Months",
 		"openMonth": 7,
 		"closeMonth": 8,

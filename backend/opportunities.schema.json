@@ -98,16 +98,15 @@
 				"minItems": 1,
 				"uniqueItems": true,
 				"items": {
+					"$comment": "For locations in Australia, only use the city. Include a state if the city is not a capital city.",
 					"enum": [
 						"APAC",
 						"Adelaide",
-						"Amberley, QLD",
 						"Australia",
 						"Brisbane",
-						"Broadbeach, QLD",
 						"Canberra",
-						"Ingleburn, NSW",
 						"Karratha, WA",
+						"Gold Coast, QLD",
 						"Hobart",
 						"Hong Kong",
 						"Melbourne",
@@ -119,7 +118,6 @@
 						"Shanghai",
 						"Sydney",
 						"Western Australia",
-						"Williamtown, NSW",
 						"Wollongong, NSW"
 					]
 				}
