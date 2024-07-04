@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SVG Wave Example</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			.container {
+				max-width: 750px;
+				background-color: #f6f6f6;
+				text-align: center;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+				border-radius: 27px;
+			}
+			.container svg {
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<svg
+				width="1000"
+				height="500"
+				viewBox="0 0 1000 1000"
+				xmlns="http://www.w3.org/2000/svg"
+				preserveAspectRatio="none"
+				shape-rendering="auto"
+			>
+				<defs>
+					<path
+						id="wavepath"
+						d="M 0 500 Q 200 400 500 500 T 1000 550 V 0 H 0 Z"
+					/>
+				</defs>
+				<use xlink:href="#wavepath" fill="#bfbfbf"></use>
+			</svg>
+		</div>
+	</body>
+</html>
