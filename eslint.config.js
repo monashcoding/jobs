@@ -31,10 +31,6 @@ export default tseslint.config(
 	...tseslint.configs.stylisticTypeChecked,
 	eslintPluginPrettierRecommended,
 	{
-		files: ['**/*.js'],
-		...tseslint.configs.disableTypeChecked,
-	},
-	{
 		rules: {
 			'@typescript-eslint/explicit-function-return-type': 'error',
 			'@typescript-eslint/no-confusing-void-expression': 'off',
@@ -46,5 +42,9 @@ export default tseslint.config(
 			'@typescript-eslint/no-unused-vars': 'off', // checked by tsc
 			'prettier/prettier': 'warn',
 		},
+	},
+	{
+		files: ['**/*.js'],
+		...tseslint.configs.disableTypeChecked,
 	},
 );
