@@ -3415,15 +3415,30 @@
 	},
 	{
 		"company": "Tibra Capital",
-		"name": "Quant Trader Developer Accelerator Program",
+		"name": "Summer Internship",
 		"type": "Other Program",
-		"courseProgressions": ["Penultimate", "Pre-Penultimate"],
+		"courseProgressions": ["Penultimate", "Grad"],
 		"roles": ["Trader"],
 		"open": true,
-		"locations": ["Austinmer, NSW"],
+		"locations": ["Wollongong, NSW"],
+		"duration": "5 Weeks",
+		"time": "Semester 1",
+		"industries": ["Trading"],
+		"url": "https://apply.workable.com/tibra-capital-1/j/0E09BEE49D/",
+		"note": "13 Jan to 14 Feb 2025."
+	},
+	{
+		"company": "Tibra Capital",
+		"name": "Quant Trader Developer Accelerator Program",
+		"type": "Other Program",
+		"courseProgressions": ["Grad"],
+		"roles": ["Trader"],
+		"open": true,
+		"locations": ["Wollongong, NSW"],
 		"openMonth": 1,
 		"industries": ["Trading"],
-		"url": "https://apply.workable.com/tibra-capital-1/j/0E09BEE49D/"
+		"url": "https://apply.workable.com/tibra-capital-1/j/2C1E7479BC",
+		"note": "Vacancies are open for March 2025 or September 2025 commencement."
 	},
 	{
 		"company": "TikTok",
