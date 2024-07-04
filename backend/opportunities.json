@@ -3260,26 +3260,16 @@
 		"type": "Internship",
 		"courseProgressions": ["Penultimate"],
 		"roles": ["Information Technology", "Software Engineer"],
-		"open": false,
-		"locations": [
-			"Adelaide",
-			"Brisbane",
-			"Ingleburn, NSW",
-			"Melbourne",
-			"Perth",
-			"Sydney"
-		],
-		"duration": "6–12 Months",
+		"open": true,
+		"locations": ["Melbourne", "Sydney", "Adelaide", "Brisbane"],
+		"duration": "4–5 Months",
 		"time": "Summer",
+		"openMonth": 7,
 		"closeMonth": 8,
 		"industries": ["Energy", "Manufacturing"],
-		"workingRights": [
-			"Australian Citizen",
-			"Australian Permanent Resident",
-			"New Zealand Citizen"
-		],
-		"url": "https://www.se.com/au/en/about-us/careers/students-young-professionals.jsp",
-		"description": "Full time basis over Uni Summer break, and then continue on a part time basis (minimum 15 hours per week) for fifteen (15) weeks"
+		"workingRights": ["Australian Citizen", "Australian Permanent Resident"],
+		"url": "https://au.prosple.com/graduate-employers/schneider-electric-australia-new-zealand/jobs-internships/technical-internship-program-0",
+		"description": "Open for pre-register on Prosple. December 2024 to May 2025. Part time (minimum 15 hours per week) over the university break and continue working part time once university commences."
 	},
 	{
 		"company": "Schneider Electric",
