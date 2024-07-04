@@ -1218,6 +1218,32 @@
 		"description": "Program starts in late November and ends mid-February the following year, before the standard university semester commences."
 	},
 	{
+		"company": "BOQ Group",
+		"name": "Technology Internship",
+		"type": "Internship",
+		"courseProgressions": ["Penultimate"],
+		"roles": [
+			"Cybersecurity Advisor",
+			"Security Engineer",
+			"Data Engineer",
+			"Information Technology"
+		],
+		"open": true,
+		"locations": ["Melbourne", "Sydney", "Brisbane"],
+		"duration": "12 Weeks",
+		"time": "Summer",
+		"openMonth": 7,
+		"closeMonth": 7,
+		"industries": ["Banking", "Finance"],
+		"workingRights": [
+			"Australian Citizen",
+			"Australian Permanent Resident",
+			"New Zealand Citizen"
+		],
+		"url": "https://au.prosple.com/graduate-employers/boq-group/jobs-internships/technology-internship",
+		"description": "Open for pre-register on Prosple. Starts on 18 Nov 2024."
+	},
+	{
 		"company": "Canva",
 		"name": "Internship",
 		"type": "Internship",
@@ -1399,7 +1425,7 @@
 			"New Zealand Permanent Resident"
 		],
 		"url": "https://prosple.com/graduate-employers/coles/jobs-internships/2024-engineering-and-logistics-graduate-program-pre-register",
-		"description": "*duration not specified"
+		"description": "Duration not specified."
 	},
 	{
 		"company": "Commonwealth Bank",
