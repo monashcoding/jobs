@@ -2798,9 +2798,9 @@
 	},
 	{
 		"company": "NAB",
-		"name": "Technology Talent Program",
+		"name": "StarCamp",
 		"type": "Internship",
-		"courseProgressions": ["Pre-Penultimate"],
+		"courseProgressions": ["Pre-Penultimate", "Penultimate", "Grad"],
 		"roles": [
 			"Business Analyst",
 			"Cloud Engineer",
@@ -2812,9 +2812,9 @@
 			"Software Engineer"
 		],
 		"open": true,
-		"locations": ["Melbourne", "Sydney"],
+		"locations": ["Melbourne"],
 		"duration": "12 Weeks",
-		"time": "Semester 1",
+		"time": "Summer",
 		"openMonth": 7,
 		"closeMonth": 8,
 		"industries": ["Banking", "Finance"],
