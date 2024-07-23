@@ -4,30 +4,183 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
-			href="https://fonts.googleapis.com/css?family=Poppins"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
 		<style>
-			.center-content {
+			.content {
 				display: flex;
-				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+			}
+			.sponsor-container {
+				display: flex;
+			}
+			.overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				background-color: #5c27f4;
+			}
+			.acc {
+				position: relative;
+				display: block;
+			}
+			.acc:hover .overlay {
+				opacity: 0.9;
+			}
+			.image {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+			.text {
+				color: white;
+				font-size: 25px;
+				font-family: Poppins, sans-serif;
+				font-weight: 700;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="center-content">
+		<div class="content">
 			<h1 style="font-size: 26.63px; font-family: Poppins; font-weight: 700">
 				HEAR FROM OUR SPONSORS:
 			</h1>
-			<div>
-				<img
-					src="/assets/companies/Accenture.png"
-					style="
-						:hover {
-							background: #490ef2;
-						}
-					"
-				/>
+			<div class="sponsor-container">
+				<div class="acc">
+					<a href="/assets/companies/IMC.png">
+						<img
+							src="/assets/companies/IMC.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">IMC</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Atlassian.png">
+						<img
+							src="/assets/companies/Atlassian.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Atlassian</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Jane Street.png">
+						<img
+							src="/assets/companies/Jane Street.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Jane Street</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Citadel.png">
+						<img
+							src="/assets/companies/Citadel.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Citadel</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Accenture.png">
+						<img
+							src="/assets/companies/Accenture.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Accenture</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="sponsor-container">
+				<div class="acc">
+					<a href="/assets/companies/Optiver.png">
+						<img
+							src="/assets/companies/Optiver.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Optiver</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Macquarie.png">
+						<img
+							src="/assets/companies/Macquarie.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Macquarie</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Origin.png">
+						<img
+							src="/assets/companies/Origin.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Origin</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/Canva.png">
+						<img
+							src="/assets/companies/Canva.png"
+							alt="Accenture"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">Canva</div>
+						</div>
+					</a>
+				</div>
+				<div class="acc">
+					<a href="/assets/companies/TikTok.png">
+						<img
+							src="/assets/companies/TikTok.png"
+							alt="TikTok"
+							class="image"
+						/>
+						<div class="overlay">
+							<div class="text">TikTok</div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</body>
